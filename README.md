@@ -5,39 +5,39 @@ You get a custom built platform as an extension to your event. Regardless if you
 ## Channel Types
 There are two types of channels that can be used to stream events. Channels abstract out the sequence of aws media services and other services being used to make streaming possible. These channels are named based on the underlying aws media service it uses. For example, Medialive channels use AWS Elemental medialive service at its core whereas IVS channels use AWS IVS channels. For Medialive channels, it requires a pipeline of aws media services to be spinned up whereas IVS is much simpler to set up compared to former one.
 
-* [Medialive](Channel-Types/AWS-Elemental-MediaLive/Setup)
-* [IVS](Channel-Types/Amazon-Interactive-Video-Service/Setup)
+* [Medialive](Technical/Channel-Types/AWS-Elemental-MediaLive/Setup)
+* [IVS](Technical/Channel-Types/Amazon-Interactive-Video-Service/Setup)
 
 ## Attendance
-* [Attendance](Attendance/attendance.md)
-* [Device Limit](Attendance/device-limit.md)
+* [Attendance](Technical/Attendance/attendance.md)
+* [Device Limit](Technical/Attendance/device-limit.md)
 
 ## Billing
-* [Billing](Billing/billing.md)
+* [Billing](Technical/Billing/billing.md)
 
 ## CloudFront Distributions
-* [CloudFront Distributions](CloudFront-Distributions/CloudFront-Distributions.md)
-* [Security](CloudFront-Distributions/security.md)
+* [CloudFront Distributions](Technical/CloudFront-Distributions/CloudFront-Distributions.md)
+* [Security](Technical/CloudFront-Distributions/security.md)
 
 ## Tenants
-* [Tenants](Tenants/tenants.md)
+* [Tenants](Technical/Tenants/tenants.md)
 
 ## Database tables
-1. [channels](Database/Tables/channels)
-2. [inputs](Database/Tables/inputs)
-3. [distributions](Database/Tables/distributions)
-4. [recordings](Database/Tables/recordings)
-5. [events](Database/Tables/events)
-6. [breakouts](Database/Tables/breakouts)
-7. [comments](Database/Tables/comments)
-8. [survey](Database/Tables/survey)
-9. [survey-reponse](Database/Tables/survey-reponse)
-10. [payments](Database/Tables/payments)
-11. [jobschedule](Database/Tables/jobschedule)
-12. [external-clients](Database/Tables/external-clients)
-13. [external-events](Database/Tables/external-events)
-14. [users](Database/Tables/users)
-15. [analytics](Database/Tables/analytics)
-16. [attendance](Database/Tables/attendance)
-17. [channel_stream_events](Database/Tables/channel_stream_events)
-18. [tenants](Database/Tables/tenants.md)
+1. [channels](Technical/Database/Tables/channels)
+2. [inputs](Technical/Database/Tables/inputs)
+3. [distributions](Technical/Database/Tables/distributions)
+4. [recordings](Technical/Database/Tables/recordings)
+5. [events](Technical/Database/Tables/events)
+6. [breakouts](Technical/Database/Tables/breakouts)
+7. [comments](Technical/Database/Tables/comments)
+8. [survey](Technical/Database/Tables/survey)
+9. [survey-reponse](Technical/Database/Tables/survey-reponse)
+10. [payments](Technical/Database/Tables/payments)
+11. [jobschedule](Technical/Database/Tables/jobschedule)
+12. [external-clients](Technical/Database/Tables/external-clients)
+13. [external-events](Technical/Database/Tables/external-events)
+14. [users](Technical/Database/Tables/users)
+15. [analytics](Technical/Database/Tables/analytics)
+16. [attendance](Technical/Database/Tables/attendance)
+17. [channel_stream_events](Technical/Database/Tables/channel_stream_events)
+18. [tenants](Technical/Database/Tables/tenants.md)
