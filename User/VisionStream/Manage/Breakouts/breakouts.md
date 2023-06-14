@@ -1,7 +1,5 @@
 # Breakout
 
----
-
 ### Overview
 
 * A Breakout is a fundamental object in the VisionStream platform
