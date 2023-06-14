@@ -1,7 +1,5 @@
 # Event
 
----
-
 ### Overview
 
 * An Event is a fundamental object in the VisionStream platform

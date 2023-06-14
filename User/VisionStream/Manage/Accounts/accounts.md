@@ -1,7 +1,5 @@
 # Account
 
----
-
 ### Overview
 
 * An Account is a fundamental object in the VisionStream platform
