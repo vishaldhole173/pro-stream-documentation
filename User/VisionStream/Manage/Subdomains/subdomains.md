@@ -10,12 +10,35 @@
 
 ---
 
-### Create new Subdomain
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20"> Create new Subdomain
+
+Press the '+' icon in the upper right of the Subdomains listing page to open the create new Subdomain.
+
+* Required fields
+  - Name
+    - Name of tenant
+  - Subdomain
+    - Name of Subdomain
+  - Admin Password
+    - Used for authentication while accessing tenant Events or Breakouts
+
+* Optional fields
+  - Calendar Visibility
+    - Breakouts will display in the calendar if set to active
+  - Moderated Forum
+    - Moderate the comments made by audience if set to active
+  - Logo
+  - Navbar background color
+  - Navbar text color
+  - Website
+  - Twitter
+  - Facebook
+  - Instagram
 
 ---
 
-### Edit Subdomain
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Subdomain
 
 ---
 
-### Setting up a Subdomain
+### Subdomains and your livestream viewers
