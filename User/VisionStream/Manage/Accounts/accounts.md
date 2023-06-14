@@ -13,7 +13,7 @@
   - Pipelines
   - Distributions
 
-* Accounts are hierarchical in design. You can create 'sub-accounts' to help you better organize your workflow
+* Accounts are hierarchical in design. You can create 'sub-accounts' to help you better organize your workflow.
 
 ---
 
