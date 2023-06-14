@@ -31,10 +31,11 @@ Note that Start and End times are entered as UTC values, though their local equi
 
 ---
 
- ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20"> Show Active Events
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20"> Show Active Events
 * You can filter Event listings to show only the Events currently in progress
   - Events which have been completed will now be displayed
     - This setting persists over browser sessions
+
 ---
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-play.svg" width="20" height="20"> Show Recordings
@@ -43,6 +44,7 @@ Note that Start and End times are entered as UTC values, though their local equi
     - Recordings are output both as HLS and MP4 format
       - Recordings can be viewed once a breakout has completed
       - Recordings can be downloaded and saved by stream viewers
+
 ---
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20"> Show Usage
@@ -62,6 +64,7 @@ Note that Start and End times are entered as UTC values, though their local equi
     - Delivery in USD
     - Conversion in USD
     - Storage in USD
+
 ---
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/users.svg" width="20" height="20"> Show Attendance
@@ -80,6 +83,7 @@ You can track the cumulative attendance for any Event by choosing the Show Atten
     - Live  
     - On-demand 
     - Total viewing time
+
 ---
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event

@@ -48,10 +48,11 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
 
 ---
 
- ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20"> Show Active Breakouts
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20"> Show Active Breakouts
 * You can filter Breakout listings to show only the Breakouts which are not completed
   - Breakouts which have been completed will now be displayed
     - This setting persists over browser sessions
+
 ---
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/video.svg" width="20" height="20"> Show Stream Viewer
@@ -145,6 +146,7 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
     - Delivery in USD
     - Conversion in USD
     - Storage in USD
+
 ---
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/users.svg" width="20" height="20"> Show Attendance
@@ -161,6 +163,7 @@ Attendance is automatically tracked for every breakout
     - Live
     - On-demand
     - Total viewing time
+
 ---
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Breakout
