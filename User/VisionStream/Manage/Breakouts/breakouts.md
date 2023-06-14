@@ -49,6 +49,7 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
 ---
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20"> Show Active Breakouts
+
 * You can filter Breakout listings to show only the Breakouts which are not completed
   - Breakouts which have been completed will now be displayed
     - This setting persists over browser sessions
