@@ -51,7 +51,7 @@ You can edit any Subdomain and change the values of all fields except Subdomain 
 
 ---
 
-### Subdomains and your livestream viewers
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/rocket.svg" width="20" height="20"> Subdomains and your livestream viewers
 
 * Embed the URL into your website
   - Click on your Subdomain from the Subdomains listing page to open your custom events page 
