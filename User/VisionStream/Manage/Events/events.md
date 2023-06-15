@@ -4,7 +4,7 @@
 
 * An Event is a fundamental object in the VisionStream platform
 * Admin users create Events which encapsulate one or more 'Breakouts'
-* Events have a discreet start / end time, location, venue, room, description and graphic
+* Events have a discreet start/end time, location, venue, room, description, and graphic
 
 ---
 
@@ -40,14 +40,14 @@ Note that Start and End times are entered as UTC values, though their local equi
 * Every breakout is automatically recorded in VisionStream
 * Show Recordings feature allows admins the ability to see all recordings for any Event
     - Recordings are output both as HLS and MP4 format
-      - Recordings can be viewed once a breakout has completed
+      - Recordings can be viewed once a breakout has been completed
       - Recordings can be downloaded and saved by stream viewers
 
 ---
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20"> Show Usage
 
-* A Usage profile is generated after every breakout has completed
+* A Usage profile is generated after every breakout has been completed
 * Show Usage feature allows the admin user the ability to see the cumulative usage of each breakout
 * Usage is delivered in two categories
   - Usage
@@ -86,7 +86,7 @@ You can track the cumulative attendance for any Event by choosing the Show Atten
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
 
-You can edit any Event and change the values of any fields.
+You can edit any Event and change the values of any field.
 
 NOTE TO SELF: Can you set an Event start time to be after an already established breakout start time?
 

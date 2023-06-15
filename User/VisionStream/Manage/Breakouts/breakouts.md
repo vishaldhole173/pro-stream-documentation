@@ -60,7 +60,7 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
         - Used to make the stream live
         - Once the stream is live audience is able to see the live stream
     - Pipeline status indicator
-        - Used view the status of a MediaLive channel
+        - Used to view the status of a MediaLive channel
             - Idle channel status is designated by an amber icon
             - Starting channel status is designated by a blue icon
             - Running channel status is designated by a green icon
@@ -97,8 +97,8 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
                 - Starts the job to create on-demand mp4 files
                 - The viewing session will end for all audience
     - Health
-        - Helps to monitor the stream health.
-        - If dropped frames is non-zero then there is a lag
+        - Helps to monitor stream health.
+        - If dropped frames are non-zero then there is a lag
         - If FPS is between 0 to 30 then stream health is considered good 
     - Show Stream Events
         - Used to get IVS or MediaLive channel events.
