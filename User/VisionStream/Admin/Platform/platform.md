@@ -1,6 +1,7 @@
 # Platform
 Platform view provides the user with a comprehensive overview of costs and activity.
 ### Overview
+Platform statistics help you assess usage patterns and help you understand the extent to which you are utilizing each service.
 ####
 * Platform Charges (USD)
   - Provides charges for platform services, including:
@@ -20,8 +21,6 @@ Platform view provides the user with a comprehensive overview of costs and activ
 ####
 * Records
   - Displays the number of Events, Breakouts, Users, and Pipeline records associated with your platform.
-
-Platform statistics help you assess usage patterns and help you understand the extent to which you are utilizing each service.
 
 ---
 
