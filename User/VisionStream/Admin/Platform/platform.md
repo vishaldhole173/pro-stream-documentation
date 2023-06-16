@@ -1,5 +1,5 @@
 # Platform
-Platform view provides the user with a comprehensive overview costs and activity.
+Platform view provides the user with a comprehensive overview of costs and activity.
 ### Overview
 ####
 * Platform Charges (USD)
@@ -17,10 +17,12 @@ Platform view provides the user with a comprehensive overview costs and activity
     - data delivered to viewers
     - time in minutes to convert the stream to an on-demand recording
     - data in MB/GB used for permanent storage
-  - These statistics help you assess usage patterns and help you understand the extent to which you are utilizing each service.
 ####
 * Records
   - Displays the number of Events, Breakouts, Users, and Pipeline records associated with your platform.
+
+Platform statistics help you assess usage patterns and help you understand the extent to which you are utilizing each service.
+
 ---
 
 #### Show All platform data
