@@ -10,14 +10,14 @@
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20"> Create a new Event
 
-Press the '+' icon in the upper right of the Event listing page to open the create new Event page.
+Press the '+' icon in the upper right of the Event listing page to open the create new Event page
 
 * Required fields
   - Event Name
   - Start time
   - End time
 
-Note that Start and End times are entered as UTC values, though their local equivalents are output for reference.
+Note that Start and End times are entered as UTC values, though their local equivalents are output for reference
 
 * Optional fields
   - Calendar Visibility
@@ -69,7 +69,7 @@ Note that Start and End times are entered as UTC values, though their local equi
 
 Attendance is automatically tracked for every breakout.
 
-You can track the cumulative attendance for any Event by choosing the Show Attendance feature.
+You can track the cumulative attendance for any Event by choosing the Show Attendance feature
 
 * View attendee
   - Name
@@ -86,7 +86,7 @@ You can track the cumulative attendance for any Event by choosing the Show Atten
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
 
-You can edit any Event and change the values of any field.
+You can edit any Event and change the values of any field
 
 NOTE TO SELF: Can you set an Event start time to be after an already established breakout start time?
 
@@ -94,9 +94,9 @@ NOTE TO SELF: Can you set an Event start time to be after an already established
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/layer-group.svg" width="20" height="20"> Show Breakouts
 
-To view all the breakouts associated with an Event, select the Show Breakouts control.
+To view all the breakouts associated with an Event, select the Show Breakouts control
 
-You will be navigated to a new page containing a listing which includes all the breakouts.
+You will be navigated to a new page containing a listing which includes all the breakouts
 
 ---
 

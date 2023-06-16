@@ -11,11 +11,11 @@
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20"> Create a new Breakout
 
-Press the '+' icon in the upper right of the Breakout listing page to open the create new Breakout page.
+Press the '+' icon in the upper right of the Breakout listing page to open the create new Breakout page
 
 * Required fields
   - Name
-    - Name of breakout which will be visible to all audience
+    - The name of breakout which will be visible to all audience
 
 * Optional fields
   - Calendar Visibility
@@ -55,6 +55,7 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
 ---
 
 ### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/video.svg" width="20" height="20"> Show Stream Viewer
+
 * If Breakout is active, you will see the Stream Viewer view
     - Raise Curtain switch
         - Used to make the stream live
@@ -97,11 +98,11 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
                 - Starts the job to create on-demand mp4 files
                 - The viewing session will end for all audience
     - Health
-        - Helps to monitor stream health.
+        - Helps to monitor stream health
         - If dropped frames are non-zero then there is a lag
         - If FPS is between 0 to 30 then stream health is considered good 
     - Show Stream Events
-        - Used to get IVS or MediaLive channel events.
+        - Used to get IVS or MediaLive channel events
     - Attendance
         - Shows the count of viewers watching the stream
     - Show Files

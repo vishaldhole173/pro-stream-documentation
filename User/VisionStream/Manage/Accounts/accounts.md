@@ -11,24 +11,98 @@
   - Pipelines
   - Distributions
 
-* Accounts are hierarchical in design. You can create 'sub-accounts' to help you better organize your workflow.
+* Accounts are hierarchical in design. You can create 'sub-accounts' to help you better organize your workflow
 
 ---
 
-### Create a new Account
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> Create a new Account
+
+* Required fields
+  - Account Name
+    - Name of your Account, helps you easily identify and manage your accounts
+  - Contact Name
+    - Name of the person who will serve as the primary point of contact for the account
+  - Contact Phone
+    - Phone number for the designated contact person associated with the account
+  - Contact Email
+    - Email address for the designated contact person associated with the account
+
+* Optional fields
+  - Phone
+    - Phone number for the designated contact person associated with the account
+  - Address line 1
+    - This field is used for the primary address information, such as the street number, street name, and any apartment or unit number associated with your address
+  - Address line 2
+    - This field provides additional space to include any necessary information that couldn't fit in Address Line 1
+    - It may be used for indicating building names, floor numbers, or other relevant details
+  - City
+    - Name of the city or town where your residential or business address is located
+  - State
+    - Name of the state or province where your residential or business address is located
+  - Zip/Postcode
+    - Numerical code associated with your residential or business address
+  - Country
+    - Name of the country where your residential or business address is located
+  - Note
+    - You can provide any additional comments, instructions, or relevant information that you want to communicate
 
 ---
 
-### Account Service Plan and Features
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" width="20" height="20"> Account Service Plan and Features
+
+* Service Plan
+  - You select the specific service plan you wish to subscribe for your account
+  - Service Plan allows you to choose the level of services and features that best meet your needs
+  - When selecting a service plan, it's important to review the details, fees, and benefits associated with each option
+  - By selecting the appropriate service plan, you ensure that your account is structured to provide the services and features you require while aligning with your preferences and financial goals
+
+* Service Term
+  - You specify the duration or length of time for which you are committing to the services provided
+  - Service Term typically indicates the period during which you agree to maintain the account and utilize the services offered
+  - Make sure to select a service term that aligns with your intended usage and provides the flexibility you require
+
+* Features
+  - You can select specific features or functionalities you would like to have access to as a user of the streaming service
+  -  These features enhance your streaming experience and may provide additional benefits or options beyond the basic streaming capabilities
+  - By choosing the appropriate features, you can tailor your streaming experience to your liking and access the specific content and functionalities that enhance your enjoyment of the streaming service
 
 ---
 
-### Show Usage
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20"> Show Usage
+
+* Show Usage feature allows the user the ability to see the cumulative usage of an account
+* Usage is delivered in two categories
+  - Usage
+    - Streaming in hours
+    - Packaging in GB's
+    - Delivery in ???
+    - Conversion in minutes
+    - Storage in GB
+  - Charges
+    - Streaming in USD
+    - Packaging in USD
+    - Delivery in USD
+    - Conversion in USD
+    - Storage in USD
 
 ---
 
-### Show Invitations
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user-check.svg" width="20" height="20"> Show Invitations
+
+* You can send invitations to other users, inviting them to join and access the streaming service using your account
+* This feature enables you to share your streaming subscription with other individuals
+* Press the '+' icon located upper of the status column to open the create new Invitation page. Enter the name and email address of the user you want to invite
+* Once the invitation is created, we mark the invitation as 'READY'
+* When the invitation recipient clicks on the link to begin the sign-up process, we mark the invitation as 'ACCEPTED'
+* An invitation is marked as 'COMPLETED' when the user has successfully created a user account
+* You can track whether the invitation is 'READY', 'ACCEPTED', or 'COMPLETED'
+  - The 'READY' state is designated by an amber icon
+  - The 'ACCEPTED' state is designated by half amber and green icon
+  - The 'COMPLETED' state is designated by a green icon
+* You can revoke the invitation if you have invited any unwanted user to access your account before that user accepts the invitation. You may re-invite that user at a later time
 
 ---
 
-### Edit Account
+### <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Account
+
+* You can edit any Account and change the values of any fields
