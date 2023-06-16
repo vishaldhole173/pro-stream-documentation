@@ -1,14 +1,17 @@
 # Platform
-Platform data provides the user with a comprehensive overview of account-related data and activity.
+Platform view provides the user with a comprehensive overview costs and activity.
 ### Overview
 ####
-* Service Charges (USD)
-  - Provides a breakdown of the charges associated with your account.
-  - Charges include streaming, packaging, delivery, conversion, and storage.
+* Platform Charges (USD)
+  - Provides charges for platform services, including:
+    - streaming
+    - packaging
+    - delivery
+    - conversion
+    - storage
 ####
-* Service Usage
-  - The feature provides detailed usage statistics for different services offered by the platform.
-  - Usage includes:
+* Platform Usage
+  - Provides detailed usage statistics for platform services, including:
     - number of streaming hours
     - data in GB packaged for delivery
     - data delivered to viewers
@@ -17,7 +20,7 @@ Platform data provides the user with a comprehensive overview of account-related
   - These statistics help you assess usage patterns and help you understand the extent to which you are utilizing each service.
 ####
 * Records
-  - Displays the number of Events, Breakouts, Users, and Pipelines associated with your account.
+  - Displays the number of Events, Breakouts, Users, and Pipeline records associated with your platform.
 ---
 
 #### Show All platform data
@@ -27,8 +30,9 @@ Allows users the ability to view the entire cost & usage profile for their platf
 
 #### Choose Account
 
-* Allows users the ability to select and switch between their associated accounts within the platform.
-* Once a user selects an account, the interface will display charges, usage statistics, and other relevant data related to that particular account.
+Allows users the ability to select and switch between their associated accounts within the platform.
+
+Once a user selects an account, the interface will display charges, usage statistics, and other relevant data related to that particular account.
 
 ---
 
