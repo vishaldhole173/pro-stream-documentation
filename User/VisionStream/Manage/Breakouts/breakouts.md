@@ -3,9 +3,9 @@
 A Breakout is a fundamental object in the VisionStream platform, and is essentially an encapsulation of a live streaming
 session.
 
-### Overview
+## Overview
 
-A Breakout is a child of an Event, in that an Event (usually) consists of many Breakouts.
+A Breakout is a child of an Event. An Event (usually) consists of many Breakouts.
 
 Admin users will create new Breakout records, entering name, date, time, duration and location of the live stream.
 
@@ -114,7 +114,7 @@ If Breakout is active, you will see the Stream Viewer view, which contains the f
 * Comments
     - Allows you to engage with audience without the need for a secondary device.
 
-If Breakout is completed, you will see the 'Show Is Over' view
+If Breakout is completed, you will see the 'Show Is Over' view.
 * Show Files
   - View & download uploaded media files.
 * View Recording
