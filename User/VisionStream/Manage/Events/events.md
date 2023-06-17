@@ -1,13 +1,11 @@
 # Event
 An Event is a fundamental object in the VisionStream platform.
-### Overview
+## Overview
 Admin users create Events which encapsulate one or more 'Breakouts'.
 
 Events have discreet start/end times, location, venue, room, description, and graphic.
 
-<hr>
-
-####  Create a new Event
+##  Create a new Event
 
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20">
 
@@ -28,18 +26,14 @@ Note: Start and End times are entered as UTC values, though their local equivale
   - Picture
   - Description
 
-<hr>
-
-#### Show Active Events
+## Show Active Events
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20">
 
 * You can filter Event listings to show only the Events currently in progress.
   - Events which have been completed will now be displayed.
     - This setting persists over browser sessions.
 
-<hr>
-
-#### Show Recordings
+## Show Recordings
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-play.svg" width="20" height="20">
 
 Every breakout is automatically recorded in VisionStream.
@@ -48,9 +42,7 @@ Every breakout is automatically recorded in VisionStream.
       - Recordings can be viewed once a breakout has been completed.
       - Recordings can be downloaded and saved by stream viewers.
 
-<hr>
-
-#### Show Usage
+## Show Usage
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">
 
 A Usage profile is generated after every breakout has been completed.
@@ -69,9 +61,9 @@ A Usage profile is generated after every breakout has been completed.
     - Conversion in USD
     - Storage in USD
 
-<hr>
 
-####  Show Attendance
+
+##  Show Attendance
 
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/users.svg" width="20" height="20">
 
@@ -90,9 +82,9 @@ You can track the cumulative attendance for any Event by choosing the Show Atten
     - On-demand 
     - Total viewing time
 
-<hr>
 
-####  Edit Event
+
+##  Edit Event
 
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20">
 
@@ -100,9 +92,9 @@ You can edit any Event and change the values of any field.
 
 NOTE TO SELF: Can you set an Event start time to be after an already established breakout start time?
 
-<hr>
 
-####  Show Breakouts
+
+##  Show Breakouts
 
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/layer-group.svg" width="20" height="20">
 
@@ -110,9 +102,9 @@ To view all the breakouts associated with an Event, select the Show Breakouts co
 
 You will be navigated to a new page containing a listing which includes all the breakouts.
 
-<hr>
 
-#### Active and Published indicators
+
+## Active and Published indicators
 
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle.svg" width="20" height="20"> 
 
