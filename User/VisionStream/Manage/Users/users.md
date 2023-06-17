@@ -1,6 +1,4 @@
-# User
-
----
+### User
 
 ## Overview
 
