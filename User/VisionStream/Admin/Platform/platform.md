@@ -1,6 +1,6 @@
 # Platform
 Platform view provides the user with a comprehensive overview of costs and activity.
-### Overview
+## Overview
 Platform statistics help you assess usage patterns and help you understand the extent to which you are utilizing each service.
 ####
 * Platform Charges (USD)
@@ -22,22 +22,16 @@ Platform statistics help you assess usage patterns and help you understand the e
 * Records
   - Displays the number of Events, Breakouts, Users, and Pipeline records associated with your platform.
 
----
-
-#### Show All platform data
+### Show All platform data
 Allows users the ability to view the entire cost & usage profile for their platform, including all accounts associated with the platform.
 
----
-
-#### Choose Account
+### Choose Account
 
 Allows users the ability to select and switch between their associated accounts within the platform.
 
 Once a user selects an account, the interface will display charges, usage statistics, and other relevant data related to that particular account.
 
----
-
-#### Choose Range
+### Choose Range
 
 This feature provides users with the ability to analyze usage patterns, track costs, and assess platform activity for different accounts over specific months.
 
