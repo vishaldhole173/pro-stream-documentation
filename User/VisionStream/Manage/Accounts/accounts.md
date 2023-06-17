@@ -14,9 +14,7 @@ An Account is a core object in the VisionStream platform.
 
 Accounts are hierarchical in design. You can create `sub-accounts` to help you better organize your workflow
 
-##  Create a new Account
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20">
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20">  Create a new Account
 
 * Required fields
   - Account Name
@@ -47,9 +45,7 @@ Accounts are hierarchical in design. You can create `sub-accounts` to help you b
   - Note
     - You can provide any additional comments, instructions, or relevant information that you want to communicate
 
-##  Account Service Plan and Features
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" width="20" height="20">
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" width="20" height="20">  Account Service Plan and Features
 
 * Service Plan
   - You select the specific service plan you wish to subscribe for your account
@@ -85,9 +81,7 @@ A Usage profile is generated after every breakout has been completed. At the acc
     - Conversion in USD
     - Storage in USD
 
-##  Show Invitations
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user-check.svg" width="20" height="20">
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user-check.svg" width="20" height="20">  Show Invitations
 
 * You can send invitations to other users, inviting them to join and access the streaming service using your account
 * This feature enables you to share your streaming subscription with other individuals
@@ -101,8 +95,6 @@ A Usage profile is generated after every breakout has been completed. At the acc
   - The 'COMPLETED' state is designated by a green icon
 * You can revoke the invitation if you have invited any unwanted user to access your account before that user accepts the invitation. You may re-invite that user at a later time
 
-##  Edit Account
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20">   Edit Account
 
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20">
-
-* You can edit any Account and change the values of any fields
+You can edit any Account and change the values of any fields
