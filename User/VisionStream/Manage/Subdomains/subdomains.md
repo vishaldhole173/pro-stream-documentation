@@ -1,12 +1,12 @@
 # Subdomains
 
-A sub-domain allows you to create a unique web URL which you can distribute to your attendees.
+A subdomain allows you to create a unique web URL which you can distribute to your attendees.
 
-Likewise, you can embed a sub-domain into your own website to redirect users to your live stream event.
+Likewise, you can embed a subdomain into your own website to redirect users to your live stream event.
 
 ## Overview
 
-VisionStream will manage the entire flow within your sub-domain, including authentication and payments.
+VisionStream will manage the entire flow within your subdomain, including authentication and payments.
 
 * Your end users will:
   - Navigate to your calendar which displays your published events.
