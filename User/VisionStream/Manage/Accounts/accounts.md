@@ -51,12 +51,10 @@ Accounts are hierarchical in design. You can create `sub-accounts` to help you b
   - Service Plan allows you to choose the level of services and features that best meet your needs
   - When selecting a service plan, it's important to review the details, fees, and benefits associated with each option
   - By selecting the appropriate service plan, you ensure that your account is structured to provide the services and features you require while aligning with your preferences and financial goals
-
 * Service Term
   - You specify the duration or length of time for which you are committing to the services provided
   - Service Term typically indicates the period during which you agree to maintain the account and utilize the services offered
   - Make sure to select a service term that aligns with your intended usage and provides the flexibility you require
-
 * Features
   - You can select specific features or functionalities you would like to have access to as a user of the streaming service
   -  These features enhance your streaming experience and may provide additional benefits or options beyond the basic streaming capabilities
