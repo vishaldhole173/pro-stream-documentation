@@ -27,15 +27,17 @@ Note: Start and End times are entered as UTC values, though their local equivale
   - Description
 
 ## Show Active Events
+
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20">
 
 Show Active Events toggle allows you to quickly filter out events which have already completed.
 
-* You can filter Event listings to show only the Events currently in progress.
+* You can filter Events to show only the those currently in progress.
   - Events which have been completed will be removed from the list.
     - This setting persists over browser sessions.
 
 ## Show Recordings
+
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-play.svg" width="20" height="20">
 
 Every breakout is automatically recorded in VisionStream.
@@ -45,6 +47,7 @@ Every breakout is automatically recorded in VisionStream.
       - Recordings can be downloaded and saved by stream viewers.
 
 ## Show Usage
+
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">
 
 A Usage profile is generated after every breakout has been completed. At the event level, Usage is calculated as the cumulative usage of all breakouts belonging to the event.
@@ -62,8 +65,6 @@ A Usage profile is generated after every breakout has been completed. At the eve
     - Delivery in USD
     - Conversion in USD
     - Storage in USD
-
-
 
 ##  Show Attendance
 
@@ -84,8 +85,6 @@ At the event level, Attendance is calculated as the cumulative attendance of all
     - On-demand 
     - Total viewing time
 
-
-
 ##  Edit Event
 
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20">
@@ -93,8 +92,6 @@ At the event level, Attendance is calculated as the cumulative attendance of all
 You can edit any Event and change the values of any field.
 
 NOTE TO SELF: Can you set an Event start time to be after an already established breakout start time?
-
-
 
 ##  Show Breakouts
 
@@ -104,16 +101,15 @@ To view all the breakouts associated with an Event, select the Show Breakouts co
 
 You will be navigated to a new page containing a listing which includes all the breakouts belonging to the event.
 
-
-
 ## Active and Published indicators
 
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle.svg" width="20" height="20"> 
 
 VisionStream maintains a simple UI construct which allows for the easy identification of Active and Published Events.
+
 * Active Events
   - Events which have not completed.
-    - Active Events are designated by a green icon .
+    - Active Events are designated by a green icon.
     - Completed Events are designated by an amber icon.
 * Published Events
   - Published Events will display in your calendar.
