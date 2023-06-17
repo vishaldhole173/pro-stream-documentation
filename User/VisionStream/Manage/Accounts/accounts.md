@@ -94,7 +94,7 @@ You can send invitations to other users, inviting them to join and access the st
   - The 'ACCEPTED' state is designated by half amber and green icon.
   - The 'COMPLETED' state is designated by a green icon.
 
-**You can revoke the invitation if you have invited any unwanted user to access your account before that user accepts the invitation. You may re-invite that user at a later time.**
+**You can revoke the invitation before the recipient accepts the invitation. You may re-invite the user at a later time.**
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20">   Edit Account
 
