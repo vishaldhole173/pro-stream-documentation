@@ -14,7 +14,7 @@ An Account is a core object in the VisionStream platform.
 
 Accounts are hierarchical in design. You can create `sub-accounts` to help you better organize your workflow
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20">  Create a new Account
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20">  Create new Account
 
 * Required fields
   - Account Name
@@ -25,7 +25,6 @@ Accounts are hierarchical in design. You can create `sub-accounts` to help you b
     - Phone number for the designated contact person associated with the account
   - Contact Email
     - Email address for the designated contact person associated with the account
-
 * Optional fields
   - Phone
     - Phone number for the designated contact person associated with the account
@@ -45,7 +44,7 @@ Accounts are hierarchical in design. You can create `sub-accounts` to help you b
   - Note
     - You can provide any additional comments, instructions, or relevant information that you want to communicate
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" width="20" height="20">  Account Service Plan and Features
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" width="20" height="20">  Service Plan and Features
 
 * Service Plan
   - You select the specific service plan you wish to subscribe for your account
@@ -83,17 +82,19 @@ A Usage profile is generated after every breakout has been completed. At the acc
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user-check.svg" width="20" height="20">  Show Invitations
 
-* You can send invitations to other users, inviting them to join and access the streaming service using your account
-* This feature enables you to share your streaming subscription with other individuals
-* Press the '+' icon located upper of the status column to open the create new Invitation page. Enter the name and email address of the user you want to invite
-* Once the invitation is created, we mark the invitation as 'READY'
-* When the invitation recipient clicks on the link to begin the sign-up process, we mark the invitation as 'ACCEPTED'
-* An invitation is marked as 'COMPLETED' when the user has successfully created a user account
+You can send invitations to other users, inviting them to join and access the streaming service using your account.
+
+* Press the '+' icon to Create New Invitation.
+  - Enter the name and email address of the user you want to invite.
+  - Once the invitation is created, it is marked as 'READY' and can be sent. 
+  - When the invitation recipient clicks on the link to begin the sign-up process, the invitation is updated to 'ACCEPTED'.
+  - An invitation is marked as 'COMPLETED' when the user has successfully created a user account.
 * You can track whether the invitation is 'READY', 'ACCEPTED', or 'COMPLETED'
-  - The 'READY' state is designated by an amber icon
-  - The 'ACCEPTED' state is designated by half amber and green icon
-  - The 'COMPLETED' state is designated by a green icon
-* You can revoke the invitation if you have invited any unwanted user to access your account before that user accepts the invitation. You may re-invite that user at a later time
+  - The 'READY' state is designated by an amber icon.
+  - The 'ACCEPTED' state is designated by half amber and green icon.
+  - The 'COMPLETED' state is designated by a green icon.
+
+**You can revoke the invitation if you have invited any unwanted user to access your account before that user accepts the invitation. You may re-invite that user at a later time.**
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20">   Edit Account
 
