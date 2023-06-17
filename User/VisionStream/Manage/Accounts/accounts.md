@@ -67,7 +67,7 @@ Accounts are hierarchical in design. You can create `sub-accounts` to help you b
   -  These features enhance your streaming experience and may provide additional benefits or options beyond the basic streaming capabilities
   - By choosing the appropriate features, you can tailor your streaming experience to your liking and access the specific content and functionalities that enhance your enjoyment of the streaming service
 
-##<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
 
 A Usage profile is generated after every breakout has been completed. At the account level, Usage is calculated as the cumulative usage of all breakouts belonging to the account.
 
