@@ -113,18 +113,19 @@ If Breakout is active, you will see the Stream Viewer view, which contains the f
     - Used for viewing the streaming session.
 * Comments
     - Allows you to engage with audience without the need for a secondary device.
-* If Breakout is completed, you will see the 'Show Is Over' view
-    - Show Files
-        - View & download uploaded media files.
-    - View Recording
-        - View the breakout's on-demand recording.
-    - Comments
-        - Comments are disabled once the breakout is completed.
-    - Job Status
-        - Shows the convert job status which is either in progress or complete.
-            - Convert job is responsible to generate the breakout recording.
-    - Copy S3 URI
-        - Used to copy the S3 of the final recording on the clipboard.
+
+If Breakout is completed, you will see the 'Show Is Over' view
+* Show Files
+  - View & download uploaded media files.
+* View Recording
+  - View the breakout's on-demand recording.
+* Comments
+  - Comments are disabled once the breakout is completed.
+* Job Status
+  - Shows the convert job status which is either in progress or complete.
+    - Convert job is responsible to generate the breakout recording.
+* Copy S3 URI
+  - Used to copy the S3 of the final recording on the clipboard.
 
 ## Show Usage
 
