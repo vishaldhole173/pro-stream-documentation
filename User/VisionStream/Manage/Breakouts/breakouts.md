@@ -11,45 +11,41 @@ Admin users will create new Breakout records, entering name, date, time, duratio
 
 Breakout start time and duration should always be less than the Event end time.
 
-## Create new Breakout
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20">
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20">  Create new Breakout
 
 Press the '+' icon in the upper right of the Breakout listing page to open the create new Breakout page.
 
 * Required fields:
-  - Name
-    - The name of breakout which will be visible to the audience.
+    - Name
+        - The name of breakout which will be visible to the audience.
 * Optional fields:
-  - Calendar Visibility
-    - Breakouts will display in the calendar if set to active.
-  - Moderated Forum
-    - Moderate the comments made by audience if set to active.
-  - Location
-    - Your physical streaming location.
-  - Charge Amount
-    - Amount you want to charge for the breakout.
-  - Search
-    - Assign a search to display files associated with a breakout.
-  - Picture
-    - Picture you want to display for your breakout in the calendar.
-  - Description
-    - Additional information about your breakout.
-  - Pipeline
-    - The Pipeline you want to use for streaming.
-  - Source IP
-    - IP of the system you are streaming from.
-  - Start Time
-    - Time at which you want to start the breakout.
-    - Note that Start time is entered as UTC value, though the local equivalent is output for reference.
-  - Hours
-    - Hours for which you want to stream.
-  - Minutes
-    - Minutes for which you want to stream.
+    - Calendar Visibility
+        - Breakouts will display in the calendar if set to active.
+    - Moderated Forum
+        - Moderate the comments made by audience if set to active.
+    - Location
+        - Your physical streaming location.
+    - Charge Amount
+        - Amount you want to charge for the breakout.
+    - Search
+        - Assign a search to display files associated with a breakout.
+    - Picture
+        - Picture you want to display for your breakout in the calendar.
+    - Description
+        - Additional information about your breakout.
+    - Pipeline
+        - The Pipeline you want to use for streaming.
+    - Source IP
+        - IP of the system you are streaming from.
+    - Start Time
+        - Time at which you want to start the breakout.
+        - Note that Start time is entered as UTC value, though the local equivalent is output for reference.
+    - Hours
+        - Hours for which you want to stream.
+    - Minutes
+        - Minutes for which you want to stream.
 
-## Show Active Breakouts
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20">
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20">  Show Active Breakouts
 
 Show Active Breakouts toggle allows you to quickly filter out breakouts which have already completed.
 
@@ -57,9 +53,7 @@ Show Active Breakouts toggle allows you to quickly filter out breakouts which ha
     - Breakouts which have been completed will be removed from the list.
         - This setting persists over browser sessions.
 
-## Show Stream Viewer
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/video.svg" width="20" height="20">
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/video.svg" width="20" height="20">  Show Stream Viewer
 
 If Breakout is active, you will see the Stream Viewer view, which contains the following controls outlined below.
 
@@ -115,21 +109,20 @@ If Breakout is active, you will see the Stream Viewer view, which contains the f
     - Allows you to engage with audience without the need for a secondary device.
 
 If Breakout is completed, you will see the 'Show Is Over' view.
+
 * Show Files
-  - View & download uploaded media files.
+    - View & download uploaded media files.
 * View Recording
-  - View the breakout's on-demand recording.
+    - View the breakout's on-demand recording.
 * Comments
-  - Comments are disabled once the breakout is completed.
+    - Comments are disabled once the breakout is completed.
 * Job Status
-  - Shows the convert job status which is either in progress or complete.
-    - Convert job is responsible to generate the breakout recording.
+    - Shows the convert job status which is either in progress or complete.
+        - Convert job is responsible to generate the breakout recording.
 * Copy S3 URI
-  - Used to copy the S3 of the final recording on the clipboard.
+    - Used to copy the S3 of the final recording on the clipboard.
 
-## Show Usage
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
 
 A Usage profile is generated after every breakout has completed.
 
@@ -147,9 +140,7 @@ A Usage profile is generated after every breakout has completed.
         - Conversion in USD
         - Storage in USD
 
-## Show Attendance
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/users.svg" width="20" height="20">
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/users.svg" width="20" height="20">  Show Attendance
 
 Attendance is automatically tracked for every breakout.
 
@@ -164,22 +155,18 @@ Attendance is automatically tracked for every breakout.
         - On-demand
         - Total viewing time
 
-## Edit Breakout
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20">
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20">  Edit Breakout
 
 You can edit any Event and change the values of any field.
 
-## Active and Published indicators
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle.svg" width="20" height="20">
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle.svg" width="20" height="20">  Active and Published indicators
 
 VisionStream maintains a simple UI construct which allows for the easy identification of Active and Published Breakouts.
 
 * Active Breakouts
-  - Breakouts that are active have not completed.
-    - Active Breakouts are designated by a green icon.
-    - Completed Breakouts are designated by an amber icon.
+    - Breakouts that are active have not completed.
+        - Active Breakouts are designated by a green icon.
+        - Completed Breakouts are designated by an amber icon.
 * Published Breakouts
-  - Published Breakouts will display in your calendar.
-  - Unpublished Breakouts are hidden and cannot be accessed by a user.
+    - Published Breakouts will display in your calendar.
+    - Unpublished Breakouts are hidden and cannot be accessed by a user.
