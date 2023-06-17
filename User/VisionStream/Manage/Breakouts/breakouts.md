@@ -1,7 +1,6 @@
 # Breakout
 
-A Breakout is a fundamental object in the VisionStream platform, and is essentially an encapsulation of a live streaming
-session.
+A Breakout is a core object in the VisionStream platform.
 
 ## Overview
 
