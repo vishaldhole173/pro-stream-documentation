@@ -46,7 +46,9 @@ Every breakout is automatically recorded in VisionStream.
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">
 
 A Usage profile is generated after every breakout has been completed.
-* Show Usage feature allows the admin user the ability to see the cumulative usage of each breakout.
+
+At the event level, Usage is calculated as the cumulative usage of all breakouts belonging to the event.
+
 * Usage is delivered in two categories:
   - Usage
     - Streaming in hours
@@ -68,6 +70,8 @@ A Usage profile is generated after every breakout has been completed.
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/users.svg" width="20" height="20">
 
 Attendance is automatically tracked for every breakout.
+
+At the event level, Attendance is calculated as the cumulative attendance of all breakouts belonging to the event.
 
 You can track the cumulative attendance for any Event by choosing the Show Attendance feature:
 
@@ -100,7 +104,7 @@ NOTE TO SELF: Can you set an Event start time to be after an already established
 
 To view all the breakouts associated with an Event, select the Show Breakouts control.
 
-You will be navigated to a new page containing a listing which includes all the breakouts.
+You will be navigated to a new page containing a listing which includes all the breakouts belonging to the event.
 
 
 
