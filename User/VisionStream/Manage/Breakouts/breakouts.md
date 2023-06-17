@@ -18,34 +18,34 @@ Breakout start time and duration should always be less than the Event end time.
 Press the '+' icon in the upper right of the Breakout listing page to open the create new Breakout page.
 
 * Required fields:
-    - Name
-        - The name of breakout which will be visible to the audience.
+  - Name
+    - The name of breakout which will be visible to the audience.
 * Optional fields:
-    - Calendar Visibility
-        - Breakouts will display in the calendar if set to active.
-    - Moderated Forum
-        - Moderate the comments made by audience if set to active.
-    - Location
-        - Your physical streaming location.
-    - Charge Amount
-        - Amount you want to charge for the breakout.
-    - Search
-        - Assign a search to display files associated with a breakout.
-    - Picture
-        - Picture you want to display for your breakout in the calendar.
-    - Description
-        - Additional information about your breakout.
-    - Pipeline
-        - The Pipeline you want to use for streaming.
-    - Source IP
-        - IP of the system you are streaming from.
-    - Start Time
-        - Time at which you want to start the breakout.
-        - Note that Start time is entered as UTC value, though the local equivalent is output for reference.
-    - Hours
-        - Hours for which you want to stream.
-    - Minutes
-        - Minutes for which you want to stream.
+  - Calendar Visibility
+    - Breakouts will display in the calendar if set to active.
+  - Moderated Forum
+    - Moderate the comments made by audience if set to active.
+  - Location
+    - Your physical streaming location.
+  - Charge Amount
+    - Amount you want to charge for the breakout.
+  - Search
+    - Assign a search to display files associated with a breakout.
+  - Picture
+    - Picture you want to display for your breakout in the calendar.
+  - Description
+    - Additional information about your breakout.
+  - Pipeline
+    - The Pipeline you want to use for streaming.
+  - Source IP
+    - IP of the system you are streaming from.
+  - Start Time
+    - Time at which you want to start the breakout.
+    - Note that Start time is entered as UTC value, though the local equivalent is output for reference.
+  - Hours
+    - Hours for which you want to stream.
+  - Minutes
+    - Minutes for which you want to stream.
 
 ## Show Active Breakouts
 
