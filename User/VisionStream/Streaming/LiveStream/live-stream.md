@@ -1,8 +1,9 @@
 # Live Stream
 
+Live Stream view provides admin users with a list of all currently running breakouts, along with their corresponding account name with which that breakout is associated.
+
 ## Overview
 
-* It provides users with a list of all currently running breakouts, along with the corresponding account name with which that breakout is associated
-* Alongside each breakout, the feature displays the corresponding account name. This allows users to identify which account the breakout belongs to, especially if they have access to multiple accounts within the application
-* This ensures that the user sees relevant and authorized content based on their account permissions
-* It also provides a stream viewer button to join the selected breakout directly. User clicks on the breakout to navigate to the specific live stream session.
+When we are doing a show for a large client, it is not uncommon for any number of breakouts to be running.
+
+Having a single view which enumerates the currently running breakouts is useful in that it allows the admin the ability to hop into any livestream to assess progress, quality, etc.

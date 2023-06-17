@@ -2,14 +2,8 @@
 
 ## Overview
 
----
-
 ## Paid
 
----
-
 ## Left
-
----
 
 ## Due
