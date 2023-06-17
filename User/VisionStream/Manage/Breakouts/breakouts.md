@@ -131,7 +131,7 @@ If Breakout is completed, you will see the 'Show Is Over' view.
 
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">
 
-A Usage profile is generated after every breakout has been completed.
+A Usage profile is generated after every breakout has completed.
 
 * Usage is delivered in two categories
     - Usage
@@ -177,9 +177,9 @@ You can edit any Event and change the values of any field.
 VisionStream maintains a simple UI construct which allows for the easy identification of Active and Published Breakouts.
 
 * Active Breakouts
-    - Breakouts that are active have not completed.
-        - Active Breakouts are designated by a green icon.
-        - Completed Breakouts are designated by an amber icon.
+  - Breakouts that are active have not completed.
+    - Active Breakouts are designated by a green icon.
+    - Completed Breakouts are designated by an amber icon.
 * Published Breakouts
-    - Published Breakouts will display in your calendar.
-    - Unpublished Breakouts are hidden and cannot be accessed by a user.
+  - Published Breakouts will display in your calendar.
+  - Unpublished Breakouts are hidden and cannot be accessed by a user.
