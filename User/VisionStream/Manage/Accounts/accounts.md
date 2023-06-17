@@ -4,7 +4,7 @@ An Account is a core object in the VisionStream platform.
 
 ## Overview
 
-* Admin users create Accounts which encapsulate many other core VisionStream objects
+* Admin users create Accounts which encapsulate many core VisionStream objects
   - Users
   - Events
   - Breakouts
@@ -12,7 +12,7 @@ An Account is a core object in the VisionStream platform.
   - Pipelines
   - Distributions
 
-* Accounts are hierarchical in design. You can create `sub-accounts` to help you better organize your workflow
+Accounts are hierarchical in design. You can create `sub-accounts` to help you better organize your workflow
 
 ##  Create a new Account
 
@@ -67,9 +67,7 @@ An Account is a core object in the VisionStream platform.
   -  These features enhance your streaming experience and may provide additional benefits or options beyond the basic streaming capabilities
   - By choosing the appropriate features, you can tailor your streaming experience to your liking and access the specific content and functionalities that enhance your enjoyment of the streaming service
 
-##  Show Usage
-
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">
+##<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
 
 A Usage profile is generated after every breakout has been completed. At the account level, Usage is calculated as the cumulative usage of all breakouts belonging to the account.
 
