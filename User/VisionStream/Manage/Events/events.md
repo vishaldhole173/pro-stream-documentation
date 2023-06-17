@@ -29,6 +29,8 @@ Note: Start and End times are entered as UTC values, though their local equivale
 ## Show Active Events
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20">
 
+Show Active Events toggle allows you to quickly filter out events which have already completed.
+
 * You can filter Event listings to show only the Events currently in progress.
   - Events which have been completed will now be displayed.
     - This setting persists over browser sessions.
