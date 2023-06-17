@@ -112,7 +112,7 @@ You will be navigated to a new page containing a listing which includes all the 
 
 VisionStream maintains a simple UI construct which allows for the easy identification of Active and Published Events.
 * Active Events
-  - Events which are active are currently in progress.
+  - Events which have not completed.
     - Active Events are designated by a green icon .
     - Completed Events are designated by an amber icon.
 * Published Events
