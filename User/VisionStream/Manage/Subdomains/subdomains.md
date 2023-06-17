@@ -2,18 +2,18 @@
 
 A sub-domain allows you to create a unique web URL which you can distribute to your attendees.
 
-Likewise, you can embed a sub-domain into your own website and redirect users to your live stream event.
+Likewise, you can embed a sub-domain into your own website to redirect users to your live stream event.
 
 ## Overview
 
-VisionStream will manage the entire flow within your sub-domain, including authentication and payments
+VisionStream will manage the entire flow within your sub-domain, including authentication and payments.
 
-* Navigate to your custom sub-domain and:
-    - Choose an event
-        - Your subdomain can host any number of publish events.
-    - Authenticate user
-    - Choose breakout
-        - Optional payment step if payment is required
+* Your end users will:
+  - Navigate to your calendar which displays your published events.
+  - Choose an event.
+  - Continue to an overview page containing event specifics and details.
+  - Perform authentication (Sign In).
+  - Choose a breakout and continue to the live stream viewer.
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20"> Create new Subdomain
 
