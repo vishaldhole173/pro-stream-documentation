@@ -41,7 +41,7 @@ TODO: LINK TO DISTRIBUTION PAGE FOR "MORE INFO".
 ## (TODO: need icon here) Add pipeline 
 
 Press the '+' button in the Pipelines view to navigate to the Create Pipeline form, where you will enter information
-about the pipeline.
+about the pipeline.K
 
 - ### Pipeline Types
     - MediaLive
