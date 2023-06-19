@@ -1,8 +1,8 @@
 # Subdomains
 
-A subdomain allows you to create a unique web URL which you can distribute to your attendees.
+A subdomain allows you to create a unique web URL that you can distribute to your attendees. This not only provides a personalized and branded web address but also gives you the flexibility to customize the user interface (UI) elements, such as colors, to align with your branding preferences. 
 
-Likewise, you can embed a subdomain into your own website to redirect users to your live stream event.
+Likewise, you can embed a subdomain into your website to redirect users to your live-stream event.
 
 ## Overview
 
@@ -49,4 +49,10 @@ Press the '+' icon in the upper right of the Subdomains listing page to open Cre
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Subdomain
 
-You can edit any Subdomain and change the values of all fields except Subdomain and Redirect URL.
+You can edit any Subdomain and change the values of all fields except the Subdomain and Redirect URL.
+
+## Tenant Events
+
+After clicking on the subdomain link button, you will redirect to the tenant [events](./events.md) page.
+
+To provide access to anonymous or ad-hoc users, admin users can [create new user](./users.md) accounts by signing into their account.
