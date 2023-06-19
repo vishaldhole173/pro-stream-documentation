@@ -23,53 +23,57 @@ A VisionStream pipeline can be configured to allow for multiple inputs, and supp
 - Stopping
     - The Pipeline is stopping, usually the result of stopping a breakout.
 
-##  (TODO: need icon here) Distributions
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/cloud.svg" width="20" height="20">  Distributions
 
 A distribution is an accompanying service which is created whenever a pipeline is created, and is disabled when a pipeline is deleted.
 
-To see the distribution profile for any pipeline, toggle the 'Show Hide Distribution Config.' button.
+To see the distribution profile for any pipeline, toggle the 'Show Hide Distribution Config.' button. [Read more](../../Admin/Distributions/distributions.md).
 
-TODO: LINK TO DISTRIBUTION PAGE FOR "MORE INFO".
-
-##  (TODO: need icon here) Delete a pipeline
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="20" height="20">  Delete a pipeline
 
 - Press the trash icon in the lower-left of the pipelines listing page.
 - The application will prompt the user to confirm their intention to delete the pipeline.
 * This confirmation step is crucial as the action cannot be undone.
 * Upon confirmation, the application permanently removes the pipeline and any referenced to it.
 
-## (TODO: need icon here) Add pipeline 
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20">  Add pipeline 
 
 Press the '+' button in the Pipelines view to navigate to the Create Pipeline form, where you will enter information
-about the pipeline.K
+about the pipeline.
 
 - ### Pipeline Types
     - MediaLive
         - A broadcast-grade pipeline which is capable of encoding live video for broadcast and streaming to any device.
     - Interactive Video Service
-        - TODO: Need description here
+        - A broadcast-grade pipeline which enables interactive and engaging live streaming experiences.
 
 - ### Input Types
     - RTMP Push
-        - TODO: Need description here
+        - An input type that allows you to push live video streams using the Real-Time Messaging Protocol (RTMP).
+        - RTMP is a popular protocol used for delivering live streams from an encoder to a streaming server.
     - MP4 File
-        - TODO: Need description here
+        - An input type that allows you to use pre-recorded video content in MP4 format as a source for your live streams.
+        - You can upload MP4 files to AWS MediaLive or IVS channels for broadcasting.
 
 - ### Input Class
     - Single Pipeline
-        - TODO: Need description here
+        - An input class that represents a configuration where a single input is connected to a pipeline.
+        - This means that there is only one source feeding into the encoding and processing pipeline.
     - Standard Pipeline
-        - TODO: Need description here
+        - An input class that represents a configuration where multiple inputs are connected to a pipeline. 
+        - In this setup, multiple sources can be combined or switched between to create a more complex streaming workflow.
 
 - ### Input Network
     - Public
-        - TODO: Need description here
+        - An input network configuration where the inputs are accessible over the public internet.
+        - This means that the source devices can connect to the AWS MediaLive or IVS channels using publicly routable IP addresses.
     - VPC
-        - TODO: Need description here
+        - An input network configuration where the inputs are connected to a Virtual Private Cloud (VPC).
+        - This setup allows you to isolate your streaming infrastructure within your private network, enhancing security and control over your streams.
 
 - ### Number of Inputs
     - 1
-        - TODO: Need description here
+        - Represents a configuration where there is a single input source connected to the pipeline.
     - 2
-        - TODO: Need description here
+        - Represents a configuration where there are two input sources connected to the pipeline.
 

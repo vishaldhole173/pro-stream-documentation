@@ -29,6 +29,15 @@ You get a custom built platform as an extension to your event. Regardless if you
 ## Live Stream
 * [Live Stream](User/VisionStream/Streaming/LiveStream/live-stream.md)
 
+## Pipelines
+* [Pipelines](User/VisionStream/Streaming/Pipelines/pipelines.md)
+
+## Distributions
+* [Distributions](User/VisionStream/Admin/Distributions/distributions.md)
+
+## Attendance
+* [Attendance](User/VisionStream/Streaming/Attendance/attendance.md)
+
 ## Channel Types
 There are two types of channels that can be used to stream events. Channels abstract out the sequence of aws media services and other services being used to make streaming possible. These channels are named based on the underlying aws media service it uses. For example, Medialive channels use AWS Elemental medialive service at its core whereas IVS channels use AWS IVS channels. For Medialive channels, it requires a pipeline of aws media services to be spinned up whereas IVS is much simpler to set up compared to former one.
 
