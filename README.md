@@ -57,23 +57,3 @@ There are two types of channels that can be used to stream events. Channels abst
 
 ## Tenants
 * [Tenants](Technical/Tenants/tenants.md)
-
-## Database tables
-1. [channels](Technical/Database/Tables/channels)
-2. [inputs](Technical/Database/Tables/inputs)
-3. [distributions](Technical/Database/Tables/distributions)
-4. [recordings](Technical/Database/Tables/recordings)
-5. [events](Technical/Database/Tables/events)
-6. [breakouts](Technical/Database/Tables/breakouts)
-7. [comments](Technical/Database/Tables/comments)
-8. [survey](Technical/Database/Tables/survey)
-9. [survey-reponse](Technical/Database/Tables/survey-reponse)
-10. [payments](Technical/Database/Tables/payments)
-11. [jobschedule](Technical/Database/Tables/jobschedule)
-12. [external-clients](Technical/Database/Tables/external-clients)
-13. [external-events](Technical/Database/Tables/external-events)
-14. [users](Technical/Database/Tables/users)
-15. [analytics](Technical/Database/Tables/analytics)
-16. [attendance](Technical/Database/Tables/attendance)
-17. [channel_stream_events](Technical/Database/Tables/channel_stream_events)
-18. [tenants](Technical/Database/Tables/tenants.md)
