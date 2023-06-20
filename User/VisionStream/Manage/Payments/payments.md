@@ -5,3 +5,16 @@ Payments view allows you to see payments which you have collected over the entir
 ## Overview
 
 Assigning a Charge value to a breakout will automatically invoke a payment step during your user's access to the live stream. Likewise, if no payment is required, you can easily configure a `Tip Jar` to your breakout, in which case it will invoke similarly the payment form. 
+​
+The payments page displays payments from both the [tenant stream viewer](../Subdomains/events.md) and the invoices page.
+​
+## Payment record fields
+​
+* Name 
+  - The "Payer Name" will be prominently shown at the beginning, followed by the relevant breakout name for which the user made a payment.
+* Amount
+  - The "Amount" field indicates amount paid by payer/person for respective breakout.
+* Date
+  - The "Date" field denotes the specific date when the payment was made.
+​
+Admin user has the ability to search for a specific record using the payer's name, and they can also view the records in a sorted order with respect to name, amount and date.
