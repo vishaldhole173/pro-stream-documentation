@@ -36,6 +36,8 @@ You get a custom built platform as an extension to your event. Regardless if you
 
 ## Admin
 
+* [Admin](User/VisionStream/Admin/admin.md)
+
 * [Platform](User/VisionStream/Admin/Platform/platform.md)
 
 * [Distributions](User/VisionStream/Admin/Distributions/distributions.md)
