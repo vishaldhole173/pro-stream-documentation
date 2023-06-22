@@ -1,6 +1,6 @@
-# Distributions
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/cloud.svg" width="20" height="20"> Distributions
 
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 A distribution speeds up the distribution of your static and dynamic web content, such as .html, .css, .php, image, and media files.
 

@@ -1,6 +1,6 @@
-# Log
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/flag.svg" width="20" height="20"> Log
 
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 - This feature allows you to view alerts and errors related to your event, which originate from the AWS services employed for streaming purposes.
 - It proves to be a useful tool for monitoring the progress of your event and ensuring that everything is running smoothly.
 

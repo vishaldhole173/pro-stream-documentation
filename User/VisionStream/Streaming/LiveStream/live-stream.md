@@ -1,8 +1,8 @@
-# Live Stream
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/tower-broadcast.svg" width="20" height="20"> Live Stream
 
 Live Stream view provides admin users with a list of all currently running breakouts, along with their corresponding account name.
 
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 When we are handling a large show for a client, it is not uncommon for any number of breakouts to be running.
 

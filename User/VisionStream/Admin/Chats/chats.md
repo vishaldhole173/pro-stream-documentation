@@ -1,8 +1,8 @@
-# Chats
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> Chats
 
 All VisionStream breakouts support chat which is available to all livestream attendees.
 
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 In the past, we have encountered team members utilizing the chat feature to communicate with each while setting up a livestream.
 

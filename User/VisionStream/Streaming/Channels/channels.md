@@ -1,12 +1,10 @@
-# Channels
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/tv.svg" width="20" height="20"> Channels
 
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
 
 * A Channel is a fundamental object in the VisionStream platform
 * Admin users can create one or more Channels for broadcasting
 * A Channel must have a unique pipeline associated with it
-
----
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20"> Create new channel
 
@@ -25,8 +23,6 @@ Press the '+' icon in the upper right of the Channels listing page to open the c
     - Picture URL you want to display for your channel
   - Description
     - Additional information about your channel
-
----
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/video.svg" width="20" height="20"> Broadcast viewer
 
@@ -64,7 +60,6 @@ Press the '+' icon in the upper right of the Channels listing page to open the c
     - Copy S3 URI
         - Used to copy the S3 of the final recording on the clipboard
 
----
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calendar-check.svg" width="20" height="20"> Set channel schedule
 
@@ -84,8 +79,6 @@ Press the calendar icon in the upper right of the Broadcast viewer icon to open 
   - Select Days
     - Weekly days on which you want to broadcast content
 
----
-
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/layer-group.svg" width="20" height="20"> Set channel content
 
 * First create channel content to associate it with the broadcast channel
@@ -95,14 +88,10 @@ Press the calendar icon in the upper right of the Broadcast viewer icon to open 
 * Set channel content order using move content up or move content down buttons
 * Broadcast content will play sequentially from top to bottom as per the channel content list
 
----
-
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle.svg" width="20" height="20"> Published channel indicator
 
 * Published Channels are designated by a green icon
 * Unpublished Channels are designated by an amber icon
-
----
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="20" height="20"> Delete channel
 

@@ -6,45 +6,45 @@ You get a custom built platform as an extension to your event. Regardless if you
 
 ## Manage
 
-* [Events](User/VisionStream/Manage/Events/events.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/flag.svg" width="20" height="20"> [Events](User/VisionStream/Manage/Events/events.md)
 
     * [Breakouts](User/VisionStream/Manage/Breakouts/breakouts.md)
 
-    * [Recordings](User/VisionStream/Manage/Breakouts/recordings.md)
+    * <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-play.svg" width="20" height="20"> [Recordings](User/VisionStream/Manage/Breakouts/recordings.md)
 
-* [Accounts](User/VisionStream/Manage/Accounts/accounts.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/city.svg" width="20" height="20"> [Accounts](User/VisionStream/Manage/Accounts/accounts.md)
 
-* [Users](User/VisionStream/Manage/Users/users.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user.svg" width="20" height="20"> [Users](User/VisionStream/Manage/Users/users.md)
 
-* [Payments](User/VisionStream/Manage/Payments/payments.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/dollar-sign.svg" width="20" height="20"> [Payments](User/VisionStream/Manage/Payments/payments.md)
 
-* [Subdomains](User/VisionStream/Manage/Subdomains/subdomains.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/rocket.svg" width="20" height="20"> [Subdomains](User/VisionStream/Manage/Subdomains/subdomains.md)
 
 ## Streaming
 
-* [Pipelines](User/VisionStream/Streaming/Pipelines/pipelines.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> [Pipelines](User/VisionStream/Streaming/Pipelines/pipelines.md)
 
-* [Analytics](User/VisionStream/Streaming/Analytics/analytics.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/chart-bar.svg" width="20" height="20"> [Analytics](User/VisionStream/Streaming/Analytics/analytics.md)
 
-* [Attendance](User/VisionStream/Streaming/Attendance/attendance.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calendar-check.svg" width="20" height="20"> [Attendance](User/VisionStream/Streaming/Attendance/attendance.md)
 
-* [Channels](User/VisionStream/Streaming/Channels/channels.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/tv.svg" width="20" height="20"> [Channels](User/VisionStream/Streaming/Channels/channels.md)
 
-* [Log](User/VisionStream/Streaming/Log/log.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/flag.svg" width="20" height="20"> [Log](User/VisionStream/Streaming/Log/log.md)
 
-* [Live Streams](User/VisionStream/Streaming/LiveStream/live-stream.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/tower-broadcast.svg" width="20" height="20"> [Live Streams](User/VisionStream/Streaming/LiveStream/live-stream.md)
 
 ## Admin
 
-* [Admin](User/VisionStream/Admin/admin.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user-plus.svg" width="20" height="20"> [Admin](User/VisionStream/Admin/admin.md)
 
-* [Platform](User/VisionStream/Admin/Platform/platform.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/chart-line.svg" width="20" height="20"> [Platform](User/VisionStream/Admin/Platform/platform.md)
 
-* [Distributions](User/VisionStream/Admin/Distributions/distributions.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/cloud.svg" width="20" height="20"> [Distributions](User/VisionStream/Admin/Distributions/distributions.md)
 
-* [Chats](User/VisionStream/Admin/Chats/chats.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20">  [Chats](User/VisionStream/Admin/Chats/chats.md)
 
-* [Invoices](User/VisionStream/Admin/Invoices/invoices.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/file-invoice-dollar.svg" width="20" height="20"> [Invoices](User/VisionStream/Admin/Invoices/invoices.md)
 
 # Technical
 

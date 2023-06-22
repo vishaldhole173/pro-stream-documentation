@@ -1,10 +1,10 @@
-# Subdomains
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/rocket.svg" width="20" height="20"> Subdomains
 
 A subdomain allows you to create a unique web URL that you can distribute to your attendees. This not only provides a personalized and branded web address but also gives you the flexibility to customize the user interface (UI) elements, such as colors, to align with your branding preferences. 
 
 Likewise, you can embed a subdomain into your website to redirect users to your live-stream event.
 
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 VisionStream will manage the entire flow within your subdomain, including authentication and payments.
 

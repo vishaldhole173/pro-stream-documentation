@@ -1,8 +1,8 @@
-# Account
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/city.svg" width="20" height="20"> Account
 
 An Account is a core object in the VisionStream platform.
 
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
 
 * Admin users create Accounts which encapsulate many core VisionStream objects
   - Users

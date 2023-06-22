@@ -1,6 +1,7 @@
-# Platform
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/chart-line.svg" width="20" height="20"> Platform
+
 Platform view provides the user with a comprehensive overview of costs and activity.
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 Platform statistics help you assess usage patterns and help you understand the extent to which you are utilizing each service.
 ####
 * Platform Charges (USD)

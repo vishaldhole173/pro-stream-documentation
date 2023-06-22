@@ -1,8 +1,8 @@
-# Invoices
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/file-invoice-dollar.svg" width="20" height="20"> Invoices
 
 Invoices allow account holders to view a comprehensive list of invoices associated with their accounts.
 
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 All the invoices are displayed in a table, providing users with essential details such as invoice numbers, customer email, payment status, remaining balance, due dates, and invoice creation dates.
 
