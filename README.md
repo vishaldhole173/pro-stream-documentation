@@ -2,7 +2,7 @@
 
 You get a custom built platform as an extension to your event. Regardless if your event is a solo guitar player streaming to their fans, or a multi-city conference with millions of attendees. Vision Stream supports it all.
 
-# User
+# VisionStream
 
 ## Manage
 
@@ -45,6 +45,36 @@ You get a custom built platform as an extension to your event. Regardless if you
 * <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20">  [Chats](User/VisionStream/Admin/Chats/chats.md)
 
 * <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/file-invoice-dollar.svg" width="20" height="20"> [Invoices](User/VisionStream/Admin/Invoices/invoices.md)
+
+# MediaManager
+
+## Find
+
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/heart.svg" width="20" height="20"> [Favorites](User/MediaManager/Find/Favorites/favorites.md)
+
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/upload.svg" width="20" height="20"> [Recently Uploaded](User/MediaManager/Find/Recently%20Uploaded/recently-uploaded.md)
+
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calendar.svg" width="20" height="20"> [Find by Date & Type](User/MediaManager/Find/Find%20by%20Date%20%26%20Type/find-by-date-and-type.md)
+
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass.svg" width="20" height="20"> [Saved Searches](User/MediaManager/Find/Saved%20Searches/saved-searches.md)
+
+## Drives
+
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> [Create New Drive](User/MediaManager/Drives/Create%20New%20Drive/create-new-drive.md)
+
+## Recent Projects
+
+* [Show All Projects](User/MediaManager/Recent%20Projects/All%20Projects/all-projects.md)
+
+## Recent Keywords
+
+* [Show All Keywords](User/MediaManager/Recent%20Keywords/All%20Keywords/all-keywords.md)
+
+## Usage
+
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/database.svg" width="20" height="20"> [Usage](User/MediaManager/Usage/Drives/drives.md)
+
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-info.svg" width="20" height="20"> [Details](User/MediaManager/Usage/Details/drive-details.md)
 
 # Technical
 
