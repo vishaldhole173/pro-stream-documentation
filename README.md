@@ -52,23 +52,23 @@ You get a custom built platform as an extension to your event. Regardless if you
 
 * <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/heart.svg" width="20" height="20"> [Favorites](User/MediaManager/Find/Favorites/favorites.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/upload.svg" width="20" height="20"> [Recently Uploaded](User/MediaManager/Find/Recently%20Uploaded/recently-uploaded.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/upload.svg" width="20" height="20"> [Recently Uploaded](User/MediaManager/Find/Recently-Uploaded/recently-uploaded.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calendar.svg" width="20" height="20"> [Find by Date & Type](User/MediaManager/Find/Find%20by%20Date%20%26%20Type/find-by-date-and-type.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calendar.svg" width="20" height="20"> [Find by Date & Type](User/MediaManager/Find/Find-by-Date-and-Type/find-by-date-and-type.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass.svg" width="20" height="20"> [Saved Searches](User/MediaManager/Find/Saved%20Searches/saved-searches.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass.svg" width="20" height="20"> [Saved Searches](User/MediaManager/Find/Saved-Searches/saved-searches.md)
 
 ## Drives
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> [Create New Drive](User/MediaManager/Drives/Create%20New%20Drive/create-new-drive.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> [Create New Drive](User/MediaManager/Drives/Create-New-Drive/create-new-drive.md)
 
 ## Recent Projects
 
-* [Show All Projects](User/MediaManager/Recent%20Projects/All%20Projects/all-projects.md)
+* [Show All Projects](User/MediaManager/Recent-Projects/All-Projects/all-projects.md)
 
 ## Recent Keywords
 
-* [Show All Keywords](User/MediaManager/Recent%20Keywords/All%20Keywords/all-keywords.md)
+* [Show All Keywords](User/MediaManager/Recent-Keywords/All-Keywords/all-keywords.md)
 
 ## Usage
 
