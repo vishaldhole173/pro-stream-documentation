@@ -81,19 +81,29 @@ You get a custom built platform as an extension to your event. Regardless if you
 ## Channel Types
 There are two types of channels that can be used to stream events. Channels abstract out the sequence of aws media services and other services being used to make streaming possible. These channels are named based on the underlying aws media service it uses. For example, Medialive channels use AWS Elemental medialive service at its core whereas IVS channels use AWS IVS channels. For Medialive channels, it requires a pipeline of aws media services to be spinned up whereas IVS is much simpler to set up compared to former one.
 
-* [Medialive](Technical/Channel-Types/AWS-Elemental-MediaLive/Setup)
-* [IVS](Technical/Channel-Types/Amazon-Interactive-Video-Service/Setup)
+* [Medialive](Technical/Pipeline-Types/AWS-Elemental-MediaLive/elemental-media-live.md)
+    - [Automatic input failover configuration](Technical/Pipeline-Types/AWS-Elemental-MediaLive/Automatic-input-failover/automatic-input-failover-configuration.md)
+
+    - [Automatic input failover in a single pipeline](Technical/Pipeline-Types/AWS-Elemental-MediaLive/Automatic-input-failover/automatic-input-failover-in-a-single-pipeline.md)
+
+    - [Automatic input failover in a standard pipeline](Technical/Pipeline-Types/AWS-Elemental-MediaLive/Automatic-input-failover/automatic-input-failover-in-a-standard-pipeline.md)
+
+    - [Manually forcing a failure](Technical/Pipeline-Types/AWS-Elemental-MediaLive/Automatic-input-failover/manually-forcing-a-failover.md.md)
+
+* [IVS](Technical/Pipeline-Types/Amazon-Interactive-Video-Service/interactive-video-service.md)
 
 ## Attendance
 * [Attendance](Technical/Attendance/attendance.md)
+
 * [Device Limit](Technical/Attendance/device-limit.md)
 
 ## Billing
 * [Billing](Technical/Billing/billing.md)
 
 ## CloudFront Distributions
-* [CloudFront Distributions](Technical/CloudFront-Distributions/CloudFront-Distributions.md)
-* [Security](Technical/CloudFront-Distributions/security.md)
+* [CloudFront Distributions](Technical/CloudFront-Distributions/cloudfront-distributions.md)
+
+* [CloudFront Security](Technical/CloudFront-Distributions/cloudFront-security.md)
 
 ## Tenants
 * [Tenants](Technical/Tenants/tenants.md)
