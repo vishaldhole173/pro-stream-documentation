@@ -103,3 +103,16 @@ Distribution is attached with Breakout.
 ```
 
 3. While strating a breakout, if server notices that no distribution is attached with the channel (as if someone accidentally deleted the distribution), then **_ensureDistribution()** function creates a new distribution with same mediaPackage endpoint and attaches it with the channel in DB
+
+---
+
+## Recording and MediaManager CloudFront Distribution
+
+* AWS Distribution Id: E3FEGSC0PV886G
+
+* AWS Region: Global
+
+* Used to deliver MediaManger media and stream recordings to the app.
+
+* The properties to understand in the `MediaManagerBucket` configuration are:
+  - cdcd
