@@ -1,7 +1,7 @@
-# Elemental Media Live
+# Elemental MediaLive
 
 ## Overview
-Medialive channels use the following AWS media services for streaming events. Do not confuse it with AWS Elemental MediaLive. We call it Medialive because we think this service does the heavy lifting task of encoding streams.
+MediaLive channels use the following AWS media services for streaming events. Do not confuse it with AWS Elemental MediaLive. We call it MediaLive because we think this service does the heavy lifting task of encoding streams.
 
 ### 1. AWS Elemental MediaLive
 Encode live video for broadcast and streaming to any device. AWS Elemental MediaLive is a broadcast-grade live video processing service.
@@ -23,9 +23,8 @@ Process video files and clips to prepare on-demand content for distribution or a
 
 <a href="https://aws.amazon.com/mediaconvert/" target="_blank">Read More...</a>
 
-## Medialive channel pipeline
-![Medialive channel pipeline](https://d2908q01vomqb2.cloudfront.net/fb644351560d8296fe6da332236b1f8d61b2828a/2020/07/20/Content-Delivery-Network-process-Image.png)
-
+## MediaLive channel pipeline
+![MediaLive channel pipeline](https://d2908q01vomqb2.cloudfront.net/fb644351560d8296fe6da332236b1f8d61b2828a/2020/07/20/Content-Delivery-Network-process-Image.png)
 
 Diagram: VisionStream configuration
 
@@ -37,7 +36,7 @@ Diagram: VisionStream configuration
 * [Create MediaPackage Channel](#create-mediapackage-channel)
 * [Create MediaPackage endpoint](#create-mediapackage-endpoint)
 
-**AWS Elemental Medialive configuration**
+**AWS Elemental MediaLive configuration**
 * [Create MediaLive Input Security Group](#create-medialive-input-security-group)
 * [Create MediaLive Input](#create-medialive-input)
 * [Create MediaLive Channel](#create-medialive-channel)
@@ -46,9 +45,9 @@ Diagram: VisionStream configuration
 
 MediaPackage Channels expects an Encoder to send it "Live Content Stream". It then packages the stream and outputs to an `MediaPackage Endpoint` which is consumed "Downstream Devices/Services". In our case, the "Downstream Service" is Cloudfront.
 
-When a MediaPackage channel is created, exactly 2 Input(s) are created automatically. These inputs are intact throughout the lifecycle of the Channel. These Inputs consume the "Live Content Stream" from an Encoder (in our case, Medialive Channels).
+When a MediaPackage channel is created, exactly 2 Input(s) are created automatically. These inputs are intact throughout the lifecycle of the Channel. These Inputs consume the "Live Content Stream" from an Encoder (in our case, MediaLive Channels).
 
-From the [Official Docs regarding "Live supported codecs and input types"](https://docs.aws.amazon.com/mediapackage/latest/ug/supported-inputs-live.html), we are using `hls` (which is supported) as the input type for our MediaPackage Inputs.
+From the <a href="https://docs.aws.amazon.com/mediapackage/latest/ug/supported-inputs-live.html" target="_blank">Official Docs regarding "Live supported codecs and input types"</a>, we are using `hls` (which is supported) as the input type for our MediaPackage Inputs.
 
 ```
     const params = {
@@ -67,7 +66,7 @@ Please note that, while creating a MediaPackage Channel we are not specifying th
 
 ###  Create MediaPackage Endpoint
 
-A [MediaPackage Endpoint](https://docs.aws.amazon.com/mediapackage/latest/ug/endpoints.html) is integrated into a MediaPackage Channel, which is nothing but the **Streaming URL** and eventually Wrapped by CloudFront.
+A <a href="https://docs.aws.amazon.com/mediapackage/latest/ug/endpoints.html" target="_blank">MediaPackage Endpoint</a> is integrated into a MediaPackage Channel, which is nothing but the **Streaming URL** and eventually Wrapped by CloudFront.
 
 ```
     const packages = {
@@ -129,13 +128,13 @@ A [MediaPackage Endpoint](https://docs.aws.amazon.com/mediapackage/latest/ug/end
 
 Looking at the `params` from the above code, it is inferred that only `HlsPackage` property is used from `packages` object. Hence properties like `CmafPackage`, `DashPackage`, `MssPackage` can be removed. Also, looking at the `Input Type` of Channel (which is `hls`), it is intuitive to say that only `HlsPackage` would be required.
 
-Before understanding any further, we need to know know some terminologies & concepts:
+Before understanding any further, we need to understand some terminologies & concepts:
 
 * **Manifests** - Containers for Live or OnDemand Streaming. The downstream devices are sent a "Manifest" which contains meta-data about the Streaming Session.
 
 * **SCTE-35 Markers** - Contained in the Live Stream, and are responsible for inserting Dynamic Ads into a Live Stream.
 
-Apart from the [Official AWS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/MediaPackage.html#createOriginEndpoint-property), let us look into what the properties of `package.HlsPackage` actually are:
+Apart from the <a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/MediaPackage.html#createOriginEndpoint-property" target="_blank">Official AWS Docs, let us look into what the properties of `package.HlsPackage` actually are:
 1. IncludeIframeOnlyStream: false
     - When Set, enabled "Forward" & "Rewind" capabilities to the incoming stream in Downstream Player Applications
 2. PlaylistType: 'NONE'
@@ -155,7 +154,7 @@ Apart from the [Official AWS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/
     - The SCTE-35 Messages are copied and packaged to Endpoint without any processing.
 
 ### Create MediaLive Input Security Group
-An input security group protects the Encoder by allowing only whitelisted IP to shoot Incoming Traffic (the Live Stream). A list of Purposes can be found [in Official AWS Docs](https://docs.aws.amazon.com/medialive/latest/ug/purpose-input-security-groups.html).
+An input security group protects the Encoder by allowing only whitelisted IP to shoot Incoming Traffic (the Live Stream). A list of Purposes can be found <a href="https://docs.aws.amazon.com/medialive/latest/ug/purpose-input-security-groups.html" target="_blank">in Official AWS Docs</a>.
 
 From our codebase, we call `createInputSecurityGroup` of `MediaLive API` to create an Input Security Group:
 
@@ -170,7 +169,7 @@ From our codebase, we call `createInputSecurityGroup` of `MediaLive API` to crea
 
 ### Create MediaLive Input
 
-Now since we have the Input Security Group, we create [MediaLive Input](https://docs.aws.amazon.com/medialive/latest/ug/inputs.html), which are eventually consumed by `MediaLive Channels`.
+Now since we have the Input Security Group, we create <a href="https://docs.aws.amazon.com/medialive/latest/ug/inputs.html" target="_blank">MediaLive Input</a>, which are eventually consumed by `MediaLive Channels`.
 
 From our codebase, we call `createInputSecurityGroup` of `MediaLive API` to create an Input:
 
@@ -195,15 +194,15 @@ The properties to understand in the `params` are:
 
 * InputSecurityGroups - To filter allowance of Incoming Traffic only by a set of rules.
 * Type: "RTMP_PUSH" - the consumers open a connection to the server and keep it constantly active. The producer will send (push) all new events to the consumers using that single always-on connection. In other words, the producer PUSHes the new events to the consumers.
-* Destinations - Since, we have the Type as "RTMP_PUSH", two destinations are provided which escalates the Input Class to "STANDARD_INPUT" (instead of "SINGLE_INPUT"). This enables the the Producer to replicate the Live Stream Content by attaching the source to both of the Inputs, which is the first step towards Resiliency. In our case, however we are using only `live/input1` Input.
+* Destinations - Since, we have the Type as "RTMP_PUSH", two destinations are provided which escalates the Input Class to "STANDARD_INPUT" (instead of "SINGLE_INPUT"). This enables the Producer to replicate the Live Stream Content by attaching the source to both of the Inputs, which is the first step towards Resiliency. In our case, however we are using only `live/input1` Input.
 
 ### Create MediaLive Channel
 
 While the source stream is being encoded, we derive two outputs:
 * Encoded stream sent downstream to MediaPackage Inputs (Configured in `_buildMediaPackageOutputGroup()`)
-* Segement Files (.ts) stored in S3 (Confugured in `_buildArchiveOutputGroup()`)
+* Segment Files (.ts) stored in S3 (Configured in `_buildArchiveOutputGroup()`)
 
-The code below is for Archieving the live stream to .ts files:
+The code below is for Archiving the live stream to .ts files:
 
 ```
     function _buildArchiveOutputGroup(rolloverInterval) {
@@ -274,18 +273,18 @@ The code below is for Archieving the live stream to .ts files:
     }
 ```
 
-Before walking through the settings, let us be familiar with some terminilogies:
+Before walking through the settings, let us be familiar with some terminologies:
 
 * Transport Stream - MPEG transport stream (MPEG-TS, MTS) or simply transport stream (TS) is a standard digital container format for transmission and storage of audio, video.
 * Programs & PMT - Transport stream has a concept of programs. Every program is described by a Program Map Table (PMT). The elementary streams associated with that program have PIDs listed in the PMT. Another PID is associated with the PMT itself. For instance, a transport stream used in digital television might contain three programs, to represent three television channels. Suppose each channel consists of one video stream, one or two audio streams, and any necessary metadata. A receiver wishing to decode one of the three channels merely has to decode the payloads of each PID associated with its program.
 * Caption Service Descriptors - Caption Service Descriptors are used to aid in the navigation of digital closed caption services and are carried in the PMT.
 * EBIF - Enhanced TV Binary Interchange Format is a multimedia content format. The primary purpose of the EBIF content format is to represent an optimized collection of widget and byte code specifications that define one or more multimedia pages, similar to web pages, but specialized for use within an enhanced television or interactive television system.
-* Nielsen Inaudible Tones - Non-Intrusive content within the Live Stream, serving almost as "meta data" that allows upstream Producer to track the number of Consumer downstream. Every encoder has an "ID3 Tag Inserter". When an encoder detectes such tones, it inserts ID3 tags, which are eventually tracked when consumed downstream.
+* Nielsen Inaudible Tones - Non-Intrusive content within the Live Stream, serving almost as "metadata" that allows upstream Producer to track the number of Consumer downstream. Every encoder has an "ID3 Tag Inserter". When an encoder detects such tones, it inserts ID3 tags, which are eventually tracked when consumed downstream.
 
-As the name suggest, `ArchieveOutputGroup` is basically the configuration which the Encoder uses to spit the `.ts` Segement Files into S3 while encoding the live stream. Ignoring the hierarchy, let's understand the properties:
+As the name suggest, `ArchieveOutputGroup` is basically the configuration which the Encoder uses to spit the `.ts` Segment Files into S3 while encoding the live stream. Ignoring the hierarchy, let's understand the properties:
 
 * RolloverInterval - Number of seconds of "encoded" Live Stream Content stored in each Segment file.
-* M2tsSettings - From [Creating an archive output group](https://docs.aws.amazon.com/medialive/latest/ug/creating-archive-output-group.html), it is evident that the default extension for archive files are **.m2ts**. ([Also See Examples](https://docs.aws.amazon.com/medialive/latest/ug/archive-examples.html)). Hence the `M2tsSettings`. Looking closely, "m" suggests "MPEG" (Input) and "t2" suggests the ".ts" segment files (output).
+* M2tsSettings - From <a href="https://docs.aws.amazon.com/medialive/latest/ug/creating-archive-output-group.html" target="_blank">Creating an archive output group</a>, it is evident that the default extension for archive files are **.m2ts**. <a href="https://docs.aws.amazon.com/medialive/latest/ug/archive-examples.html" target="_blank">See Examples. Hence, the `M2tsSettings`. Looking closely, "m" suggests "MPEG" (Input) and "t2" suggests the ".ts" segment files (output).
 * CcDescriptor: 'DISABLED' - When 'ENABLED', generates captionServiceDescriptor in PMT. This is how we can have captions in the Player.
 * Ebif: 'NONE' - When 'PASSTHROUGH', allows EBIF Data from Input Source to pass down to Output.
 * NielsenId3Behavior: 'NO_PASSTHROUGH' - When 'PASSTHROUGH', it permits the Encoder to insert ID3 Tags in the output whenever a Nielsen Inaudible Tone is detected in the Input.
@@ -380,7 +379,7 @@ MediaLive searches for a "Destination", matching an Output group. We have specif
     }
 ```
 
-Now that we have all the prequisites met, we can peek into  `createChannel` parameters which eventually configures the whole MediaLive Channel:
+Now that we have all the requisites met, we can peek into  `createChannel` parameters which eventually configures the whole MediaLive Channel:
 
 ```
     const s3Bucket = process.env.S3_RECORDING_BUCKET;
@@ -655,11 +654,11 @@ Now that we have all the prequisites met, we can peek into  `createChannel` para
         resolve(data);
     });
 ```
-Before understanding this gigantic parameter tree, let us be awar of some basic concepts:
-* Codec - Program that Compresses(co) and Decompresses(dec) Media Files to be trasnferred over the internet. If the Encoder uses Codec C1, te downstream consumers must also use Codec C1 to decode the content and play the Media.
+Before understanding this gigantic parameter tree, let us be aware of some basic concepts:
+* Codec - Program that Compresses(co) and Decompresses(dec) Media Files to be transferred over the internet. If the Encoder uses Codec C1, te downstream consumers must also use Codec C1 to decode the content and play the Media.
 * H.264 - The Codec that we use. For each of the Video Outputs, we provide a separate H.264 Configuration which the Codec uses to Encode/Decode our Live Stream.
 
 Let's understand the params now:
-* InputSpecification - All the way till now we talked about `MPEG`, while descripbing Transport Tream or while getting to HLS. We use MPEG-2 Input at 10MBPS Bitrate at HD Resolution. 
+* InputSpecification - All the way till now we talked about `MPEG`, while describing Transport stream or while getting to HLS. We use MPEG-2 Input at 10MBPS Bitrate at HD Resolution. 
 * EncoderSettings.AudioDescriptions - We specify 4 `Audio Outputs`, ranging from Bitrate 128000 to 192000 at 48000 SampleRate
 * EncoderSettings.VideoDescriptions - We specify 4 `Video Outputs`, ranging from Bitrate 30BPS to 320x240 to 1920x1080 Resolutions
