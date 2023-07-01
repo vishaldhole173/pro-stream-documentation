@@ -1,7 +1,7 @@
 # MediaLive
 
 ## Overview
-MediaLive channels use the following AWS media services for streaming events. Do not confuse it with AWS Elemental MediaLive. We call it MediaLive because we think this service does the heavy lifting task of encoding streams.
+MediaLive channels use the following AWS media services for securing, streaming, distributing and creating on-demand recordings.
 
 ### 1. AWS Elemental MediaLive
 Encode live video for broadcast and streaming to any device. AWS Elemental MediaLive is a broadcast-grade live video processing service.
@@ -662,7 +662,7 @@ Before understanding this gigantic parameter tree, let's be aware of some basic 
 * H.264 - The Codec that we use.
   - For each of the Video Outputs, we provide a separate H.264 Configuration which the Codec uses to Encode/Decode our Live Stream.
 
-Let's understand the params now:
+Specifications and Descriptions:
 * InputSpecification
   - We specify MPEG-2 Input at 10MBPS Bitrate at HD Resolution. 
 * EncoderSettings.AudioDescriptions
