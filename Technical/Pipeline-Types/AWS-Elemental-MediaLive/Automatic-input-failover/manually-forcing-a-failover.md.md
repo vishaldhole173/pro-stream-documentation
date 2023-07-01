@@ -1,3 +1,5 @@
+# Forcing a Failover
+
 You can set up automatic input failover for manual failover.
 
 Keep in mind that the content in the failover pair is identical. Therefore, you only switch between them for specific reasons. For example:

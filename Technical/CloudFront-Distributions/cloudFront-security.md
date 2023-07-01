@@ -1,5 +1,6 @@
+# Distributions
 
-# Navigating a Playlist
+## Security & Navigating a Playlist
 
 When playing a Video from Cloudfront or MediaPackage Playback Endpoint, the extension is seen to be a `.m3u8` one. M3U8 refers to a playlist, i.e, when navigated to we get a response like
 

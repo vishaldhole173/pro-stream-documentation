@@ -1,5 +1,5 @@
 # Events
-An Event is a core object in the VisionStream platform.
+An Event is a core VisionStream component.
 
 ## Overview
 Users can browse through a selection of events and choose which one they would like to stream.

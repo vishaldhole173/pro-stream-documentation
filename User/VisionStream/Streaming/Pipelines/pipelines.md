@@ -1,10 +1,10 @@
 # <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> Pipelines
 
-A Pipeline is a core VisionStream object.
+A Pipeline is a core VisionStream component.
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-Pipelines are used for streaming VisionStream breakouts, and for streaming Mp4 static content over VisionStream
+Pipelines are used for streaming VisionStream breakouts, and for streaming MP4 static content over VisionStream
 channels.
 
 A VisionStream pipeline is attached to a breakout to facilitate a live content stream. The input of the stream is
