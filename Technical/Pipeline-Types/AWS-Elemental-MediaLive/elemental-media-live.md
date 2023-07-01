@@ -4,16 +4,24 @@
 Medialive channels use the following AWS media services for streaming events. Do not confuse it with AWS Elemental MediaLive. We call it Medialive because we think this service does the heavy lifting task of encoding streams.
 
 ### 1. AWS Elemental MediaLive
-Encode live video for broadcast and streaming to any device. AWS Elemental MediaLive is a broadcast-grade live video processing service. <a href="https://aws.amazon.com/medialive/" target="_blank">Read More...</a>
+Encode live video for broadcast and streaming to any device. AWS Elemental MediaLive is a broadcast-grade live video processing service.
+
+<a href="https://aws.amazon.com/medialive/" target="_blank">Read More...</a>
 
 ### 2. AWS Elemental MediaPackage
-Easily prepare and protect video for delivery to Internet devices. AWS Elemental MediaPackage reliably prepares and protects your video for delivery over the Internet. From a single video input, AWS Elemental MediaPackage creates video streams formatted to play on connected TVs, mobile phones, computers, tablets, and game consoles. [Read more.](https://aws.amazon.com/mediapackage/).
+Easily prepare and protect video for delivery to Internet devices. AWS Elemental MediaPackage reliably prepares and protects your video for delivery over the Internet. From a single video input, AWS Elemental MediaPackage creates video streams formatted to play on connected TVs, mobile phones, computers, tablets, and game consoles.
+
+<a href="https://aws.amazon.com/mediapackage/" target="_blank">Read More...</a>
 
 ### 3. AWS CloudFront
-Amazon CloudFront speeds up distribution of your static and dynamic web content, such as .html, .css, .php, image, and media files. When users request your content, CloudFront delivers it through a worldwide network of edge locations that provide low latency and high performance. [Read more.](https://docs.aws.amazon.com/cloudfront/index.html)
+Amazon CloudFront speeds up distribution of your static and dynamic web content, such as .html, .css, .php, image, and media files. When users request your content, CloudFront delivers it through a worldwide network of edge locations that provide low latency and high performance.
+
+<a href="https://aws.amazon.com/cloudfront/" target="_blank">Read More...</a>
 
 ### 4. AWS Elemental MediaConvert
-Process video files and clips to prepare on-demand content for distribution or archiving. [Read more.](https://aws.amazon.com/mediaconvert/)
+Process video files and clips to prepare on-demand content for distribution or archiving.
+
+<a href="https://aws.amazon.com/mediaconvert/" target="_blank">Read More...</a>
 
 ## Medialive channel pipeline
 ![Medialive channel pipeline](https://d2908q01vomqb2.cloudfront.net/fb644351560d8296fe6da332236b1f8d61b2828a/2020/07/20/Content-Delivery-Network-process-Image.png)
