@@ -1,5 +1,5 @@
 # Events
-An Event is a core object in the VisionStream platform.
+An Event is a core VisionStream component.
 
 ## Overview
 Users can browse through a selection of events and choose which one they would like to stream.
@@ -86,4 +86,3 @@ Users will find "Calendar" button in "My Profile" section on the top right corne
   - If the breakout is free, user will redirect to donate tip page.
   - If the breakout is paid, user will redirect to the payment process.
   - After a successful payment process, user can view streams or recordings of selected breakouts.
-  

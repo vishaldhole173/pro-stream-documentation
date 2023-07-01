@@ -1,5 +1,5 @@
 # <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/flag.svg" width="20" height="20"> Event
-An Event is a core object in the VisionStream platform.
+An Event is a core VisionStream component.
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 Admin users create Events which encapsulate one or more 'Breakouts'.
