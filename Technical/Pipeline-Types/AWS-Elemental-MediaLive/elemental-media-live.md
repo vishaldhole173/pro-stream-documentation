@@ -1,4 +1,4 @@
-# Elemental MediaLive
+# MediaLive
 
 ## Overview
 MediaLive channels use the following AWS media services for streaming events. Do not confuse it with AWS Elemental MediaLive. We call it MediaLive because we think this service does the heavy lifting task of encoding streams.
@@ -128,7 +128,7 @@ A <a href="https://docs.aws.amazon.com/mediapackage/latest/ug/endpoints.html" ta
 
 Looking at the `params` from the above code, it is inferred that only `HlsPackage` property is used from `packages` object. Hence properties like `CmafPackage`, `DashPackage`, `MssPackage` can be removed. Also, looking at the `Input Type` of Channel (which is `hls`), it is intuitive to say that only `HlsPackage` would be required.
 
-Before understanding any further, we need to understand some terminologies & concepts:
+Before going any further, let's ensure we understand some terminologies & concepts:
 
 * **Manifests** - Containers for Live or OnDemand Streaming. The downstream devices are sent a "Manifest" which contains meta-data about the Streaming Session.
 
@@ -154,7 +154,9 @@ Apart from the <a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/
     - The SCTE-35 Messages are copied and packaged to Endpoint without any processing.
 
 ### Create MediaLive Input Security Group
-An input security group protects the Encoder by allowing only whitelisted IP to shoot Incoming Traffic (the Live Stream). A list of Purposes can be found <a href="https://docs.aws.amazon.com/medialive/latest/ug/purpose-input-security-groups.html" target="_blank">in Official AWS Docs</a>.
+An input security group protects the Encoder by allowing only whitelisted IP to shoot Incoming Traffic (the Live Stream).
+
+A list of security purposes can be found <a href="https://docs.aws.amazon.com/medialive/latest/ug/purpose-input-security-groups.html" target="_blank">in Official AWS Docs</a>.
 
 From our codebase, we call `createInputSecurityGroup` of `MediaLive API` to create an Input Security Group:
 
@@ -169,7 +171,7 @@ From our codebase, we call `createInputSecurityGroup` of `MediaLive API` to crea
 
 ### Create MediaLive Input
 
-Now since we have the Input Security Group, we create <a href="https://docs.aws.amazon.com/medialive/latest/ug/inputs.html" target="_blank">MediaLive Inputs</a>, which are eventually consumed by `MediaLive Channels`.
+After creating the Input Security Group, we create <a href="https://docs.aws.amazon.com/medialive/latest/ug/inputs.html" target="_blank">MediaLive Inputs</a>, which are eventually consumed by `MediaLive Channels`.
 
 From our codebase, we call `createInputSecurityGroup` of `MediaLive API` to create an Input:
 
@@ -193,7 +195,7 @@ From our codebase, we call `createInputSecurityGroup` of `MediaLive API` to crea
 The properties to understand in the `params` are: 
 
 * InputSecurityGroups - To filter allowance of Incoming Traffic only by a set of rules.
-* Type: "RTMP_PUSH" - the consumers open a connection to the server and keep it constantly active. The producer will send (push) all new events to the consumers using that single always-on connection. In other words, the producer PUSHes the new events to the consumers.
+* Type: "RTMP_PUSH" - the consumers open a connection to the server and keeps it constantly active. The producer will send (push) all new events to the consumers using that single always-on connection. In other words, the producer PUSHes the new events to the consumers.
 * Destinations - Since, we have the Type as "RTMP_PUSH", two destinations are provided which escalates the Input Class to "STANDARD_INPUT" (instead of "SINGLE_INPUT"). This enables the Producer to replicate the Live Stream Content by attaching the source to both of the Inputs, which is the first step towards Resiliency. In our case, however we are using only `live/input1` Input.
 
 ### Create MediaLive Channel
@@ -273,7 +275,7 @@ The code below is for Archiving the live stream to .ts files:
     }
 ```
 
-Before walking through the settings, let us be familiar with some terminologies:
+Before walking through the settings, let's familiarize ourselves with some terminologies:
 
 * Transport Stream - MPEG transport stream (MPEG-TS, MTS) or simply transport stream (TS) is a standard digital container format for transmission and storage of audio, video.
 * Programs & PMT - Transport stream has a concept of programs. Every program is described by a Program Map Table (PMT). The elementary streams associated with that program have PIDs listed in the PMT. Another PID is associated with the PMT itself. For instance, a transport stream used in digital television might contain three programs, to represent three television channels. Suppose each channel consists of one video stream, one or two audio streams, and any necessary metadata. A receiver wishing to decode one of the three channels merely has to decode the payloads of each PID associated with its program.
@@ -654,11 +656,16 @@ Now that we have all the requisites met, we can peek into  `createChannel` param
         resolve(data);
     });
 ```
-Before understanding this gigantic parameter tree, let us be aware of some basic concepts:
-* Codec - Program that Compresses(co) and Decompresses(dec) Media Files to be transferred over the internet. If the Encoder uses Codec C1, te downstream consumers must also use Codec C1 to decode the content and play the Media.
-* H.264 - The Codec that we use. For each of the Video Outputs, we provide a separate H.264 Configuration which the Codec uses to Encode/Decode our Live Stream.
+Before understanding this gigantic parameter tree, let's be aware of some basic concepts:
+* Codec - Program that Compresses(co) and Decompresses(dec) Media Files to be transferred over the internet.
+  - If the Encoder uses Codec C1, te downstream consumers must also use Codec C1 to decode the content and play the Media.
+* H.264 - The Codec that we use.
+  - For each of the Video Outputs, we provide a separate H.264 Configuration which the Codec uses to Encode/Decode our Live Stream.
 
 Let's understand the params now:
-* InputSpecification - All the way till now we talked about `MPEG`, while describing Transport stream or while getting to HLS. We use MPEG-2 Input at 10MBPS Bitrate at HD Resolution. 
-* EncoderSettings.AudioDescriptions - We specify 4 `Audio Outputs`, ranging from Bitrate 128000 to 192000 at 48000 SampleRate
-* EncoderSettings.VideoDescriptions - We specify 4 `Video Outputs`, ranging from Bitrate 30BPS to 320x240 to 1920x1080 Resolutions
+* InputSpecification
+  - We specify MPEG-2 Input at 10MBPS Bitrate at HD Resolution. 
+* EncoderSettings.AudioDescriptions
+  - We specify 4 `Audio Outputs`, ranging from Bitrate 128000 to 192000 at 48000 SampleRate
+* EncoderSettings.VideoDescriptions
+  - We specify 4 `Video Outputs`, ranging from Bitrate 30BPS to 320x240 to 1920x1080 Resolutions
