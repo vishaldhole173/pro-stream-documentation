@@ -4,7 +4,7 @@
 Medialive channels use the following AWS media services for streaming events. Do not confuse it with AWS Elemental MediaLive. We call it Medialive because we think this service does the heavy lifting task of encoding streams.
 
 ### 1. AWS Elemental MediaLive
-Encode live video for broadcast and streaming to any device. AWS Elemental MediaLive is a broadcast-grade live video processing service. [Read more.](https://aws.amazon.com/medialive/).
+Encode live video for broadcast and streaming to any device. AWS Elemental MediaLive is a broadcast-grade live video processing service. <a href="https://aws.amazon.com/medialive/" target="_blank">Read More...</a>
 
 ### 2. AWS Elemental MediaPackage
 Easily prepare and protect video for delivery to Internet devices. AWS Elemental MediaPackage reliably prepares and protects your video for delivery over the Internet. From a single video input, AWS Elemental MediaPackage creates video streams formatted to play on connected TVs, mobile phones, computers, tablets, and game consoles. [Read more.](https://aws.amazon.com/mediapackage/).
