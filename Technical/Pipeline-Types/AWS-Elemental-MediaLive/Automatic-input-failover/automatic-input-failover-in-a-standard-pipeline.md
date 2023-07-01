@@ -1,3 +1,5 @@
+# Standard Pipeline Failover
+
 You can implement automatic input failover in a single-pipeline channel to protect the channel from failure in the upstream system or the network connection that is upstream of MediaLive.
 
 You can implement automatic input failover in push inputs, but not in pull inputs.
