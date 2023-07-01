@@ -17,7 +17,7 @@ Process video files and clips to prepare on-demand content for distribution or a
 ![Medialive channel pipeline](https://d2908q01vomqb2.cloudfront.net/fb644351560d8296fe6da332236b1f8d61b2828a/2020/07/20/Content-Delivery-Network-process-Image.png)
 
 
-Diagram: Visionstream configuration
+Diagram: VisionStream configuration
 
 ![Visionstream configuration](../images/vision_stream_config.png)
 

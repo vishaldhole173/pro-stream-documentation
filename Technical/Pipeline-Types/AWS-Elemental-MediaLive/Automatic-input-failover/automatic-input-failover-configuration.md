@@ -1,3 +1,5 @@
+# Failover
+
 ## Inputs
 
 MediaLive always creates two endpoints:
