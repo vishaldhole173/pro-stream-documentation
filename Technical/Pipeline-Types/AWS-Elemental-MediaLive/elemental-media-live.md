@@ -1,4 +1,6 @@
-# Medialive Channels
+# Elemental Media Live
+
+## Medialive Channels
 Medialive channels use the following AWS media services for streaming events. Do not confuse it with AWS Elemental MediaLive. We call it Medialive because we think this service does the heavy lifting task of encoding streams.
 
 ### 1. AWS Elemental MediaLive
