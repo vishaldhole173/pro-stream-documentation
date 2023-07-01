@@ -134,7 +134,7 @@ Before understanding any further, we need to understand some terminologies & con
 
 * **SCTE-35 Markers** - Contained in the Live Stream, and are responsible for inserting Dynamic Ads into a Live Stream.
 
-Apart from the <a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/MediaPackage.html#createOriginEndpoint-property" target="_blank">Official AWS Docs, let us look into what the properties of `package.HlsPackage` actually are:
+Apart from the <a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/MediaPackage.html#createOriginEndpoint-property" target="_blank">Official AWS Docs</a>, let us look into what the properties of `package.HlsPackage` actually are:
 1. IncludeIframeOnlyStream: false
     - When Set, enabled "Forward" & "Rewind" capabilities to the incoming stream in Downstream Player Applications
 2. PlaylistType: 'NONE'
@@ -169,7 +169,7 @@ From our codebase, we call `createInputSecurityGroup` of `MediaLive API` to crea
 
 ### Create MediaLive Input
 
-Now since we have the Input Security Group, we create <a href="https://docs.aws.amazon.com/medialive/latest/ug/inputs.html" target="_blank">MediaLive Input</a>, which are eventually consumed by `MediaLive Channels`.
+Now since we have the Input Security Group, we create <a href="https://docs.aws.amazon.com/medialive/latest/ug/inputs.html" target="_blank">MediaLive Inputs</a>, which are eventually consumed by `MediaLive Channels`.
 
 From our codebase, we call `createInputSecurityGroup` of `MediaLive API` to create an Input:
 
@@ -284,7 +284,7 @@ Before walking through the settings, let us be familiar with some terminologies:
 As the name suggest, `ArchieveOutputGroup` is basically the configuration which the Encoder uses to spit the `.ts` Segment Files into S3 while encoding the live stream. Ignoring the hierarchy, let's understand the properties:
 
 * RolloverInterval - Number of seconds of "encoded" Live Stream Content stored in each Segment file.
-* M2tsSettings - From <a href="https://docs.aws.amazon.com/medialive/latest/ug/creating-archive-output-group.html" target="_blank">Creating an archive output group</a>, it is evident that the default extension for archive files are **.m2ts**. <a href="https://docs.aws.amazon.com/medialive/latest/ug/archive-examples.html" target="_blank">See Examples. Hence, the `M2tsSettings`. Looking closely, "m" suggests "MPEG" (Input) and "t2" suggests the ".ts" segment files (output).
+* M2tsSettings - From <a href="https://docs.aws.amazon.com/medialive/latest/ug/creating-archive-output-group.html" target="_blank">Creating an archive output group</a>, it is evident that the default extension for archive files are **.m2ts**. <a href="https://docs.aws.amazon.com/medialive/latest/ug/archive-examples.html" target="_blank">See Examples</a>. Hence, the `M2tsSettings`. Looking closely, "m" suggests "MPEG" (Input) and "t2" suggests the ".ts" segment files (output).
 * CcDescriptor: 'DISABLED' - When 'ENABLED', generates captionServiceDescriptor in PMT. This is how we can have captions in the Player.
 * Ebif: 'NONE' - When 'PASSTHROUGH', allows EBIF Data from Input Source to pass down to Output.
 * NielsenId3Behavior: 'NO_PASSTHROUGH' - When 'PASSTHROUGH', it permits the Encoder to insert ID3 Tags in the output whenever a Nielsen Inaudible Tone is detected in the Input.
