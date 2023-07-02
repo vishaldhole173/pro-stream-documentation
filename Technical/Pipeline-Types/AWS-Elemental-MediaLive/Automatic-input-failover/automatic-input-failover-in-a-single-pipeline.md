@@ -37,9 +37,9 @@ This diagram illustrates the flow after there is a failure upstream of the first
 
 ## How to test Failover?
 1. Open two instances of OBS.
-2. Stat streaming on the first and third streaming URL's shown in the above screenshot. (Use first endpoint of input)
-3. Go to the AWS Medialive console and click on the channel through which you are streaming. Click Alerts tab.
-4. Once you able to view stream, stop streaming from input 1.
+2. Stat streaming on the first and third streaming URLs shown in the above screenshot. (Use first endpoint of input)
+3. Go to the AWS MediaLive console and click on the channel through which you are streaming. Click Alerts tab.
+4. Once you are able to view stream, stop streaming from input 1.
 5. Wait for few seconds / minutes, you'll see logs of stream is not receiving in alerts tab.
 6. After some time, may be few seconds it'll show that it has been Failover to input 2.
 7. Verify stream in the player, it should play video from input 2.
@@ -47,4 +47,4 @@ This diagram illustrates the flow after there is a failure upstream of the first
 ![AWS MediaLive alerts tab](./images/MedialiveAlertsTab.png)
 
 ## References:
-- https://docs.aws.amazon.com/medialive/latest/ug/aif-single-pipeline-how.html
+- <a href="https://docs.aws.amazon.com/medialive/latest/ug/aif-single-pipeline-how.html" target="_blank">Automatic input failover in a single-pipeline channel</a>
