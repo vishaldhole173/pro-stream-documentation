@@ -1,4 +1,4 @@
-# Distributions
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> Distributions
 
 ## Security & Navigating a Playlist
 
@@ -36,9 +36,9 @@ The flaw in this case remains is that, anyone with the Signed URL can still acce
 
 2. Using [CloudFront Functions](https://aws.amazon.com/blogs/aws/introducing-cloudfront-functions-run-your-code-at-the-edge-with-low-latency-at-any-scale/) (not [Lambda@Edge](https://aws.amazon.com/lambda/edge/), find differences [here](https://www.sentiatechblog.com/cloudfront-functions-and-lambda-edge-compared))
 
-A CloudFront Function can be executed at the start of each request. The Function should be able to authorize the request, identify the user, check it's privilege to access the breakout and pass/block the request accordingly. We aim to use JWT here (which would contain privilege of user regarding the breakout and details of the user as well), and refrain from any kind of DB operation. The JWT must be formed at the time of start of playback (preferrably in PlaybackResolver).
+A CloudFront Function can be executed at the start of each request. The Function should be able to authorize the request, identify the user, check its privilege to access the breakout and pass/block the request accordingly. We aim to use JWT here (which would contain privilege of user regarding the breakout and details of the user as well), and refrain from any kind of DB operation. The JWT must be formed at the time of start of playback (preferrably in PlaybackResolver).
 
-Cloudfront Functions are nothing but stateless block of code that can be executed by AWS using it's Serverless Infrastructure. As seen below we can place 4 CloudFront Functions per distribution to customize or restrict the flow of data to and fro.
+Cloudfront Functions are nothing but stateless block of code that can be executed by AWS using its Serverless Infrastructure. As seen below we can place 4 CloudFront Functions per distribution to customize or restrict the flow of data to and fro.
 ![CloudFront Function Placement Events or Triggers](https://miro.medium.com/max/1180/1*gl_lWwQj2LUBIV_r-rZyig.png)
 
 Out of these 4, we are only interested in the "Viewer Request" so that we can restirct the request before it even reaches origin, in case it is not authorized:

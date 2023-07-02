@@ -4,7 +4,7 @@ Technical documentation is intended for those users who wish to deploy VisionStr
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-* It's a good idea for you to have a basic understanding of the following AWS constructs:
+It's a good idea for you to have a basic understanding of the following AWS constructs:
 
 ### 1. AWS Elemental MediaLive
 Encode live video for broadcast and streaming to any device. AWS Elemental MediaLive is a broadcast-grade live video processing service.

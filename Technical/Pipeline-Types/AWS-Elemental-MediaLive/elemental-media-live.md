@@ -1,4 +1,4 @@
-# MediaLive
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> MediaLive
 
 ## Overview
 MediaLive channels use the following AWS media services for securing, streaming, distributing and creating on-demand recordings.
