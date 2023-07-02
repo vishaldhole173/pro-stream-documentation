@@ -1,24 +1,31 @@
 # <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> MediaLive
 
+MediaLive is a real-time video service that lets you create live outputs for broadcast and streaming delivery.
+
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+
 MediaLive channels use the following AWS media services for securing, streaming, distributing and creating on-demand recordings.
 
 ### 1. AWS Elemental MediaLive
+
 Encode live video for broadcast and streaming to any device. AWS Elemental MediaLive is a broadcast-grade live video processing service.
 
 <a href="https://aws.amazon.com/medialive/" target="_blank">Read More...</a>
 
 ### 2. AWS Elemental MediaPackage
+
 Easily prepare and protect video for delivery to Internet devices. AWS Elemental MediaPackage reliably prepares and protects your video for delivery over the Internet. From a single video input, AWS Elemental MediaPackage creates video streams formatted to play on connected TVs, mobile phones, computers, tablets, and game consoles.
 
 <a href="https://aws.amazon.com/mediapackage/" target="_blank">Read More...</a>
 
 ### 3. AWS CloudFront
+
 Amazon CloudFront speeds up distribution of your static and dynamic web content, such as .html, .css, .php, image, and media files. When users request your content, CloudFront delivers it through a worldwide network of edge locations that provide low latency and high performance.
 
 <a href="https://aws.amazon.com/cloudfront/" target="_blank">Read More...</a>
 
 ### 4. AWS Elemental MediaConvert
+
 Process video files and clips to prepare on-demand content for distribution or archiving.
 
 <a href="https://aws.amazon.com/mediaconvert/" target="_blank">Read More...</a>
@@ -658,7 +665,7 @@ Now that we have all the requisites met, we can peek into  `createChannel` param
 ```
 Before understanding this gigantic parameter tree, let's be aware of some basic concepts:
 * Codec - Program that Compresses(co) and Decompresses(dec) Media Files to be transferred over the internet.
-  - If the Encoder uses Codec C1, te downstream consumers must also use Codec C1 to decode the content and play the Media.
+  - If the Encoder uses Codec C1, the downstream consumers must also use Codec C1 to decode the content and play the Media.
 * H.264 - The Codec that we use.
   - For each of the Video Outputs, we provide a separate H.264 Configuration which the Codec uses to Encode/Decode our Live Stream.
 

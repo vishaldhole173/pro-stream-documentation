@@ -16,4 +16,4 @@ We cannot do manual failover with PRIMARY_INPUT_PREFERRED. You'll get following 
 ![Manual failover error](./images/manual-failover-error.png)
 
 ## References:
-- https://docs.aws.amazon.com/medialive/latest/ug/aif-and-input-switching-failoverpair.html
+- <a href="https://docs.aws.amazon.com/medialive/latest/ug/aif-and-input-switching-failoverpair.html" target="_blank">Manually forcing a failover</a>

@@ -36,4 +36,4 @@ Failure scenario 2 – If normal processing is in progress and there is a failur
 ![Input failure](https://docs.aws.amazon.com/medialive/latest/ug/images/aif-standard-input-failure.png)
 
 ## References:
-- https://docs.aws.amazon.com/medialive/latest/ug/aif-standard-pipeline-how.html
+- <a href="https://docs.aws.amazon.com/medialive/latest/ug/aif-standard-pipeline-how.html" target="_blank">Automatic input failover in a standard channel</a>
