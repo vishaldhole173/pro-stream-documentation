@@ -78,11 +78,7 @@ A list of failover conditions. If any of these conditions occur, MediaLive will 
 - InputLossSettings
 MediaLive will perform a failover if content is not detected in this input for the specified period. Currently, we've hardcoded it to 3 seconds.
 
-For more options refer: 
-
-<a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-medialive-channel-failoverconditionsettings.html"
-https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-medialive-channel-failoverconditionsettings.html
-
 ## References
-1. <a href="https://docs.aws.amazon.com/medialive/latest/ug/automatic-input-failover.html" target="_blank">https://docs.aws.amazon.com/medialive/latest/ug/automatic-input-failover.html</a>
-2. <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-medialive-channel-automaticinputfailoversettings.html" target="_blank">https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-medialive-channel-automaticinputfailoversettings.html</a>
+1. <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-medialive-channel-failoverconditionsettings.html">Failover Condition Settings</a>
+2. <a href="https://docs.aws.amazon.com/medialive/latest/ug/automatic-input-failover.html" target="_blank">Implementing Automatic Input Failover</a>
+3. <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-medialive-channel-automaticinputfailoversettings.html" target="_blank">Automatic Input Failover Settings</a>
