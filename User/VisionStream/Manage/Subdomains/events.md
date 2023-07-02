@@ -1,7 +1,8 @@
 # Events
 An Event is a core VisionStream component.
 
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+
 Users can browse through a selection of events and choose which one they would like to stream.
 By clicking on the title of any event, users can view the associated breakout sessions for the selected event.
 
@@ -13,7 +14,7 @@ The Calendar view is the initial display when the user arrives at the summary pa
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/clipboard-list.svg" width="20" height="20"> List View Button
 
-Click "List View" to view a list of all breakout sessions organised by date and hour. Users can view all of the breakout sessions in chronological order, in a detailed list format.
+Click "List View" to view a list of all breakout sessions organised by date and hour. Users can view all breakout sessions in chronological order, in a detailed list format.
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user.svg" width="20" height="20"> My Profile
 

@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> Failover
 
-## Overview
+## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 MediaLive always creates two endpoints:
 - If you set up the channel as a standard channel, both endpoints will be used.
 - If you set up the channel as a single-pipeline channel, only the first endpoint will be used. MediaLive won't expect to receive content at the second endpoint. Read more at: https://docs.aws.amazon.com/medialive/latest/ug/input-create-rtmp-push.html In other words, if we are using Standard channel we can stream on all the endpoint urls provided by them.
