@@ -1,4 +1,4 @@
-# Failover
+# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> Failover
 
 ## Overview
 MediaLive always creates two endpoints:
