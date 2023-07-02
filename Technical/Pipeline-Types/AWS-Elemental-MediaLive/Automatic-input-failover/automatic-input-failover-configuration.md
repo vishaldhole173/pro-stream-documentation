@@ -1,5 +1,7 @@
 # <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> Failover
 
+VisionStream employs a robust failover methodology for protecting your livestreams from failure.
+
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 MediaLive always creates two endpoints:
@@ -18,14 +20,19 @@ MediaLive always creates two endpoints:
 
 ## About input failover
 
-You can set up two push inputs as failover pair. One input will be primary input and other will be secondary input. Setting up input failover provides resiliency for the source, in case of failure between input and the channel let's say internet issues, in case of failure of in the upstream system.
+You can set up two push inputs as failover pairs. One input will be primary input and other will be the secondary input. Setting up input failover provides resiliency for the source, in case of failure between input and the channel.
 
-**How the AWS Elemental MediaLive channel decides failover between inputs?**
+**In our experience running hundreds of livestream events, internet-related issues at the host venue is the primary cause of streaming issues requiring a failover solution.**
+
+### How does the channel decides failover between inputs?
+
 You can configure the channel so that MediaLive detects one or more of the following problems in the input:
-- Black video (video failure) – MediaLive will perform a failover if content is considered black for the specified period.
-- Audio silence (audio failure) – MediaLive will perform a failover if the specified audio selector is silent for the specified period.
+  - Black video (video failure) - MediaLive will perform a failover if content is considered black for the specified period.
+  - Audio silence or audio failure – MediaLive will perform a failover if the specified audio selector is silent for the specified period.
 
-Each input in the input pair provides content to the channel. One of the inputs is the active input and one is on standby. MediaLive ingests both inputs, in order to always be ready to switch, but it usually discards the standby input immediately. If the active input fails, MediaLive immediately fails over and starts processing from the standby input, instead of discarding it.
+Each input in the input pair provides content to the channel. One of the inputs is the active input and one is on standby. MediaLive ingests both inputs, in order to always be ready to switch, but it usually discards the standby input immediately.
+
+If the active input fails, MediaLive immediately fails over and starts processing from the standby input, instead of discarding it.
 
 ## AWS SSM parameters
 
