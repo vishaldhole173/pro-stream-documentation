@@ -9,9 +9,7 @@ Keep in mind that the channel can't have more than two push inputs. This means t
 - You can set up one push input in the channel, and you can implement automatic input failover for that input.
 
 ## Single pipeline channel inputs
-If you set up the channel as a single-pipeline channel, only the first endpoint will be used. MediaLive won't expect to receive content at the second endpoint.
-
-You can see in the following screenshot that there are total 4 endpoint URLs. First two belongs to input 1 while other two are of input 2. Notice green checkmark next to the url on which you can stream while red crossmark where you likely to get connection time out errors.
+If you configure the channel as a single-pipeline channel, MediaLive will only utilize the first endpoint of the input. The second endpoint will not be expected to receive any content. In the provided screenshot, the second endpoint URL of the input is not displayed. Instead, only the functioning endpoint URLs are shown on the breakout create/update form. When a channel has two associated inputs, there will be two URLs displayed, whereas for a single input, only one URL will be shown.
 
 ![Single pipeline channel inputs](./images/single-pipeline-channel-inputs.png)
 
