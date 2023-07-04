@@ -103,7 +103,7 @@ There are two types of channels that can be used to stream events. Channels abst
 ## CloudFront Distributions
 * [CloudFront Distributions](Technical/CloudFront-Distributions/cloudfront-distributions.md)
 
-* [CloudFront Security](Technical/CloudFront-Distributions/cloudFront-security.md)
+* [CloudFront Security](Technical/CloudFront-Distributions/cloudfront-security.md)
 
 ## Tenants
 * [Tenants](Technical/Tenants/tenants.md)

@@ -110,7 +110,7 @@ You can find details of the headers set in the CF template.
 }
 ```
 
-Details of [cache behaviors is explained here](./cloudFront-security.md).
+Details of [cache behaviors is explained here](./cloudfront-security.md).
 
 ### Delete distribution
 
