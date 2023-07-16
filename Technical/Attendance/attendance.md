@@ -1,4 +1,4 @@
-# Attendance
+# Calculating Attendance
 
 Collecting attendance as a feature in VisionStream can greatly enhance the overall experience and provide numerous benefits. Here's how:
 
