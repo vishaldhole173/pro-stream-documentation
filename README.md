@@ -52,7 +52,9 @@ You get a custom built platform as an extension to your event. Regardless if you
 
 * <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/heart.svg" width="20" height="20"> [Favorites](User/MediaManager/Find/Favorites/favorites.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/upload.svg" width="20" height="20"> [Recently Uploaded](User/MediaManager/Find/Recently-Uploaded/recently-uploaded.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/upload.svg" width="20" height="20"> [Recently Uploaded](User/MediaManager/Find/Find-by-Users/find-by-users.md)
+
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/users.svg" width="20" height="20"> [Users](User/MediaManager/Find/Recently-Uploaded/recently-uploaded.md)
 
 * <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calendar.svg" width="20" height="20"> [Find by Date & Type](User/MediaManager/Find/Find-by-Date-and-Type/find-by-date-and-type.md)
 
