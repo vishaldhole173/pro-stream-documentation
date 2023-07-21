@@ -46,6 +46,10 @@ You get a custom built platform as an extension to your event. Regardless if you
 
 * <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/file-invoice-dollar.svg" width="20" height="20"> [Invoices](User/VisionStream/Admin/Invoices/invoices.md)
 
+## Resources
+
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/blog.svg" width="20" height="20"> [Blogs](User/VisionStream/Resources/Blog/blog.md)
+
 # MediaManager
 
 ## Find
