@@ -66,15 +66,15 @@ You get a custom built platform as an extension to your event. Regardless if you
 
 ## Drives
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> [Create New Drive](User/MediaManager/Drives/Create-New-Drive/create-new-drive.md)
+* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> [Create New Drive](User/MediaManager/Upload/upload.md)
 
 ## Recent Projects
 
-* [Show All Projects](User/MediaManager/Recent-Projects/All-Projects/all-projects.md)
+* [Show All Projects](User/MediaManager/Projects/projects.md)
 
 ## Recent Keywords
 
-* [Show All Keywords](User/MediaManager/Recent-Keywords/All-Keywords/all-keywords.md)
+* [Show All Keywords](User/MediaManager/Keywords/keywords.md)
 
 ## Usage
 
