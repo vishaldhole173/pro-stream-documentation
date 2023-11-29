@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> IVS Channels
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> IVS Channels
 
 AWS IVS, or Amazon Interactive Video Service, is a fully managed live-streaming solution offered by Amazon Web Services (AWS). It enables developers to add interactive, low-latency video streaming capabilities to their applications and websites, allowing them to deliver high-quality live video content to a wide range of devices and platforms.
 

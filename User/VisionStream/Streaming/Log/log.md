@@ -1,6 +1,6 @@
-# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/flag.svg" width="20" height="20"> Log
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Log
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 - This feature allows you to view alerts and errors related to your event, which originate from the AWS services employed for streaming purposes.
 - It proves to be a useful tool for monitoring the progress of your event and ensuring that everything is running smoothly.
 
@@ -21,6 +21,6 @@
 - ### View Logs from the stream viewer page 
     To view the logs for a specific broadcast channel, follow these steps:
     - Navigate to the left side navigation bar and click on "Channels".
-    - Click on Broadcast viewer icon ( <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/video.svg" width="20" height="20"> ).
+    - Click on Broadcast viewer icon ( <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> ).
     - In the HEALTH section, click on "Show stream events".
     - A pop-up dialog box will appear, displaying the logs related to the selected broadcast channel.

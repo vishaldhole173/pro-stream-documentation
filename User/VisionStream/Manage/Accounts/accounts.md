@@ -1,8 +1,8 @@
-# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/city.svg" width="20" height="20"> Account
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/city.svg" width="20" height="20"> Account
 
 An Account is a core VisionStream component.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
 
 * Admin users create Accounts which encapsulate many core VisionStream objects
   - Users
@@ -14,7 +14,7 @@ An Account is a core VisionStream component.
 
 Accounts are hierarchical in design. You can create `sub-accounts` to help you better organize your workflow
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20">  Create new Account
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20">  Create new Account
 
 * Required fields
   - Account Name
@@ -44,7 +44,7 @@ Accounts are hierarchical in design. You can create `sub-accounts` to help you b
   - Note
     - You can provide any additional comments, instructions, or relevant information that you want to communicate
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" width="20" height="20">  Service Plan and Features
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gears.svg" width="20" height="20">  Service Plan and Features
 
 * Service Plan
   - You select the specific service plan you wish to subscribe for your account
@@ -60,7 +60,7 @@ Accounts are hierarchical in design. You can create `sub-accounts` to help you b
   -  These features enhance your streaming experience and may provide additional benefits or options beyond the basic streaming capabilities
   - By choosing the appropriate features, you can tailor your streaming experience to your liking and access the specific content and functionalities that enhance your enjoyment of the streaming service
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
 
 A Usage profile is generated after every breakout has been completed. At the account level, Usage is calculated as the cumulative usage of all breakouts belonging to the account.
 
@@ -78,7 +78,7 @@ A Usage profile is generated after every breakout has been completed. At the acc
     - Conversion in USD
     - Storage in USD
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user-check.svg" width="20" height="20">  Show Invitations
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/user-check.svg" width="20" height="20">  Show Invitations
 
 You can send invitations to other users, inviting them to join and access the streaming service using your account.
 
@@ -94,6 +94,6 @@ You can send invitations to other users, inviting them to join and access the st
 
 **You can revoke the invitation before the recipient accepts the invitation. You may re-invite the user at a later time.**
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20">   Edit Account
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20">   Edit Account
 
 You can edit any Account and change the values of any fields

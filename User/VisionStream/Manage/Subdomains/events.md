@@ -1,22 +1,22 @@
 # Events
 An Event is a core VisionStream component.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 Users can browse through a selection of events and choose which one they would like to stream.
 By clicking on the title of any event, users can view the associated breakout sessions for the selected event.
 
 After selecting the event title, Click the "Enter Event" button below the list of breakouts to view the event and its related breakout sessions. Users need to sign in first to access information regarding the event and its breakouts. The user will redirect to the Sign In page if not logged in previously. User choices for viewing breakouts will be "Calendar" and "List". Both buttons are available at the bottom right corner of the event section.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calendar-days.svg" width="20" height="20"> Calendar View Button
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-days.svg" width="20" height="20"> Calendar View Button
 
 The Calendar view is the initial display when the user arrives at the summary page. Click "Calendar View" to see all breakout sessions arranged by days. This will group the breakout sessions according to the various days and display them in an organised manner. Users can switch timezone between local and GMT from the toggle button on the top right corner of breakouts.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/clipboard-list.svg" width="20" height="20"> List View Button
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/clipboard-list.svg" width="20" height="20"> List View Button
 
 Click "List View" to view a list of all breakout sessions organised by date and hour. Users can view all breakout sessions in chronological order, in a detailed list format.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user.svg" width="20" height="20"> My Profile
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/user.svg" width="20" height="20"> My Profile
 
 Click "My Profile" link on the top right corner to view following options - 
 * Events

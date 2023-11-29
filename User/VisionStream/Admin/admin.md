@@ -1,10 +1,10 @@
-# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user-plus.svg" width="20" height="20"> Admin
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/user-plus.svg" width="20" height="20"> Admin
 
 An Admin user is a special user within the VisionStream platform.
 
 Admin user(s) will create the necessary items, such as Events, Breakouts and Pipelines, to facilitate a live stream event for their customers.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
 
 Signing up for a VisionStream account entails the prospective new customer to create an Account Profile, consisting of Company name, location, contact and billing info, Choosing a Service Plan and Terms, and choosing Application features.
 

@@ -1,8 +1,8 @@
-# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/dollar-sign.svg" width="20" height="20"> Payments
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/dollar-sign.svg" width="20" height="20"> Payments
 
 Payments view allows you to see payments which you have collected over the entire range of your account.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 Assigning a Charge value to a breakout will automatically invoke a payment step during your user's access to the live stream. Likewise, if no payment is required, you can easily configure a `Tip Jar` to your breakout, in which case it will invoke similarly the payment form. 
 ​
