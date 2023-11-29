@@ -1,8 +1,8 @@
-# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> Failover
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> Failover
 
 VisionStream employs a robust failover methodology for protecting your livestreams from failure.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 MediaLive always creates two endpoints:
 - If you set up the channel as a standard channel, both endpoints will be used.

@@ -1,6 +1,6 @@
-# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/handshake.svg" width="20" height="20"> Show All Sponsors
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/handshake.svg" width="20" height="20"> Show All Sponsors
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 A Sponsor is an organizational construct which you can use to organize and group related files.
 

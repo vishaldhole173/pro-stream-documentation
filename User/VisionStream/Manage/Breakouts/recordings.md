@@ -1,8 +1,8 @@
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-play.svg" width="20" height="20"> Recordings
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-play.svg" width="20" height="20"> Recordings
 
 An on-demand recording is produced for every VisionStream breakout.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Recordings
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Recordings
 
 For every VisionStream breakout, 2 recordings are generated. 
 

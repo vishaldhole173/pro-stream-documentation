@@ -6,67 +6,67 @@ You get a custom built platform as an extension to your event. Regardless if you
 
 ## Manage
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/flag.svg" width="20" height="20"> [Events](User/VisionStream/Manage/Events/events.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> [Events](User/VisionStream/Manage/Events/events.md)
 
     * [Breakouts](User/VisionStream/Manage/Breakouts/breakouts.md)
 
-    * <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-play.svg" width="20" height="20"> [Recordings](User/VisionStream/Manage/Breakouts/recordings.md)
+    * <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-play.svg" width="20" height="20"> [Recordings](User/VisionStream/Manage/Breakouts/recordings.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/city.svg" width="20" height="20"> [Accounts](User/VisionStream/Manage/Accounts/accounts.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/city.svg" width="20" height="20"> [Accounts](User/VisionStream/Manage/Accounts/accounts.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user.svg" width="20" height="20"> [Users](User/VisionStream/Manage/Users/users.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/user.svg" width="20" height="20"> [Users](User/VisionStream/Manage/Users/users.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/dollar-sign.svg" width="20" height="20"> [Payments](User/VisionStream/Manage/Payments/payments.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/dollar-sign.svg" width="20" height="20"> [Payments](User/VisionStream/Manage/Payments/payments.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/rocket.svg" width="20" height="20"> [Subdomains](User/VisionStream/Manage/Subdomains/subdomains.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/rocket.svg" width="20" height="20"> [Subdomains](User/VisionStream/Manage/Subdomains/subdomains.md)
 
 ## Streaming
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> [Pipelines](User/VisionStream/Streaming/Pipelines/pipelines.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> [Pipelines](User/VisionStream/Streaming/Pipelines/pipelines.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/chart-bar.svg" width="20" height="20"> [Analytics](User/VisionStream/Streaming/Analytics/analytics.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/chart-bar.svg" width="20" height="20"> [Analytics](User/VisionStream/Streaming/Analytics/analytics.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calendar-check.svg" width="20" height="20"> [Attendance](User/VisionStream/Streaming/Attendance/attendance.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> [Attendance](User/VisionStream/Streaming/Attendance/attendance.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/tv.svg" width="20" height="20"> [Channels](User/VisionStream/Streaming/Channels/channels.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/tv.svg" width="20" height="20"> [Channels](User/VisionStream/Streaming/Channels/channels.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/flag.svg" width="20" height="20"> [Log](User/VisionStream/Streaming/Log/log.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> [Log](User/VisionStream/Streaming/Log/log.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/tower-broadcast.svg" width="20" height="20"> [Live Streams](User/VisionStream/Streaming/LiveStream/live-stream.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/tower-broadcast.svg" width="20" height="20"> [Live Streams](User/VisionStream/Streaming/LiveStream/live-stream.md)
 
 ## Admin
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/user-plus.svg" width="20" height="20"> [Admin](User/VisionStream/Admin/admin.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/user-plus.svg" width="20" height="20"> [Admin](User/VisionStream/Admin/admin.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/chart-line.svg" width="20" height="20"> [Platform](User/VisionStream/Admin/Platform/platform.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/chart-line.svg" width="20" height="20"> [Platform](User/VisionStream/Admin/Platform/platform.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/cloud.svg" width="20" height="20"> [Distributions](User/VisionStream/Admin/Distributions/distributions.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/cloud.svg" width="20" height="20"> [Distributions](User/VisionStream/Admin/Distributions/distributions.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/screwdriver-wrench.svg" width="20" height="20">  [Chats](User/VisionStream/Admin/Chats/chats.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/screwdriver-wrench.svg" width="20" height="20">  [Chats](User/VisionStream/Admin/Chats/chats.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/file-invoice-dollar.svg" width="20" height="20"> [Invoices](User/VisionStream/Admin/Invoices/invoices.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/file-invoice-dollar.svg" width="20" height="20"> [Invoices](User/VisionStream/Admin/Invoices/invoices.md)
 
 ## Resources
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/blog.svg" width="20" height="20"> [Blogs](User/VisionStream/Resources/Blog/blog.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/blog.svg" width="20" height="20"> [Blogs](User/VisionStream/Resources/Blog/blog.md)
 
 # MediaManager
 
 ## Find
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/heart.svg" width="20" height="20"> [Favorites](User/MediaManager/Find/Favorites/favorites.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/heart.svg" width="20" height="20"> [Favorites](User/MediaManager/Find/Favorites/favorites.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/upload.svg" width="20" height="20"> [Recently Uploaded](User/MediaManager/Find/Find-by-Users/find-by-users.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/upload.svg" width="20" height="20"> [Recently Uploaded](User/MediaManager/Find/Find-by-Users/find-by-users.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/users.svg" width="20" height="20"> [Users](User/MediaManager/Find/Recently-Uploaded/recently-uploaded.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20"> [Users](User/MediaManager/Find/Recently-Uploaded/recently-uploaded.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calendar.svg" width="20" height="20"> [Find by Date & Type](User/MediaManager/Find/Find-by-Date-and-Type/find-by-date-and-type.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar.svg" width="20" height="20"> [Find by Date & Type](User/MediaManager/Find/Find-by-Date-and-Type/find-by-date-and-type.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass.svg" width="20" height="20"> [Saved Searches](User/MediaManager/Find/Saved-Searches/saved-searches.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass.svg" width="20" height="20"> [Saved Searches](User/MediaManager/Find/Saved-Searches/saved-searches.md)
 
 ## Drives
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> [Create New Drive](User/MediaManager/Upload/upload.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> [Create New Drive](User/MediaManager/Upload/upload.md)
 
 ## Recent Projects
 
@@ -78,9 +78,9 @@ You get a custom built platform as an extension to your event. Regardless if you
 
 ## Usage
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/database.svg" width="20" height="20"> [Usage](User/MediaManager/Usage/Drives/drives.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/database.svg" width="20" height="20"> [Usage](User/MediaManager/Usage/Drives/drives.md)
 
-* <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-info.svg" width="20" height="20"> [Details](User/MediaManager/Usage/Details/drive-details.md)
+* <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-info.svg" width="20" height="20"> [Details](User/MediaManager/Usage/Details/drive-details.md)
 
 # Technical
 

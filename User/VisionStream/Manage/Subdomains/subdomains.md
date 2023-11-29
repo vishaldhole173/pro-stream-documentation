@@ -1,10 +1,10 @@
-# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/rocket.svg" width="20" height="20"> Subdomains
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/rocket.svg" width="20" height="20"> Subdomains
 
 A subdomain allows you to create a unique web URL that you can distribute to your attendees. This not only provides a personalized and branded web address but also gives you the flexibility to customize the user interface (UI) elements, such as colors, to align with your branding preferences. 
 
 Likewise, you can embed a subdomain into your website to redirect users to your live-stream event.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 VisionStream will manage the entire flow within your subdomain, including authentication and payments.
 
@@ -15,7 +15,7 @@ VisionStream will manage the entire flow within your subdomain, including authen
   - Perform authentication (Sign In).
   - Choose a breakout and continue to the live stream viewer.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20"> Create new Subdomain
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20"> Create new Subdomain
 
 Press the '+' icon in the upper right of the Subdomains listing page to open Create new Subdomain page.
 
@@ -60,7 +60,7 @@ Press the '+' icon in the upper right of the Subdomains listing page to open Cre
         - Share your Instagram account.
 
 To assign events to your calendar, click the Next button, or click the navigation link at the top of the page titled 'Events'.
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Subdomain
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Subdomain
 
 You can edit any Subdomain and change the values of all fields except the Subdomain and Redirect URL.
 

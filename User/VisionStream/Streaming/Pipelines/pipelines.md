@@ -1,8 +1,8 @@
-# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="20" height="20"> Pipelines
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> Pipelines
 
 A Pipeline is a core VisionStream component.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 Pipelines are used for streaming VisionStream breakouts, and for streaming MP4 static content over VisionStream
 channels.
@@ -23,20 +23,20 @@ A VisionStream pipeline can be configured to allow for multiple inputs, and supp
 - Stopping
     - The Pipeline is stopping, usually the result of stopping a breakout.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/cloud.svg" width="20" height="20">  Distributions
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/cloud.svg" width="20" height="20">  Distributions
 
 A distribution is an accompanying service which is created whenever a pipeline is created, and is disabled when a pipeline is deleted.
 
 To see the distribution profile for any pipeline, toggle the 'Show Hide Distribution Config.' button. [Read more](../../Admin/Distributions/distributions.md).
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="20" height="20">  Delete a pipeline
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/trash.svg" width="20" height="20">  Delete a pipeline
 
 - Press the trash icon in the lower-left of the pipelines listing page.
 - The application will prompt the user to confirm their intention to delete the pipeline.
 * This confirmation step is crucial as the action cannot be undone.
 * Upon confirmation, the application permanently removes the pipeline and any referenced to it.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20">  Add pipeline 
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20">  Add pipeline 
 
 Press the '+' button in the Pipelines view to navigate to the Create Pipeline form, where you will enter information
 about the pipeline.

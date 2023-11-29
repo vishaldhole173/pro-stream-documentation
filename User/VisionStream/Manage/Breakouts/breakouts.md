@@ -2,7 +2,7 @@
 
 A Breakout is a core VisionStream component.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
 
 A Breakout is a child of an Event. An Event (usually) consists of many Breakouts.
 
@@ -10,7 +10,7 @@ Admin users will create new Breakout records, entering name, date, time, duratio
 
 Breakout start time and duration should always be less than the Event end time.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20">  Create new Breakout
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20">  Create new Breakout
 
 Press the '+' icon in the upper right of the Breakout listing page to open the create new Breakout page.
 
@@ -44,7 +44,7 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
     - Minutes
         - Minutes for which you want to stream.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/toggle-on.svg" width="20" height="20">  Show Active Breakouts
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20">  Show Active Breakouts
 
 Show Active Breakouts toggle allows you to quickly filter out breakouts which have already completed.
 
@@ -52,7 +52,7 @@ Show Active Breakouts toggle allows you to quickly filter out breakouts which ha
     - Breakouts which have been completed will be removed from the list.
         - This setting persists over browser sessions.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/video.svg" width="20" height="20">  Show Stream Viewer
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20">  Show Stream Viewer
 
 If Breakout is active, you will see the Stream Viewer view, which contains the following controls outlined below.
 
@@ -121,7 +121,7 @@ If Breakout is completed, you will see the 'Show Is Over' view.
 * Copy S3 URI
     - Used to copy the S3 of the final recording on the clipboard.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
 
 A Usage profile is generated after every breakout has completed.
 
@@ -139,7 +139,7 @@ A Usage profile is generated after every breakout has completed.
         - Conversion in USD
         - Storage in USD
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/users.svg" width="20" height="20">  Show Attendance
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20">  Show Attendance
 
 Attendance is automatically tracked for every breakout.
 
@@ -154,11 +154,11 @@ Attendance is automatically tracked for every breakout.
         - On-demand
         - Total viewing time
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/pen-to-square.svg" width="20" height="20">  Edit Breakout
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20">  Edit Breakout
 
 You can edit any Event and change the values of any field.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle.svg" width="20" height="20">  Active and Published indicators
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle.svg" width="20" height="20">  Active and Published indicators
 
 VisionStream maintains a simple UI construct which allows for the easy identification of Active and Published Breakouts.
 

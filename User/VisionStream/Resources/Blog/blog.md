@@ -1,14 +1,14 @@
-# <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/blog.svg" width="20" height="20"> Blog Postings
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/blog.svg" width="20" height="20"> Blog Postings
 
 Blogs allow users to access and read a collection of blog posts on various topics. It provides a user-friendly interface to navigate through the blog posts and engage with the content.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 The Blogs component displays a list of blog posts in a structured manner, making it easy for users to find and read the content they are interested in.
 
 * Admin users can create and update blog content.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" height="20"> Create new Blog Post
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20"> Create new Blog Post
 
 Press the '+' icon in the upper right of the Blog Postings listing page to open the create new Blog Post page
 
@@ -33,11 +33,11 @@ Press the '+' icon in the upper right of the Blog Postings listing page to open 
 
 You can edit any Blog and change the values of any field by clicking on blog's name.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle.svg" width="20" height="20"> Published and Featured indicators
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle.svg" width="20" height="20"> Published and Featured indicators
 
 VisionStream maintains a simple UI construct which allows for the easy identification of Published and Featured Blog Posts.
 
-## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/trash.svg" width="20" height="20"> Delete blog
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/trash.svg" width="20" height="20"> Delete blog
 
 * Press the trash icon to the right of the featured blog indicator on the Blog Postings listing page to delete the blog
 * The application typically prompts users to confirm their intention to delete the blog. This confirmation step is crucial as the action cannot be undone
