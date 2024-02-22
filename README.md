@@ -111,6 +111,8 @@ There are two types of channels that can be used to stream events. Channels abst
 
 * [CloudFront Security](Technical/CloudFront-Distributions/cloudfront-security.md)
 
+* [Signed Cookies](Technical/CloudFront-Distributions/signed-cookies.md)
+
 ## Tenants
 * [Tenants](Technical/Tenants/tenants.md)
 
