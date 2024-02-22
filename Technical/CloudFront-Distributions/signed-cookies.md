@@ -187,6 +187,4 @@ CloudFront provides several options for securing content that it delivers. The f
         }
         ```
 
---------------------
-
 By transitioning from signed URLs to signed cookies, we were able to overcome the limitations encountered with certain iOS devices while enhancing the overall security and reliability of our live streaming service. Leveraging AWS services such as CloudFront, IAM, Lambda@Edge, and monitoring tools, we implemented a robust solution that ensures only authorized users can access our content, regardless of the platform or device they're using. This not only enhances the user experience but also safeguards valuable media assets against unauthorized access and potential security breaches.
