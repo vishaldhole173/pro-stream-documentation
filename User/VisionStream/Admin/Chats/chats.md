@@ -11,8 +11,8 @@ Having the ability to delete chat records before a livestream begins (or at any 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/trash.svg" width="20" height="20"> Delete chat records
 
 * Press the trash icon to the right of the chats count on the Chats listing page.
-* The application will prompt the user to confirm their intention to delete chat history.
-* This confirmation step is crucial as the action cannot be undone.
-* Upon confirmation, the application permanently removes all chat records for the breakout session.
+  - The application will prompt the user to confirm their intention to delete chat history.
+    - This confirmation step is crucial as the action cannot be undone.
+  - Upon confirmation, the application permanently removes all chat records for the breakout session.
 
 **WARNING: All chat records for the breakout will be deleted. This operation cannot be reverted!**

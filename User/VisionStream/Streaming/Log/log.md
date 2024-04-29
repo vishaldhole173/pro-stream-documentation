@@ -18,7 +18,7 @@
 - You have the flexibility to utilize multiple filters simultaneously according to your preferences. For instance, you can apply filters such as Type and Event, or Type, Event, and Timestamp.
 - The selected filters will be displayed at the top, accompanied by a cross icon at the end. To remove an applied filter, simply click on the cross icon associated with that specific filter.
 
-- ### View Logs from the stream viewer page 
-    Streaming Events will also display in the stream viewer page (where you start and stop the livestream).
+- ## View Logs from the stream viewer page 
+- Streaming Events will also display in the stream viewer page (where you start and stop the livestream).
     - Normal stream events will include locking into the input stream itself, and establishing video and audio connections.
     - Other important events include notification of impending failover, or loss of audio or video.
