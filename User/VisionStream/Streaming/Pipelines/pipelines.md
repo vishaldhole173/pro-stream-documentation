@@ -45,15 +45,12 @@ about the pipeline.
     - MediaLive
         - A broadcast-grade pipeline which is capable of encoding live video for broadcast and streaming to any device.
     - Interactive Video Service
-        - A broadcast-grade pipeline which enables interactive and engaging live streaming experiences.
+        - A broadcast-grade pipeline which enables interactive and engaging live-streaming experiences.
 
 - ### Input Types
     - RTMP Push
         - An input type that allows you to push live video streams using the Real-Time Messaging Protocol (RTMP).
         - RTMP is a popular protocol used for delivering live streams from an encoder to a streaming server.
-    - MP4 File
-        - An input type that allows you to use pre-recorded video content in MP4 format as a source for your live streams.
-        - You can upload MP4 files to AWS MediaLive or IVS channels for broadcasting.
 
 - ### Input Class
     - Single Pipeline
@@ -70,10 +67,12 @@ about the pipeline.
     - VPC
         - An input network configuration where the inputs are connected to a Virtual Private Cloud (VPC).
         - This setup allows you to isolate your streaming infrastructure within your private network, enhancing security and control over your streams.
+          - Only available to VisionStream customers hosting their own VisionStream deployment. 
 
 - ### Number of Inputs
     - 1
         - Represents a configuration where there is a single input source connected to the pipeline.
     - 2
         - Represents a configuration where there are two input sources connected to the pipeline.
+          - Dual input configurations commonly use input 2 as a failover input. 
 

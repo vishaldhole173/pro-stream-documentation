@@ -80,8 +80,6 @@ At the event level, Attendance is calculated as the cumulative attendance of all
 
 You can edit any Event and change the values of any field.
 
-NOTE TO SELF: Can you set an Event start time to be after an already established breakout start time?
-
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Show Breakouts
 
 To view all the breakouts associated with an Event, select the Show Breakouts control.

@@ -129,7 +129,7 @@ A Usage profile is generated after every breakout has completed.
     - Usage
         - Streaming in hours
         - Packaging in GB's
-        - Delivery in ???
+        - Delivery in GB's
         - Conversion in minutes
         - Storage in GB
     - Charges
