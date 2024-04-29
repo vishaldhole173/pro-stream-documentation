@@ -15,4 +15,4 @@ Having the ability to delete chat records before a livestream begins (or at any 
 * This confirmation step is crucial as the action cannot be undone.
 * Upon confirmation, the application permanently removes all chat records for the breakout session.
 
-**WARNING: All chats records for the breakout will be deleted. This operation cannot be reverted!**
+**WARNING: All chat records for the breakout will be deleted. This operation cannot be reverted!**
