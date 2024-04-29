@@ -107,7 +107,7 @@ If Breakout is active, you will see the Stream Viewer view, which contains the f
 * Comments
     - Allows you to engage with audience without the need for a secondary device.
 
-If Breakout is completed, you will see the 'Show Is Over' view.
+If Breakout is completed, you will see the `This stream has ended !` view.
 
 * Show Files
     - View & download uploaded media files.
