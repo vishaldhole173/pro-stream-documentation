@@ -54,7 +54,7 @@ After completing the payment process for a selected breakout, the user will see 
 * Comments
     - Allows users to engage with the audience without the need for a secondary device.
 
-If Breakout is completed, you will see the 'Show Is Over' view.
+If Breakout is completed, you will see the `This stream has ended !` view.
 
 * Show Files
     - View & download uploaded media files.

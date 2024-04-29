@@ -75,7 +75,7 @@ You can edit any Subdomain and change the values of all fields except the Subdom
 
 * A subdomain portal can display any number of events on the subdomain's home page, or the subdomain's calendar, provided it is 'Published'. 
 - When setting up a subdomain, you will be asked to indicate which events you want displayed in the home page and calendar.
-  - Events which are not yet published appear in grey text, but are still candidates to be shown (though not yet visible). 
+  - Events which are not yet published appear in grey text, but are still candidates for selection. 
 
 As an admin user, clicking on a subdomain's title will redirect you to the [subdomain's home page](./events.md).
 

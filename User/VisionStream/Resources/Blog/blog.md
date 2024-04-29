@@ -43,5 +43,5 @@ VisionStream maintains a simple UI construct which allows for the easy identific
   - The application will prompt the user to confirm their intention to delete the blog.
   - Once the user confirms the deletion, all blog content associated with the blog is deleted.
   
-**Deleting is final. This action cannot be undone.**
+**WARNING: Deleting is final. This action cannot be undone.**
 

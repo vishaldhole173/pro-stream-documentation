@@ -47,7 +47,7 @@ Press the '+' icon in the upper right of the Channels listing page to open the c
     - Video Player
         - Used to play the broadcasting content
 
-* If Breakout is completed, you will see the Show Is Over view
+* If Breakout is completed, you will see the `This stream has ended !` view
     - Show Files
         - Download media uploaded to the MediaManager
     - View Recording
