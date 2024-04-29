@@ -1,17 +1,26 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/rocket.svg" width="20" height="20"> Subdomains
 
-A subdomain (or Portal) allows you to create a unique web URL that you can distribute to your attendees. This not only provides a personalized and branded web address but also gives you the flexibility to customize the user interface (UI) elements, such as colors, to align with your branding preferences. 
+A subdomain (or Portal) is what your end-users will ultimately interact with. It is essentially the entryway to viewing your published content, including:
+
+- In your subdomain portal, your users can view:
+  - Event listings
+  - Livestream performances
+  - Blog postings
+  - Channel videos
+  - On-demand recordings
+
+Admin users create subdomains with unique URLS, and can style a subdomain portal with branded user interface (UI) elements, such as logos, colors and graphics to align with yours or your customer's branding preferences. 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 VisionStream will manage the entire flow within your subdomain, including authentication and payments.
 
 * Your end users will:
-  - Navigate to your calendar which displays your published events.
+  - Navigate to your portal alendar which displays your published events.
   - Choose an event.
   - Continue to an overview page containing event specifics and details.
   - Perform authentication (Sign In).
-  - Handles donation & charges if applicable.
+  - The portal will handle donation & event charges if applicable.
   - Choose a breakout and continue to the live stream viewer.
     - If the breakout has completed, the user is instead navigated to the on-demand recording. 
 

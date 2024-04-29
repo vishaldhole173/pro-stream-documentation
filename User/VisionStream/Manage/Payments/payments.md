@@ -4,9 +4,9 @@ Payments view allows admin users the ability to see payments which have been col
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-Assigning a charge value to a breakout will automatically invoke a payment step during your user's access to the live stream. Likewise, you can easily configure a `Tip Jar` to your breakout, which injects a `donation` process before displaying the final payment form. 
+Assigning a charge value to a breakout will automatically invoke a payment step during your user's access to the live stream, or on-demand recording. Likewise, you can easily configure a `Tip Jar` to your breakout, which injects a `donation` process before displaying the final payment form. 
 
-The Payments page displays payments made from breakouts generating payments from a [subdomain](../Subdomains/events.md), portal, and the Invoices page used for paying the monthly VisionStream charge.
+The Payments page displays payments made from breakouts generating payments from a [subdomain portal](../Subdomains/events.md), as well as the Invoices page used for paying your monthly VisionStream charge.
 
 ## Payment record fields
 * Name 
