@@ -13,7 +13,7 @@ VisionStream will manage the entire flow within your subdomain, including authen
   - Perform authentication (Sign In).
   - Handles donation & charges if applicable.
   - Choose a breakout and continue to the live stream viewer.
-    - If the breakout has completed, the user is instead navigated to the recording. 
+    - If the breakout has completed, the user is instead navigated to the on-demand recording. 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20"> Create new Subdomain
 
@@ -70,5 +70,7 @@ You can edit any Subdomain and change the values of all fields except the Subdom
       - Events which are not yet published appear in grey text, but are still candidates to be exported (though not yet visible). 
 
 As an admin user, clicking on a subdomain's title will redirect you to the subdomain's [main events](./events.md) home page.
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20"> Users
 
 * To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature which allows anonymous users the ability to access the subdomain portal.
