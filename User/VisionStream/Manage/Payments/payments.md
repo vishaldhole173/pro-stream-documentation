@@ -4,9 +4,9 @@ Payments view allows you to see payments which you have collected over the entir
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-Assigning a Charge value to a breakout will automatically invoke a payment step during your user's access to the live stream. Likewise, if no payment is required, you can easily configure a `Tip Jar` to your breakout, in which case it will invoke similarly to the payment form. 
+Assigning a charge value to a breakout will automatically invoke a payment step during your user's access to the live stream. Likewise, if no payment is required, you can easily configure a `Tip Jar` to your breakout, in which case it will invoke similarly to the payment form. 
 
-The payments page displays payments from both the [tenant stream viewer](../Subdomains/events.md) and the invoices page.
+The payments page displays payments made from breakouts generating payments from a [subdomains](../Subdomains/events.md), and the Invoices page.
 
 ## Payment record fields
 * Name 
