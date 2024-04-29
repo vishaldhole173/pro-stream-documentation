@@ -1,10 +1,10 @@
-# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/blog.svg" width="20" height="20"> Blog Postings
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/blog.svg" width="20" height="20"> Blogs
 
-Blogs allow users to access and read a collection of blog posts on various topics. It provides a user-friendly interface to navigate through the blog posts and engage with the content.
+VisionStream admin uses can easily create blog posts and have those posts accessible via the subdomain Blog feature.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-The Blogs component displays a list of blog posts in a structured manner, making it easy for users to find and read the content they are interested in.
+The Blogs component displays a list of blog posts in a structured manner.
 
 * Admin users can create and update blog content.
 
@@ -31,11 +31,11 @@ Press the '+' icon in the upper right of the Blog Postings listing page to open 
   - Text
     - Enter the main text or content of your blog using provided text editor.
 
-You can edit any Blog and change the values of any field by clicking on blog's name.
+You can edit any blog and change the values of any field by clicking on blog's name.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle.svg" width="20" height="20"> Published and Featured indicators
 
-VisionStream maintains a simple UI construct which allows for the easy identification of Published and Featured Blog Posts.
+VisionStream maintains a simple UI construct which allows for the easy identification of Published and Featured blog posts.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/trash.svg" width="20" height="20"> Delete blog
 

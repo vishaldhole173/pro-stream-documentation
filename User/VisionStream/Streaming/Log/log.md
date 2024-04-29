@@ -1,7 +1,7 @@
-# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Log
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Event Log
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
-- This feature allows you to view alerts and errors related to your event, which originate from the AWS services employed for streaming purposes.
+- This feature allows you to view alerts and errors related to your livestreaming session.
 - It proves to be a useful tool for monitoring the progress of your event and ensuring that everything is running smoothly.
 
 ## Reading the log file
@@ -19,8 +19,6 @@
 - The selected filters will be displayed at the top, accompanied by a cross icon at the end. To remove an applied filter, simply click on the cross icon associated with that specific filter.
 
 - ### View Logs from the stream viewer page 
-    To view the logs for a specific broadcast channel, follow these steps:
-    - Navigate to the left side navigation bar and click on "Channels".
-    - Click on Broadcast viewer icon ( <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> ).
-    - In the HEALTH section, click on "Show stream events".
-    - A pop-up dialog box will appear, displaying the logs related to the selected broadcast channel.
+    Streaming Events will also display in the stream viewer page (where you start and stop the livestream).
+    - Normal stream events will include locking into the input stream itself, and establishing video and audio connections.
+    - Other important events include notification of impending failover, or loss of audio or video.

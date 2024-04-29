@@ -64,10 +64,12 @@ To assign events to your calendar, click the Next button, or click the navigatio
 
 You can edit any Subdomain and change the values of all fields except the Subdomain and Redirect URL.
 
-## Events
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Events
 
-A subdomain can display any number of events on the subdomain's event listing page, or the subdomain's calendar. To appear in the Event listing page or the calendar, the Event must first be 'Published'. However, in the Event section of setting up a subdomain, you can choose any Event you have created.
+A subdomain can display any number of Events on the subdomain's Event listing page, or the subdomain's calendar. 
+To appear in the Event listing page or the calendar, the Event must first be 'Published'. When setting up a subdomain, there is a section where you can export Events fom your account. 
+Events which are not yet published appear in grey text, but are still candidates to be exported. 
 
-After clicking on the subdomain link button, you will redirect to the tenant [events](./events.md) page.
+After clicking on the subdomain's title, you will redirect to the subdomain's [events](./events.md) page.
 
-To provide access to anonymous or ad-hoc users, admin users can [create new user](./users.md) accounts by signing into their account.
+To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature which allows anonymous users the ability to access your Events.
