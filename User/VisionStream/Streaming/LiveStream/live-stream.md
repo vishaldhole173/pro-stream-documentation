@@ -1,6 +1,6 @@
-# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/tower-broadcast.svg" width="20" height="20"> Live Stream
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/tower-broadcast.svg" width="20" height="20"> Live Streams
 
-Live Stream view provides admin users with a list of all currently running breakouts, along with their corresponding account name.
+Live Streams view provides admin users a list of all currently running breakouts, along with their corresponding account name.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 

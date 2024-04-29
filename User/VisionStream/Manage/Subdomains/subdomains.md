@@ -66,10 +66,11 @@ You can edit any Subdomain and change the values of all fields except the Subdom
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Events
 
-A subdomain can display any number of Events on the subdomain's Event listing page, or the subdomain's calendar. 
-To appear in the Event listing page or the calendar, the Event must first be 'Published'. When setting up a subdomain, there is a section where you can export Events fom your account. 
-Events which are not yet published appear in grey text, but are still candidates to be exported. 
+* A subdomain can display any number of Events on the subdomain's home page, or the subdomain's calendar. 
+    - To appear in the Event listing page or the calendar, the Event must first be 'Published'.
+    - When setting up a subdomain, there is a section where you can export Events fom your account.
+    - Events which are not yet published appear in grey text, but are still candidates to be exported (though not visible until published). 
 
-After clicking on the subdomain's title, you will redirect to the subdomain's [events](./events.md) page.
+After clicking on a subdomain's title, you will redirect to the subdomain's [main events](./events.md) page.
 
-To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature which allows anonymous users the ability to access your Events.
+To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature which allows anonymous users the ability to access your portal.
