@@ -40,5 +40,6 @@ VisionStream maintains a simple UI construct which allows for the easy identific
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/trash.svg" width="20" height="20"> Delete blog
 
 * Press the trash icon to the right of the featured blog indicator on the Blog Postings listing page to delete the blog.
-- The application typically prompts users to confirm their intention to delete the blog. This confirmation step is crucial as the action cannot be undone.
-- Once the user confirms the deletion, the application permanently deletes all blog content records associated with the selected blog.
+  - The application typically prompts users to confirm their intention to delete the blog.
+    - This confirmation step is crucial as the action cannot be undone.
+  - Once the user confirms the deletion, the application permanently deletes all blog content records associated with the selected blog.
