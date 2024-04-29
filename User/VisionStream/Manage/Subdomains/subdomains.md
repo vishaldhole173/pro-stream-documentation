@@ -2,25 +2,25 @@
 
 A subdomain (or Portal) is what your end-users will ultimately interact with. It is essentially the entryway to viewing your published content, including:
 
-- In your subdomain portal, your users can view:
-  - Event listings
-  - Livestream performances
-  - Blog postings
-  - Channel videos
-  - On-demand recordings
+- Event listings
+- Livestream performances
+- Blog postings
+- Sponsorship materials
+- Channel videos
+- On-demand recordings
 
-Admin users create subdomains with unique URLS, and can style a subdomain portal with branded user interface (UI) elements, such as logos, colors and graphics to align with yours or your customer's branding preferences. 
+Admin users create subdomains with unique URLs, and can style a subdomain portal with branded content such as logos, colors and graphics. 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 VisionStream will manage the entire flow within your subdomain, including authentication and payments.
 
 * Your end users will:
-  - Navigate to your portal alendar which displays your published events.
+  - Navigate to your portal calendar which displays your published events.
   - Choose an event.
   - Continue to an overview page containing event specifics and details.
   - Perform authentication (Sign In).
-  - The portal will handle donation & event charges if applicable.
+  - Apply donation and / or event charges if applicable.
   - Choose a breakout and continue to the live stream viewer.
     - If the breakout has completed, the user is instead navigated to the on-demand recording. 
 
@@ -73,12 +73,11 @@ You can edit any Subdomain and change the values of all fields except the Subdom
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Events
 
-* A subdomain portal can display any number of events on the subdomain's home page, or the subdomain's calendar. 
-    - To appear in the event listing home page or the calendar, the event must first be 'Published'.
-    - When setting up a subdomain, there is a section where you can export events fom your account.
-      - Events which are not yet published appear in grey text, but are still candidates to be exported (though not yet visible). 
+* A subdomain portal can display any number of events on the subdomain's home page, or the subdomain's calendar, provided it is 'Published'. 
+  - When setting up a subdomain, you will be asked to indicate which events you want displayed in the home page and calendar.
+    - Events which are not yet published appear in grey text, but are still candidates to be shown (though not yet visible). 
 
-As an admin user, clicking on a subdomain's title will redirect you to the subdomain's [main events](./events.md) home page.
+As an admin user, clicking on a subdomain's title will redirect you to the [subdomain's home page](./events.md).
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20"> Users
 
