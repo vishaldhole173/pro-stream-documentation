@@ -6,12 +6,13 @@ Payments view allows admin users the ability to see payments which have been col
 
 Assigning a charge value to a breakout will automatically invoke a payment step during your user's access to the live stream. Likewise, you can easily configure a `Tip Jar` to your breakout, which injects a `donation` process before displaying the final payment form. 
 
-The Payments page displays payments made from breakouts generating payments from a [subdomains](../Subdomains/events.md), and the Invoices page.
+The Payments page displays payments made from breakouts generating payments from a [subdomain](../Subdomains/events.md), portal, and the Invoices page used for paying the monthly VisionStream charge.
 
 ## Payment record fields
 * Name 
-  - The "Payer Name" will be prominently shown at the beginning, followed by the relevant breakout name for which the user made a payment.
+  - The "Payer Name" will be prominently shown at the beginning, followed by the breakout or invoice name for which the user made a payment.
 * Amount
   - The "Amount" field indicates amount paid by payer/person for respective breakout.
 * Date
-  - The "Date" field denotes the specific date when the payment was made. Admin users have the ability to search for a specific record using the payer's name, and they can also view the records in a sorted order with respect to name, amount and date.
+  - The "Date" field denotes the specific date when the payment was made.
+    - Admin users have the ability to search for a specific records using the payer's name, and they can also view the records in a sorted order with respect to name, amount and date.

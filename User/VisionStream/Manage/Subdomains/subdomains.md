@@ -73,4 +73,4 @@ As an admin user, clicking on a subdomain's title will redirect you to the subdo
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20"> Users
 
-* To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature which allows anonymous users the ability to access the subdomain portal.
+* To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature on any event, which allows anonymous users the ability to access the subdomain portal.

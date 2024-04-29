@@ -4,7 +4,7 @@ VisionStream admin uses can easily create blog posts and have those posts access
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-The Blogs component displays a list of blog posts in a structured manner.
+Blogs view displays a list of blog posts in a structured manner.
 
 * Admin users can create and update blog content.
 
