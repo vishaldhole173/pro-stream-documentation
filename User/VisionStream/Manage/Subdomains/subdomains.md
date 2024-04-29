@@ -1,8 +1,6 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/rocket.svg" width="20" height="20"> Subdomains
 
-A subdomain allows you to create a unique web URL that you can distribute to your attendees. This not only provides a personalized and branded web address but also gives you the flexibility to customize the user interface (UI) elements, such as colors, to align with your branding preferences. 
-
-Likewise, you can embed a subdomain into your website to redirect users to your live-stream event.
+A subdomain (or Portal) allows you to create a unique web URL that you can distribute to your attendees. This not only provides a personalized and branded web address but also gives you the flexibility to customize the user interface (UI) elements, such as colors, to align with your branding preferences. 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
@@ -13,7 +11,9 @@ VisionStream will manage the entire flow within your subdomain, including authen
   - Choose an event.
   - Continue to an overview page containing event specifics and details.
   - Perform authentication (Sign In).
+  - Handles donation & charges if applicable.
   - Choose a breakout and continue to the live stream viewer.
+    - If the breakout has completed, the user is instead navigated to the recording. 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20"> Create new Subdomain
 
@@ -25,8 +25,6 @@ Press the '+' icon in the upper right of the Subdomains listing page to open Cre
     - Subdomain
         - Subdomain name which will be the part of URL
           - Your entered Subdomain name must be unique, and not clash with existing subdomain names.
-    - Admin Password
-        - Used for authentication when accessing the subdomain admin page.
 * Optional fields
     - Redirect URL
         - The user will be sent to that page after logging in.
@@ -66,11 +64,11 @@ You can edit any Subdomain and change the values of all fields except the Subdom
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Events
 
-* A subdomain can display any number of Events on the subdomain's home page, or the subdomain's calendar. 
-    - To appear in the Event listing page or the calendar, the Event must first be 'Published'.
-    - When setting up a subdomain, there is a section where you can export Events fom your account.
-    - Events which are not yet published appear in grey text, but are still candidates to be exported (though not visible until published). 
+* A subdomain portal can display any number of events on the subdomain's home page, or the subdomain's calendar. 
+    - To appear in the event listing home page or the calendar, the event must first be 'Published'.
+    - When setting up a subdomain, there is a section where you can export events fom your account.
+      - Events which are not yet published appear in grey text, but are still candidates to be exported (though not yet visible). 
 
-After clicking on a subdomain's title, you will redirect to the subdomain's [main events](./events.md) page.
+As an admin user, clicking on a subdomain's title will redirect you to the subdomain's [main events](./events.md) home page.
 
-To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature which allows anonymous users the ability to access your portal.
+* To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature which allows anonymous users the ability to access the subdomain portal.

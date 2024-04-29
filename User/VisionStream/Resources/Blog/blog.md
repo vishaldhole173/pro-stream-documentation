@@ -31,7 +31,7 @@ Press the '+' icon in the upper right of the Blog Postings listing page to open 
   - Text
     - Enter the main text or content of your blog using provided text editor.
 
-You can edit any blog and change the values of any field by clicking on blog's name.
+Admin users can edit any blog and change the values of any field by clicking on blog's name.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle.svg" width="20" height="20"> Published and Featured indicators
 
