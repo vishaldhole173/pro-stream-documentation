@@ -26,14 +26,19 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
         - Your physical streaming location.
     - Charge Amount
         - Amount you want to charge for the breakout.
+    - Tip Jar
+        - Set if you want to show a 'donation' page to your users.
+    - Transcription
+        - Set if you want to have a text transcription generated from your livestream.
     - Search
         - Assign a search to display files associated with a breakout.
+          - Requires MediaManager 
     - Picture
         - Picture you want to display for your breakout in the calendar.
     - Description
         - Additional information about your breakout.
     - Pipeline
-        - The Pipeline you want to use for streaming.
+        - The input Pipeline you want to use for streaming.
     - Source IP
         - IP of the system you are streaming from.
     - Start Time

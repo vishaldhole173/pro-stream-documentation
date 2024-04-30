@@ -28,10 +28,10 @@ To see the distribution profile for any pipeline, toggle the 'Show Hide Distribu
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/trash.svg" width="20" height="20">  Delete a pipeline
 
-- Press the trash icon in the lower-left of the pipelines listing page.
-- The application will prompt the user to confirm their intention to delete the pipeline.
+* Press the trash icon in the lower-left of the pipelines listing page.
+* The application will prompt the user to confirm their intention to delete the pipeline.
 * This confirmation step is crucial as the action cannot be undone.
-* Upon confirmation, the application permanently removes the pipeline and any referenced to it.
+* Upon confirmation, the application permanently removes the pipeline and any references to it.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20">  Add pipeline 
 
@@ -40,7 +40,7 @@ about the pipeline.
 
 - ### Pipeline Types
     - MediaLive
-        - A broadcast-grade pipeline which is capable of encoding live video for broadcast and streaming to any device.
+        - A broadcast-grade pipeline which is capable of encoding live video for broadcast and streaming to any device. Supports multiple inputs and failover.
     - Interactive Video Service
         - A broadcast-grade pipeline which enables interactive and engaging live-streaming experiences.
 
