@@ -14,4 +14,4 @@ A search can then be constructed to find these files by assigning the "Big Show 
 
 The saved search can be assigned to any Event.
 
-When a user navigates to the Event, they will see the Sponsor link, which they can click to reveal the "Big Show Sponsor" files.
+When a user navigates to the Event, they will see the Sponsor link, which they can click to reveal the "Big Show Sponsor" files, which they can view and optionally download.
