@@ -71,9 +71,16 @@ To assign events to your calendar, click the Next button, or click the navigatio
 
 You can edit any Subdomain and change the values of all fields except the Subdomain and Redirect URL.
 
+In additional to the custom theming mentioned above, there are 4 built-in themes which you can use to overlay a distinct look to your portal. 
+
+* Purple Haze Elegance
+* Midnight Sun Fusion
+* Celestial Reverie
+* Shadowed Aquatica
+
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Events
 
-* A subdomain portal can display any number of events on the subdomain's home page, or the subdomain's calendar, provided it is 'Published'. 
+* A subdomain portal can display any number of events on the subdomain's home page, or the subdomain's calendar, provided the event is 'Published'. 
 - When setting up a subdomain, you will be asked to indicate which events you want displayed in the home page and calendar.
   - Events which are not yet published appear in grey text, but are still candidates for selection. 
 
@@ -81,4 +88,6 @@ As an admin user, clicking on a subdomain's title will redirect you to the [subd
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20"> Users
 
-* To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature on any event, which allows anonymous users the ability to access the subdomain portal.
+* Users are normally imported directly into an account.
+  - An admin user also has the ability to add users one-at-a-time.
+* To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature to any event, which allows anonymous users the ability to access your subdomain portal.
