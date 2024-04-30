@@ -12,5 +12,6 @@ Assign file by:
 - Project
 - Sponsor
 - Keywords
+- Channel (MP4 files only)
 
-You can write a brief description which will apply to all files in the upload session.
+You can also write a brief description which will apply to all files in the upload session.

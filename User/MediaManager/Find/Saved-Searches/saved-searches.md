@@ -4,9 +4,9 @@
 
 * When uploading a file in the Media Manager, users can associate tags with the file, such as a project name or keywords.
 
-* This feature streamlines the process of locating files that belong to specific project or have certain keywords. It enables users to organize and retrieve files efficiently, based on their project-related or keyword-related tags.
+* This feature streamlines the process of locating files that belong to specific project, sponsor, or have certain keywords. It enables users to organize and retrieve files efficiently, based on their project & sponsor-related and keyword-related tags.
 
-* This feature is utilized within the Vision Stream to present media files in the stream viewer. Users associate a specific search when creating a breakout, facilitating effortless access to all media files associated with that particular breakout. This streamlined approach relies on meaningful project and keyword tags attributed to the uploaded media, ensuring efficient organization and retrieval.
+* This feature is utilized within the Vision Stream to present media files in the stream viewer. Admin users associate a specific search when creating a breakout, facilitating effortless access to all media files associated with that particular breakout. This streamlined approach relies on meaningful project and keyword tags attributed to the uploaded media, ensuring efficient organization and retrieval.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20"> Create new search
 
@@ -18,9 +18,13 @@ Press the '+' icon in the upper right of the Searches listing page to open the c
 
 * Optional fields
   - Project tag
-    - Choose existing or enter new project tag which you have associated while uploading the file in the Media Manager
+    - Choose existing or enter new project tag which you have associated while uploading the file in MediaManager
   - Keywords tag
-    - Choose existing or enter new keywords which you have associated while uploading the file in the Media Manager
+    - Choose existing or enter new keywords which you have associated while uploading the file in MediaManager
+  - Sponsor tag
+    - Choose existing or enter new sponsor tag which you have associated while uploading the file in MediaManager
+  - Channel tag
+    - Choose existing or enter new channel tag which you have associated while uploading the file in MediaManager
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/file.svg" width="20" height="20">  Show Files
 
