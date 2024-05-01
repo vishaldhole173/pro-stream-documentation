@@ -1,8 +1,8 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/photo-film.svg" width="20" height="20"> Introduction to MediaManager
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
-
 MediaManager is a content management system which facilitates many content delivery scenarios within VisionStream.
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 Upload files can be organized by Project, Sponsor, Keywords and Channels.
 
