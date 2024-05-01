@@ -4,7 +4,7 @@ Files can be uploaded to MediaManager using the file uploader.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-You can drag files directly from your desktop and drop them into the currently open drive.
+You can drag files directly from your desktop and drop them into the currently open `Drive`.
 
 * When a user submits files to MediaManager, the following steps occur:
     - All files are listed in the Upload panel, displaying the file name, type and size.
@@ -19,4 +19,4 @@ You can drag files directly from your desktop and drop them into the currently o
 
 After upload, the index lookups in MediaManager are updated to reflect the new additions. MediaManager keeps track of the last 20 Sponsor, Project and Keyword tags that have been utilized and displays them prominently in the UI. Showing all files which have been grouped by these various tags is easy via a simple click.
 
-All admin users in the same account will have visibility into everyone's Sponsor, Project and Keyword tags. This makes it easy for groups of people working with different documents and potentially different divisions to keep the organization structure well-defined and organized.
+All admin users in the same account will have visibility into everyone's Sponsor, Project and Keyword tags. This makes it easy for groups of people working with different documents and potentially different divisions to keep the organizational structure well-defined and organized.
