@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/tv.svg" width="20" height="20"> Channels
 
-VisionStream channels provide a meeans whereby related video content can easily be grouped by a channel name, and accessible via a subdomain portal's 'Channels' button.
+VisionStream Channels provide a means whereby related video content can easily be grouped by a channel name, and accessible via a subdomain portal's 'Channels' button.
 
 Like Blogs, a Channel is an important means for content creators to deliver information to end users.
 
