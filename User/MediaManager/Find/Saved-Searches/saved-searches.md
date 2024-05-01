@@ -4,7 +4,7 @@ A Search allows you to group various tags together into a single element, and th
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-* When uploading a file in the Media Manager, users can associate tags with the file, such as a project name or keywords.
+* When uploading a file to MediaManager, users can associate tags with the file, such as a project name or keywords.
 
 * This feature streamlines the process of locating files that belong to specific project, sponsor, or have certain keywords. It enables users to organize and retrieve files efficiently, based on their project & sponsor-related and keyword-related tags.
 
