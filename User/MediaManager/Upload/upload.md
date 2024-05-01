@@ -19,4 +19,4 @@ You can drag files directly from your desktop and drop them into the currently o
 
 After upload, the index lookups in MediaManager are updated to reflect the new additions. MediaManager keeps track of the last 20 Sponsor, Project and Keyword tags that have been utilized and displays them prominently in the UI. Showing all files which have been grouped by these various tags is easy via a simple click.
 
-All admin users in the same account will have visibility into everyone's Sponsor, Project and Keyword tags. This makes it easy for groups of people working with different documents and potentially different divisions to keep the organizational structure well-defined and organized.
+All users in the same account will have visibility into everyone's Sponsor, Project, Keyword and Channel tags. This makes it easy for groups of people working with different documents and potentially different divisions to keep the organizational structure well-defined and organized.

@@ -19,7 +19,7 @@ Find by filters provide quick access to all your MediaManager data.
 
 After upload, the index lookups in MediaManager are updated to reflect the new additions. MediaManager keeps track of the last 20 Sponsor, Project and Keyword tags that have been utilized and displays them prominently in the UI. Showing all files which have been grouped by these various tags is easy via a simple click.
 
-All admin users in the same account will have visibility into everyone's Sponsor, Project and Keyword tags. This makes it easy for groups of people working with different documents and potentially different divisions to keep the organization structure well-defined and organized.
+All admin users in the same account will have visibility into everyone's Sponsor, Project, Keyword and Channel tags. This makes it easy for groups of people working with different documents and potentially different divisions to keep the organization structure well-defined and organized.
 
 ### Other useful high-level filters:
 

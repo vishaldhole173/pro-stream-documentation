@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/heart.svg" width="20" height="20"> Favorites
 
-You have the ability to mark any file available to you as a **favorite** in the Media Manager. 
+You have the ability to mark any file available to you as a **favorite** in MediaManager. 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
