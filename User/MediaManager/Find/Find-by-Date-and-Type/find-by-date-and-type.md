@@ -1,9 +1,10 @@
-# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar.svg" width="20" height="20"> Find by Date & Type
+ # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar.svg" width="20" height="20"> Find by Date & Type
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-* Find by Date & Type feature that allows you to search and filter files based on their upload date and file type.
-* This feature enables you to quickly locate files uploaded within specific months and years or filter files based on their file types.
-* By hovering over a specific month or file type, you will see a tooltip displaying the total number of files uploaded in that particular month or of that specific file type.
-* If you want to explore files uploaded in a particular month, click on the corresponding month name. This action will take you to the files chard view where you can view all files uploaded in that month.
-* Similarly, by clicking on a specific file type tag, you will be directed to the files card view, where you can see all files associated with that file type.
+* Find by Date & Type feature allows you to quickly list all files based on their upload date or file type.
+* In MediaManager, under the `Find` heading, click the item titled `Find by Date & Type`.
+    * You will see an index panel of months, and an index panel of types, sorted and grouped alphabetically.
+    * Locate the Date or Type associated with files you wish to view.
+        * Hovering over a Date or Type activates a tooltip containing the number of files uploaded by that user.
+    * Clicking the Date or Type will display all files associated with that Date or Type.
