@@ -8,10 +8,11 @@
 
 ## User basics
 
-- ### There are 3 classes of VisionStream user:
-  - #### Admin root user (Account owner)
-  - #### Basic admin user
-  - #### External user
+There are 4 classes of VisionStream user:
+- Admin root user (Account owner)
+- Basic admin user
+- External user
+- Guest User
 
 ### Admin root user
 
