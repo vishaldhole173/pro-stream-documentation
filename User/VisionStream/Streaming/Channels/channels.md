@@ -36,7 +36,7 @@ Press the '+' icon in the upper right of the Channels listing page to open the c
         - Used to view the status of a Cloudfront distribution
             - In progress Cloudfront distribution status is designated by an amber icon
             - Deployed Cloudfront distribution status is designated by a green icon
-    - Cloudfornt switch
+    - Cloudfront switch
         - Used to make the audience only use the Cloudfront distribution playback URL
     - Show Stream Events
         - Used to get MediaLive channel events

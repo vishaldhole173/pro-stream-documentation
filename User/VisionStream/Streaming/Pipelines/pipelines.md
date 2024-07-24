@@ -39,10 +39,10 @@ Press the '+' button in the Pipelines view to navigate to the Create Pipeline fo
 about the pipeline.
 
 - ### Pipeline Types
-    - MediaLive
+    - Pro
         - A broadcast-grade pipeline which is capable of encoding live video for broadcast and streaming to any device. Supports multiple inputs and failover.
-    - Interactive Video Service
-        - A broadcast-grade pipeline which enables interactive and engaging live-streaming experiences.
+    - Cam
+        - A broadcast-grade pipeline which is capable of encoding live video for broadcast and streaming to any device. Does not support multiple inputs and failover.
 
 - ### Input Types
     - RTMP Push
