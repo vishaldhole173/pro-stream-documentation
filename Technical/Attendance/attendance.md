@@ -61,13 +61,13 @@ async recordAttendance(breakoutId, userDetails) {
   }
 ```
 
-3. Collect some metrics about user - IP, browser, OS, device and user agent etc using active WebSocket connection.
+3. Collect some metrics about user - IP, browser, OS, device and user agent etc. using active WebSocket connection.
 4. Generate a session id, a random string of length 10 to identify different active sessions of the user on different devices etc.
 5. Save details into attendance database table.
 
 ### Save user exit from the stream viewer page
 
-There are three ways that user can exit from stream viwer page.
+There are three ways that user can exit from stream viewer page.
 
 1. Navigating to other page by means of clicking on some nav links in the top navbar or a back button.
 2. Closing browser or a tab.
@@ -104,7 +104,7 @@ async handleLeaveChatRoomRequest(data) {
 }
 ```
 
-In a second case, there might be case that stream is completed or inbetween of event they would like to close browser or tab. In this case we are using WebSocket disconnect event to know that user has navigated away from the stream viewer page.
+In a second case, there might be case that stream is completed or in between of event they would like to close browser or tab. In this case we are using WebSocket disconnect event to know that user has navigated away from the stream viewer page.
 
 ```
 onSocketDisconnect() {
@@ -112,7 +112,7 @@ onSocketDisconnect() {
 }
 ```
 
-In a third case, user is not allowed to view stream using stream viewer page because they are trying to view stream from the other device, browers.
+In a third case, user is not allowed to view stream using stream viewer page because they are trying to view stream from the other device, browsers.
 
 ```
 async expelUser(breakoutId, activeSocketId) {

@@ -19,7 +19,7 @@ AWS Elemental MediaLive provides two pricing models: On-Demand and Reserved.
 
 * On-Demand pricing: You pay an hourly rate for running inputs, outputs, and add-on features. The duration of each running resource will be rounded up to the nearest minute, above a 10-minute minimum. No long-term commitments or upfront payments are needed. You can increase or decrease your usage depending on the needs of your channels and only pay the specified hourly rates for the inputs, outputs and features you use.
 
-* Reserved pricing: Inputs, outputs, and add-on features are available with a 12 month commitment, and provide a significant discount compared to On-Demand pricing. This rate is charged for every hour in the month, for each month of your commitment period.
+* Reserved pricing: Inputs, outputs, and add-on features are available with a 12-month commitment, and provide a significant discount compared to On-Demand pricing. This rate is charged for every hour in the month, for each month of your commitment period.
 
 For calculations in the VisionStream, we've considered only On-Demand pricing model.
 
@@ -264,7 +264,7 @@ Pricing.updateMediaPackageCost = async function (
 
 * We retrieve the invocation count metric for the Lambda@Edge function by calling `Cloudwatch.getLambdaAtEdgeMetrics()`. This method gives the total invocations made for the Lambda function within a particular time period if we pass **invocations** in the params.
 
-* Similarly we can find the total duration for which the lambda function was in the running state. The function retrieves the duration metric for the Lambda@Edge function, if we pass **Duration** in the params.
+* Similarly, we can find the total duration for which the lambda function was in the running state. The function retrieves the duration metric for the Lambda@Edge function, if we pass **Duration** in the params.
 
 ```
   Pricing.getCFMetrics = async function (awsDistId, startTime, endTime) {
@@ -599,7 +599,7 @@ For calculations in the VisionStream, we've considered only On-Demand pricing mo
 
 ## Get Input Pricing
 
-* `PricingService.getMediaConvertPricing` retireves the pricing for MediaConvert service in USD.
+* `PricingService.getMediaConvertPricing` retrieves the pricing for MediaConvert service in USD.
 
 ```
 async function getMediaConvertPricing() {

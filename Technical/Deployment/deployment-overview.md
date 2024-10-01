@@ -90,7 +90,7 @@ To verify the deployment of the VisionStream infrastructure, follow these steps 
 
 * Verify that the app is able to handle user interactions correctly and that the expected features and functionalities are working as intended.
 
-* Test the end-to-end streaming process by starting a live stream and verifying that the stream is properly broadcasted and accessible to viewers.
+* Test the end-to-end streaming process by starting a live stream and verifying that the stream is properly broadcast and accessible to viewers.
 
 * Monitor the system behavior and performance during usage to ensure that it meets the desired requirements. Pay attention to any errors, latency, or unexpected behavior.
 
@@ -100,7 +100,7 @@ To verify the deployment of the VisionStream infrastructure, follow these steps 
 
 * Seek feedback from users or stakeholders to gather their experience and validate that the deployed VisionStream infrastructure meets their expectations.
 
-By following these steps, you can ensure that the VisionStream infrastructure has been successfully deployed and that the app is functioning properly, meeting the desired requirements for live streaming and broadcast management.
+By following these steps, you can ensure that the VisionStream infrastructure has been successfully deployed and that the app is functioning properly, meeting the desired requirements for livestreaming and broadcast management.
 
 ## Deployment Script
 

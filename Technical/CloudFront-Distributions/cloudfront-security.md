@@ -28,20 +28,20 @@ CloudFront provides several options for securing content that it delivers. The f
 - Set up field-level encryption for specific content fields
 - Use AWS WAF to control access to your content
 
-[Read more](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/SecurityAndPrivateContent.html).
+<a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/SecurityAndPrivateContent.html" target="_blank">Read More...</a>
 
 In our case we are using CloudFront signed URLs to secure live broadcast stream and video on demand recording stream.
 
 ## Choosing between signed URLs and signed cookies
 
-CloudFront signed URLs and signed cookies provide the same basic functionality: they allow you to control who can access your content. If you want to serve private content through CloudFront and you're trying to decide whether to use signed URLs or signed cookies, consider the following.
+CloudFront signed URLs and signed cookies provide the same basic functionality: they allow you to control who can access your content. If you want to serve private content through CloudFront, and you're trying to decide whether to use signed URLs or signed cookies, consider the following.
 
 Use signed URLs in the following cases:
 - You want to restrict access to individual files, for example, an installation download for your application.
 - Your users are using a client (for example, a custom HTTP client) that doesn't support cookies.
 
 Use signed cookies in the following cases:
-- You want to provide access to multiple restricted files, for example, all of the files for a video in HLS format or all of the files in the subscribers' area of website.
+- You want to provide access to multiple restricted files, for example, all the files for a video in HLS format or all of the files in the subscribers' area of website.
 - You don't want to change your current URLs.
 
 If you are not currently using signed URLs, and if your (unsigned) URLs contain any of the following query string parameters, you cannot use either signed URLs or signed cookies:
@@ -50,7 +50,9 @@ If you are not currently using signed URLs, and if your (unsigned) URLs contain 
 - Signature
 - Key-Pair-Id
 
-CloudFront assumes that URLs that contain any of those query string parameters are signed URLs, and therefore won't look at signed cookies. [Read more](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-choosing-signed-urls-cookies.html).
+CloudFront assumes that URLs that contain any of those query string parameters are signed URLs, and therefore won't look at signed cookies.
+
+<a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-choosing-signed-urls-cookies.html" target="_blank">Read More...</a>
 
 ## Secure Media Stream using CloudFront signed URLs
 
@@ -76,7 +78,7 @@ Refer following shell script file to create a trusted key group.
 scripts/deployment/create-cloudfront-key-group.sh
 ```
 
-Our architecture to secure media stream is more like described in the following diagram. The difference is that we are using our API server instead of API gateway to send signed URL. Diagram below illustrates the flow that a user’s request goes through to playback your media files.
+Our architecture to secure media stream is more like described in the following diagram. The difference is that we are using our API server instead of API gateway to send signed URL. Diagram below illustrates the flow that a user’s request goes through to play back your media files.
 
 ![CloudFrontSecureVideoStreaming](https://d2908q01vomqb2.cloudfront.net/5b384ce32d8cdef02bc3a139d4cac0a22bb029e8/2021/08/14/CloudFrontSecureVideoStreaming-Reference-Architecture.png)
 
@@ -154,7 +156,7 @@ You can see that we've added Lambda@edge association for ._m3u8 path.
     }
 ```
 
-That means when client requests `https://yourcfdist.cloudfront.net/index._m3u8`, the lambda@edge function is invoked, in turn it download original m3u8 playlist file and sign each url contained in the file.
+That means when client requests `https://yourcfdist.cloudfront.net/index._m3u8`, the lambda@edge function is invoked, in turn it downloads original m3u8 playlist file and sign each url contained in the file.
 
 2. CloudFront behavior is matched based on path pattern `*._m3u8`. Associated lambda function is invoked.
 3. Lambda gets CloudFront private key and caches for subsequent requests.

@@ -2,13 +2,13 @@
 
 ## Challenges faced using Signed URLs
 
-- Live streaming content delivery requires robust security measures to prevent unauthorized access to valuable media assets. While signed URLs have been a standard solution for securing access to these resources, certain limitations, particularly with iOS devices, prompted the need for an alternative approach.
+- Livestreaming content delivery requires robust security measures to prevent unauthorized access to valuable media assets. While signed URLs have been a standard solution for securing access to these resources, certain limitations, particularly with iOS devices, prompted the need for an alternative approach.
 
-- Ensuring that only authorized users can access the media is paramount when delivering live streaming content. Signed URLs have traditionally been used to achieve this, providing a secure way to grant temporary access to resources by appending a cryptographic signature to the URL. However, despite their effectiveness in many cases, signed URLs posed challenges when it came to certain iOS devices.
+- Ensuring that only authorized users can access the media is paramount when delivering livestreaming content. Signed URLs have traditionally been used to achieve this, providing a secure way to grant temporary access to resources by appending a cryptographic signature to the URL. However, despite their effectiveness in many cases, signed URLs posed challenges when it came to certain iOS devices.
 
-- Our initial implementation relied on signed URLs to secure access to live streaming content. While this approach worked seamlessly on most platforms, it encountered issues specifically with certain iOS devices. Users reported intermittent failures to access the content, leading to a frustrating user experience and potential loss of viewership.
+- Our initial implementation relied on signed URLs to secure access to livestreaming content. While this approach worked seamlessly on most platforms, it encountered issues specifically with certain iOS devices. Users reported intermittent failures to access the content, leading to a frustrating user experience and potential loss of viewership.
 
-- Upon investigation, it became evident that iOS devices, due to their strict handling of URL caching and expiration, were not consistently honoring the signed URLs, leading to authentication failures and inaccessible content. iOS doesn't support Media Source Extensions so hls.js can't be used on that platform. This inconsistency threatened the reliability and security of our live streaming service on iOS devices, necessitating a more robust solution.
+- Upon investigation, it became evident that iOS devices, due to their strict handling of URL caching and expiration, were not consistently honoring the signed URLs, leading to authentication failures and inaccessible content. iOS doesn't support Media Source Extensions so hls.js can't be used on that platform. This inconsistency threatened the reliability and security of our livestreaming service on iOS devices, necessitating a more robust solution.
 
 - To address the limitations of signed URLs, we decided to transition to a signed cookies approach, leveraging the capabilities of AWS services to enhance security and reliability. 
 
@@ -20,7 +20,7 @@ CloudFront provides several options for securing content that it delivers. The f
 
     - We utilized Amazon CloudFront as our content delivery network (CDN), which seamlessly integrates with AWS services for enhanced security and performance.
     
-- Create CloudFront Keygroup:
+- Create CloudFront Key group:
 
     - Create public and private keys
 
@@ -52,7 +52,7 @@ CloudFront provides several options for securing content that it delivers. The f
 
 - Update .m3u8 and .ts cache behavior
 
-    ![m3u8 Cache behviour](./images/m3u8-cache-behvaiour.png)
+    ![m3u8 Cache behaviour](./images/m3u8-cache-behvaiour.png)
 
 - Assign trusted key group:
 
@@ -157,8 +157,8 @@ CloudFront provides several options for securing content that it delivers. The f
 
 - Which attribute do we set on the video element to let cross-origin cookies flow to distribution?
 
-    - We set the crossorigin="use-credentials" attribute on the video element to let cross-origin cookies.
-    - By setting the crossorigin="use-credentials" attribute on the video element, the browser ensures that any cookies associated with the video's origin are sent along with the request, allowing the server hosting the video to recognize and authenticate the user, if necessary.
+    - We set the cross-origin="use-credentials" attribute on the video element to let cross-origin cookies.
+    - By setting the cross-origin="use-credentials" attribute on the video element, the browser ensures that any cookies associated with the video's origin are sent along with the request, allowing the server hosting the video to recognize and authenticate the user, if necessary.
 
 - How do we clear these cookies from the browser? Which APIs are used?
 
@@ -187,4 +187,4 @@ CloudFront provides several options for securing content that it delivers. The f
         }
         ```
 
-By transitioning from signed URLs to signed cookies, we were able to overcome the limitations encountered with certain iOS devices while enhancing the overall security and reliability of our live streaming service. Leveraging AWS services such as CloudFront, IAM, Lambda@Edge, and monitoring tools, we implemented a robust solution that ensures only authorized users can access our content, regardless of the platform or device they're using. This not only enhances the user experience but also safeguards valuable media assets against unauthorized access and potential security breaches.
+By transitioning from signed URLs to signed cookies, we were able to overcome the limitations encountered with certain iOS devices while enhancing the overall security and reliability of our livestreaming service. Leveraging AWS services such as CloudFront, IAM, Lambda@Edge, and monitoring tools, we implemented a robust solution that ensures only authorized users can access our content, regardless of the platform or device they're using. This not only enhances the user experience but also safeguards valuable media assets against unauthorized access and potential security breaches.
