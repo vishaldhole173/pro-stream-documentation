@@ -6,11 +6,11 @@ An Event is a core VisionStream component.
 Users can browse through a selection of events and choose which one they would like to stream.
 By clicking on the title of any event, users can view the associated breakout sessions for the selected event.
 
-After selecting the event title, Click the "Enter Event" button below the list of breakouts to view the event and its related breakout sessions. Users need to sign in first to access information regarding the event and its breakouts. The user will redirect to the Sign In page if not logged in previously. User choices for viewing breakouts will be "Calendar" and "List". Both buttons are available at the bottom right corner of the event section.
+After selecting the event title, Click the "Enter Event" button below the list of breakouts to view the event and its related breakout sessions. Users need to sign in first to access information regarding the event and its breakouts. The user will redirect to the Sign-In page if not logged in previously. User choices for viewing breakouts will be "Calendar" and "List". Both buttons are available in the bottom right corner of the event section.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-days.svg" width="20" height="20"> Calendar View Button
 
-The Calendar view is the initial display when the user arrives at the summary page. Click "Calendar View" to see all breakout sessions arranged by days. This will group the breakout sessions according to the various days and display them in an organised manner. Users can switch timezone between local and GMT from the toggle button on the top right corner of breakouts.
+The Calendar view is the initial display when the user arrives at the summary page. Click "Calendar View" to see all breakout sessions arranged by days. This will group the breakout sessions according to the various days and display them in an organised manner. Users can switch timezone between local and GMT from the toggle button in the top right corner of breakouts.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/clipboard-list.svg" width="20" height="20"> List View Button
 
@@ -18,7 +18,7 @@ Click "List View" to view a list of all breakout sessions organised by date and 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/user.svg" width="20" height="20"> My Profile
 
-Click "My Profile" link on the top right corner to view following options - 
+Click "My Profile" link in the top right corner to view following options - 
 * Events
   - Click "Events" to view all events.
 * Calendar
@@ -66,7 +66,7 @@ If Breakout is completed, you will see the `This stream has ended !` view.
 NOTE: Users cannot view the stream or recording from the same account on multiple browser pages or devices simultaneously. There is a device limit of 1 for accessing the stream or recording. If you are logged in on multiple tabs or devices, you will be redirected to the events page.
 
 ## Calendar
-Users will find "Calendar" button in "My Profile" section on the top right corner of the page.
+Users will find "Calendar" button in "My Profile" section in the top right corner of the page.
 
 * Accessing the Event/breakouts Calendar:
   - Click on the "Calendar" option in the menu from "My Profile" section.

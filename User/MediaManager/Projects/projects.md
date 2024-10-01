@@ -10,14 +10,14 @@ From there, we can assign further lookup terms using keywords.
 
 For example:
 
-- A Really Big Show
+- A Massive Show
   - Contracts
-- A Really Big Show
+- A Massive Show
   - User Import Files
-- A Really Big Show
+- A Massive Show
   - Wiring diagrams
 
-The example above shows 3 separate uploads, containing any number of files, associated with the Project "A Really Big Show" and the Keywords "Contracts", "User Import Files" and "Wiring diagrams" respectively."
+The example above shows 3 separate uploads, containing any number of files, associated with the Project "A Massive Show" and the Keywords "Contracts", "User Import Files" and "Wiring diagrams" respectively."
 
 
 

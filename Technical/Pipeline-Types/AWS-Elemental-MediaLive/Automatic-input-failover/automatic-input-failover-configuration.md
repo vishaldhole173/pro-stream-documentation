@@ -11,12 +11,12 @@ MediaLive always creates two endpoints:
 
 <a href="https://docs.aws.amazon.com/medialive/latest/ug/input-create-rtmp-push.html" target="_blank">Read more about RTMP push inputs</a>
 
-| Channel class | Number of Inputs | No of streaming endpoints available |
-| ------ | ------ | ------ |
-| Single Pipeline | 1 | 1 |
-| Single Pipeline | 2 | 2 |
-| Standard | 1 | 2 |
-| Standard | 2 | 4 |
+| Channel class   | Number of Inputs | No of streaming endpoints available |
+|-----------------|------------------|-------------------------------------|
+| Single Pipeline | 1                | 1                                   |
+| Single Pipeline | 2                | 2                                   |
+| Standard        | 1                | 2                                   |
+| Standard        | 2                | 4                                   |
 
 ## About input failover
 

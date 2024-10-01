@@ -133,7 +133,7 @@ A <a href="https://docs.aws.amazon.com/mediapackage/latest/ug/endpoints.html" ta
     });
 ```
 
-Looking at the `params` from the above code, it is inferred that only `HlsPackage` property is used from `packages` object. Hence properties like `CmafPackage`, `DashPackage`, `MssPackage` can be removed. Also, looking at the `Input Type` of Channel (which is `hls`), it is intuitive to say that only `HlsPackage` would be required.
+Looking at the `params` from the above code, it is inferred that only `HlsPackage` property is used from `packages` object. Hence, properties like `CmafPackage`, `DashPackage`, `MssPackage` can be removed. Also, looking at the `Input Type` of Channel (which is `hls`), it is intuitive to say that only `HlsPackage` would be required.
 
 Before going any further, let's ensure we understand some terminologies & concepts:
 
@@ -355,13 +355,13 @@ the below code is for Encoding the live stream and send the result(output) to Me
         };
     } 
 ```
-The above configyration let's `MediaLive` Channels encode the Live Stream into **4 variants**:
+The above configuration let's `MediaLive` Channels encode the Live Stream into **4 variants**:
 1. **1080p** - **30bps** with audio channel `audio_1`
 2. **720p** - **30bps** with audio channel `audio_2`
 3. **480p** - **30fps** with audio channel `audio_3`
 4. **240p** - **30fps**  with audio channel `audio_4`
 
-Audio channels `audio_X` is defined in paramters of `createChannel` in the next few code blocks.
+Audio channels `audio_X` is defined in parameters of `createChannel` in the next few code blocks.
 
 MediaLive searches for a "Destination", matching an Output group. We have specified two Output Groups, hence we need to specify two Destinations as well. We already know what those two are going to be:
 * MediaPackage (Channel Input)

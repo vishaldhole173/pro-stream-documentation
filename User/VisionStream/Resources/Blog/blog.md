@@ -10,7 +10,7 @@ The Blogs view displays a list of blog posts in a structured manner.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20"> Create new Blog Post
 
-Press the '+' icon in the upper right of the Blog Postings listing page to open the create new Blog Post page
+Press the '+' icon in the upper right of the Blog Postings listing page to open the Create New Blog Post page
 
 * Required fields
   - Title

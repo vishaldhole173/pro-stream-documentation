@@ -3,7 +3,7 @@
 - Configure Tenant: 
     - Tenant Name: Tenant name
     - Subdomain Name: Subdomain to be used for this tenant. A Route 53 record will be added.
-    - Redirect URL: On tenat user login success will be redirected to '/calendar' path
+    - Redirect URL: On tenant user login success will be redirected to '/calendar' path
     - Admin Password: Tenant admin user password.
     - Picture: Tenant navbar logo. A logo file needs to be uploaded to `tenants` folder of the s3 bucket `pro-stream-pictures`.
     - Navbar background color: Color value. For example, use #ffffff hex value for white navbar background color.
