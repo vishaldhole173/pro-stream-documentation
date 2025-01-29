@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/dollar-sign.svg" width="20" height="20"> Monitization
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Stream Viewer
 
 eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
 
