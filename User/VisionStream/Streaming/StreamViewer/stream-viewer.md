@@ -25,7 +25,7 @@ Pressing this button will stop your livestreaming session.
     - Pipeline will stop producing video immediately
     - Metric data, including analytics, attendance, and throughput, begin calculating 
     - You CANNOT restart a stream once it has been stopped
-      - The performance is essentially over and cannot be restarted
+      - Your performance is essentially over and cannot be restarted
 
 ## Pipeline Details 
 
@@ -35,7 +35,7 @@ Press the Pipeline Details button to see and overview of the pipeline.
 - Pipeline class (Single or Standard)
 - Number of Inputs
 
-For more information on Pipelines, you can [read more](../../Admin/Distributions/distributions.md) here.
+For more information on Pipelines, you can [read more](../../Streaming/Pipelines/pipelines.md) here.
 
 ## Livestream Log
 
@@ -43,13 +43,13 @@ Press the Livestream Log button to see log messages associated with your pipelin
 
 The log will produce messages which allow you to monitor what is happening during a livestream session.
 
-In most cases, you will simply receive a Start and Stop stream messages.
+In most cases, you will simply receive Start and Stop log messages.
 
-However, depending on your configuration and pipeline type, you can also receive other messages, including:
+However, depending on your configuration and pipeline type, you may also receive additional messages, including:
 - Recording start 
 - Recording stop
 - Failover to channel 1, or 2
-- Stream health / degradation or recovery
+- Stream health / degradation / recovery
 
 ## Refresh Audience
 
