@@ -57,6 +57,8 @@ These action types include:
 ### ConnectedAccount
 - ConnectedAccountCreated
 
+<hr>
+
 The Activity Log allows you to filter these log items by the following:
 
 - Type
