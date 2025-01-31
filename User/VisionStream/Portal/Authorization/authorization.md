@@ -4,15 +4,15 @@ You can onboard new accounts by enrolling account owners via Authorization.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-A typical need for a customer is to enable other groups to use the VisionStream platform.
+A typical need for a customer is to enable other groups within their organization to use the VisionStream platform.
 
-Say, for example, that you have a marketing team which does frequent outreach thought livestreaming, blogging and posting of informative podcasts or videos.
+For example, you may have a marketing team which does frequent outreach thought livestreaming, blogging and posting of informative podcasts or videos.
 
-You can onboard that Marketing group as a new VisionStream account by sending an Authorization request to a member of that group.
+You can onboard that group in a new VisionStream account by sending an Authorization request to a group member.
 
-The Authorization enables that person the ability to establish a brand new VisionStream account, which falls under the Authorizing account.
+The Authorization enables that person the ability to establish a brand new VisionStream account, which will fall under your authorizing account.
 
-Authorized accounts maintain their own users, events, breakouts, livestreams, calendars and subdomain portals.
+Authorized accounts also maintain their own users, events, breakouts, livestreams, calendars and subdomain portals.
 
 Authorized accounts maintain separate billing and invoicing from the parent account.
 
