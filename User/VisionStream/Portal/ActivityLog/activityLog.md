@@ -8,10 +8,11 @@ As you and other admins use VisionStream, various actions that are performed are
 
 These action types include:
 
-### Events:
+### Events
 - EventCreated
 - EventUpdated
-### Breakouts:
+
+### Breakouts
 - BreakoutCreated
 - BreakoutUpdated
 - BreakoutDeleted
@@ -20,31 +21,39 @@ These action types include:
 - BreakoutAborted
 - BreakoutStopped
 - BreakoutReset
-### Comments:
+
+### Comments
 - CommentDeleted
 - CommentHistoryDeleted
-### Pipelines:
+
+### Pipelines
 - PipelineCreated
 - PipelineDeleted
 - PipelineStopped
-### Subdomains:
+
+### Subdomains
 - SubdomainCreated
 - SubdomainDeleted
 - SubdomainUpdated
-### Blogs:
+
+### Blogs
 - BlogCreated
 - BlogUpdated
 - BlogDeleted
-### Invoice:
+
+### Invoice
 - InvoiceGenerated
 - InvoicePaid
-### Authorizations:
+
+### Authorizations
 - AuthorizationCreated
 - AuthorizationUpdated
 - AuthorizationDeleted
+
 ### QuickStart
 - QuickStartBeginSetup
 - QuickStartEndSetup
+
 ### ConnectedAccount
 - ConnectedAccountCreated
 
