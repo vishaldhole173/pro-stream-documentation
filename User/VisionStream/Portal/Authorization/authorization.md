@@ -6,7 +6,7 @@ You can onboard new accounts by enrolling account owners via Authorization.
 
 A typical need for a customer is to enable other groups within their organization to use the VisionStream platform.
 
-For example, say that you have a marketing team which does frequent outreach thought livestreaming, blogging and posting of informative podcasts or videos.
+For example, you may have a marketing team which does frequent outreach thought livestreaming, blogging and posting of informative podcasts or videos.
 
 You can onboard that group in a new VisionStream account by sending an Authorization request to a group member.
 
