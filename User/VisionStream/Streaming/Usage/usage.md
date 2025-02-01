@@ -4,32 +4,33 @@ Get a snapshot your streaming usage at the Account, Event and Breakout levels.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-1. **Live Channel Source**
-    - A live video feed is ingested from a camera or a broadcasting source.
-    - Dual ingest support is provided for high availability and fault tolerance.
+**How it works**
+  - For both Cam and Pro pipelines, a live video feed is ingested from a camera or a broadcasting source.
+  - Dual ingest support is provided in Pro instances for high availability and fault tolerance.
 
-2. **Streaming with AWS Elemental MediaLive and AWS IVS**
-    - MediaLive handles **live video processing**.
-    - It transcodes the video feed into multiple bitrates to enable adaptive bitrate streaming.
-    - The processed streams are then sent to the next component.
+**Streaming using Pro pipelines**
 
-3. **Packaging with AWS Elemental MediaPackage**
-    - MediaPackage provides **Just-in-Time (JIT) packaging**, converting the transcoded streams into formats such as **HLS**, **DASH**, **MSS**, and **CMAF** for compatibility with various devices.
-    - MediaPackage ensures low-latency streaming and also supports encryption for secure content delivery.
-    - **Only Pro pipelines will report this value.**
-
-4. **Delivery with Amazon CloudFront**
-    - CloudFront acts as a **Content Delivery Network (CDN)** for global distribution of the packaged streams.
-    - It caches content at edge locations to reduce latency and enhance the streaming experience for viewers worldwide.
-    - **Only Pro pipelines will report this value.**
-
-5. **Conversion with MediaConvert.io**
-   - MediaConvert.io is out own conversion engine which allows us to process files much faster and with more flexibility.
+1. **Streaming**
+   - Pro pipelines handle **live video processing**.
+   - The pipeline transcodes the video feed into multiple bitrates to enable adaptive bitrate streaming.
+   - The processed streams are then sent to the packaging component.
+2. **Packaging**
+   - Packaging refers to the job **Just-in-Time (JIT) packaging**, converting the transcoded streams into formats such as **HLS**, **DASH**, **MSS**, and **CMAF** for compatibility with various devices.
+   - Packaging ensures low-latency streaming and also supports encryption for secure content delivery.
+3. **Delivery**
+   - VisionStream employs a **Content Delivery Network (CDN)** for global distribution of the packaged streams.
+   - It caches content at edge locations to reduce latency and enhance the streaming experience for viewers worldwide.
+4. **Conversion**
+   - VisionStream employs a conversion engine which allows us to process input files into various output formats.
    - It is used in VisionStream as a means of generating an MP4 video from an HLS archive.
+5. **Storage**
+   - Cloud storage is used to store segment files (.ts) generated from AWS MediaLive and recordings (VOD content) content.
 
-6**Storage with Amazon S3**
-    - Shared Amazon S3 bucket is used to store segment files (.ts) generated from AWS MediaLive and recordings (VOD content) content.
+**Streaming using Cam pipelines**
 
-7**Multiple OTT Devices**
-    - The packaged and distributed streams are compatible with a range of OTT (Over-The-Top) devices, including smart TVs, tablets, smartphones, and desktop players.
+- Cam pipelines function similarly to Pro pipelines, with the following exceptions:
+- Cam pipelines do not support a separate Packaging and Delivery option, as these tasks are built into the Cam pipeline.
+
+### Support for multiple OTT devices
+    - Both Pro and Cam streams are compatible with a range of OTT (Over-The-Top) devices, including smart TVs, tablets, smartphones, and desktop players.
     - Users enjoy smooth playback across devices thanks to adaptive bitrate streaming.
