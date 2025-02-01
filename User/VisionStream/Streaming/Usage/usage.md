@@ -35,4 +35,4 @@ Get a snapshot your streaming usage at the Account, Event and Breakout levels.
     - Both Pro and Cam streams are compatible with a range of OTT (Over-The-Top) devices, including smart TVs, tablets, smartphones, and desktop players.
       - Users enjoy smooth playback across devices thanks to adaptive bitrate streaming.
 
-If you are interested in a more technical overview of the streaming process you can [Read more](../../Admin/Distributions/distributions.md).
+If you are interested in a more technical overview of the streaming process you can [Read more](../Network/network.md).
