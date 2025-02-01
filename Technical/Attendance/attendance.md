@@ -20,7 +20,7 @@ Collecting attendance as a feature in VisionStream can greatly enhance the overa
 
 In summary, collecting attendance in VisionStream enhances attendee experience, enables real-time engagement monitoring, facilitates personalized experiences, fosters networking and collaboration, provides attendance verification, supports post-event follow-up, and offers comprehensive analytics. These features contribute to the success of virtual events and enhance attendee satisfaction.
 
-## How the attendance is collected in the VisionStream?
+## How the attendance is collected in VisionStream?
 
 User attendance is tracked using WebSocket connection to server. Here's how:
 
