@@ -29,7 +29,7 @@ Get a snapshot your streaming usage at the Account, Event and Breakout levels.
 **Streaming using Cam pipelines**
 
 - Cam pipelines function similarly to Pro pipelines, with the following exception:
-  - Cam pipelines does not support discreet Packaging and Delivery, as these functions are built into the Cam pipeline.
+  - Cam pipelines do not support discreet Packaging and Delivery, as these functions are built into the Cam pipeline.
 
 ### Support for multiple OTT devices
     - Both Pro and Cam streams are compatible with a range of OTT (Over-The-Top) devices, including smart TVs, tablets, smartphones, and desktop players.
