@@ -1,8 +1,8 @@
-# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Event Log
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Stream Log
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
-- This feature allows you to view alerts and errors related to your livestreaming session.
-- It proves to be a useful tool for monitoring the progress of your event and ensuring that everything is running smoothly.
+- This feature allows you to view alerts and errors related to your livestreaming sessions.
+- It proves to be a useful tool for monitoring the progress of your stream and ensuring that everything is running smoothly.
 
 ## Reading the log file
 - When you click on a specific log record, a pop-up box will appear displaying the following details:

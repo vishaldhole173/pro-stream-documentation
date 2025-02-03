@@ -1,18 +1,24 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> Chats
 
-All VisionStream breakouts support chat which is available to all livestream attendees.
+All VisionStream breakouts support user-generated comments which are available to all livestream attendees.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-In the past, we have encountered team members utilizing the chat feature to communicate with each while setting up a livestream.
+Admin users have the ability to delete the entire comment history for any given breakout, and to delete any single comment from the breakout's comment history
 
-Having the ability to delete chat records before a livestream begins (or at any time during a livestream) has proven to be very useful.
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/trash.svg" width="20" height="20"> Delete entire comment history
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/trash.svg" width="20" height="20"> Delete chat records
-
-* Press the trash icon to the right of the chats count on the Chats listing page.
-  - The application will prompt the user to confirm their intention to delete chat history.
+### Delete comment history
+* Press the trash icon on the breakout listing page.
+  - The application will prompt the user to confirm their intention to delete comment history for this breakout.
     - This confirmation step is crucial as the action cannot be undone.
-  - Upon confirmation, the application permanently removes all chat records for the breakout session.
+  - Upon confirmation, the application permanently removes all comment records for the breakout session.
 
-**WARNING: All chat records for the breakout will be deleted. This operation cannot be reverted!**
+### Delete comment record
+* Press the comments icon on the breakout listing page and navigate to the comment table.
+  - Find the comment you are looking for, then press the trash icon on the comment listing.
+  - The application will prompt the user to confirm their intention to delete this comment for this breakout.
+    - This confirmation step is crucial as the action cannot be undone.
+  - Upon confirmation, the application permanently removes the comment record for the breakout session.
+
+**WARNING: Deleting comment records it permanent. This operation cannot be reverted!**
