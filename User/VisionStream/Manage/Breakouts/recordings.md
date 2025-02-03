@@ -14,7 +14,7 @@ For every VisionStream breakout, 2 recordings are generated.
 
   - In addition to an HLS recording VisionStream will also output an MP4 recording, which you can use for any purpose, including your own distribution.
 
-* Transcription:
+## Transcription:
 
 Transcription is an essential and valuable feature, benefiting both content creators and viewers in several ways:
 
@@ -38,7 +38,7 @@ Transcription is an essential and valuable feature, benefiting both content crea
 
 In summary, transcription significantly enhances the overall streaming experience by promoting accessibility, discoverability, and user engagement. It opens up new possibilities for content creators and allows viewers to interact with and enjoy the content more effectively.
 
-* Subtitles for MP4 recordings:
+### Subtitles for MP4 recordings:
 
 Currently, we are supporting subtitles for MP4 recordings.
 
