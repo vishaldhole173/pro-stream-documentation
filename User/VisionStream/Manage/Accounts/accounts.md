@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/city.svg" width="20" height="20"> Account
 
-How to manage your account, and how to authorize new accounts.
+Tips on how to manage your account, and how to authorize new accounts.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
 

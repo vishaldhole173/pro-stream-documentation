@@ -95,6 +95,13 @@ Stream Viewer is where you kick off, view, monitor and stop your livestreaming s
 
 [Read more to learn about the Stream Viewer...](../../Streaming/StreamViewer/stream-viewer.md)
 
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toolboz.svg.svg" width="20" height="20"> Breakout Toolbox View
+
+The Event Toolbox view allows you to view the high-level components which comprise an event.
+
+- Usage
+- Attendance
+
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
 
 A Usage profile is generated after every breakout has completed.
