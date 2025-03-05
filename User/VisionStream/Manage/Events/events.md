@@ -10,17 +10,17 @@ Events have discreet start & end times, location, venue, room, description, and 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published vs. Hidden Events
 
-- Published Events will display in calendars and other forward-facing pages.
-- Unpublished Events are hidden and cannot be accessed by an attendee.
+* Published Events will display in calendars and other forward-facing pages.
+* Unpublished Events are hidden and cannot be accessed by an attendee.
 
-- In the Event listing page:
+* In the Event listing page:
   - Published Events are designated by a calendar icon with a check mark.
   - Unpublished Events are designated by a disabled (grey) calendar icon.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active vs. Completed Events
 
-- In the Event listing page:
--   Active Events are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
+* In the Event listing page:
+  - Active Events are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
   - Completed Events are designated by a disabled (grey) Video Camera icon which will display 'Completed' when hovering over the icon.
 
 ##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> Create New Event
@@ -55,7 +55,7 @@ Once you toggle the Calendar Visibility control to Yes, the Event will display i
 VisionStream Events are made available to your attendees via a VisionStream subdomain portal.
 There are several different login scenarios you can employ at the attendee login screen to allow access to your content.
 
-- Login Options:
+* Login Options:
   - None
     - The default behavior once you have imported your attendees directly into your account, and prefer to restrict viewership to only those attendees.
   - Allow Guest Login
@@ -67,7 +67,7 @@ There are several different login scenarios you can employ at the attendee login
 
 ### Sponsorship
 
-- Requires MediaManager
+* This feature requires MediaManager
 
 VisionStream offers you the ability to incorporate sponsorship collateral into your subdomain portal.
 This collateral is in the form of files, such as .pdf, image files, etc. These files are displayed when your attendee presses the 
