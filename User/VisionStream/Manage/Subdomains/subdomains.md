@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/rocket.svg" width="20" height="20"> Subdomains
 
-A subdomain (or Portal, or Subdomain Portal) is what your end-users - attendees -  will ultimately interact with. It is essentially the entryway to viewing your published content, including:
+A subdomain (or Portal, or Subdomain Portal) is what your attendees will ultimately interact with. It is essentially the entryway to viewing your published content, including:
 
 - Event listings & calendars
 - Livestream performances
@@ -9,7 +9,7 @@ A subdomain (or Portal, or Subdomain Portal) is what your end-users - attendees 
 - Channel videos
 - On-demand recordings
 
-Admin users create subdomains with unique URLs, and can style a subdomain portal with branded content such as logos, colors and graphics. 
+Admin users create subdomains with unique URLs, and can style such portal with branded content such as logos, colors and graphics. 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
@@ -19,7 +19,7 @@ VisionStream will manage the entire flow within your subdomain, including authen
   - Navigate to your portal calendar which displays your published events.
   - Choose an event.
   - Continue to an overview page containing event specifics and details.
-  - Perform authentication (Sign In).
+  - Perform authentication (Sign In) to enter the event.
   - Apply donation and / or event charges if applicable.
   - Choose a breakout and continue to the live stream viewer.
     - If the breakout has completed, the user is instead navigated to the on-demand recording. 
@@ -60,9 +60,11 @@ You can edit any Subdomain and change the values of all fields except the actual
 
 ### Customize Your Branding
 
-You can customize many of the UI elements in the Subdomain Portal.
+You can customize many of the UI elements in your Subdomain Portals.
 
-- Click the Customize Your Branding check box and click the Next button.
+To enter the customization panel, click the Customize Your Branding check box and click the Next button.
+
+- Customization Options
   - Navbar background color
     - For the navbar, you can choose any background color that suits you.
     - You can either provide a color's hex value or text representation.
@@ -87,13 +89,9 @@ You can customize many of the UI elements in the Subdomain Portal.
 
 To assign events to your subdomain portal, click the Next button, or click the navigation link Select Events at the top right of the page titled 'Create Subdomain'.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Events
-
 * A subdomain portal can display any number of events on the subdomain's home page, or the subdomain's calendar, provided the event is 'Published'. 
 - When setting up a subdomain, you will be asked to indicate which events you want displayed in the home page and calendar.
   - Events which are not yet published appear in grey text, but are still candidates for selection. 
-
-As an admin user, clicking on a subdomain's title will redirect you to the [subdomain's home page](./events.md).
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20"> Users
 
