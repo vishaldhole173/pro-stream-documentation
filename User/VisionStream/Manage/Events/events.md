@@ -120,18 +120,16 @@ You can edit any Event and change the values of any field.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published / Hidden Events
 
-VisionStream maintains a simple UI construct which allows for the easy identification of Active and Published Events.
+VisionStream maintains a simple UI construct which allows for the easy identification of Hidden vs. Published Events.
 
-* Published Events
-  - Published Events will display in your calendar.
-  - Published Events are designated by a calendar icon with a check mark.
-  - Unpublished Events are hidden and cannot be accessed by a user.
+- Published Events will display in your calendar.
+- Published Events are designated by a calendar icon with a check mark.
+- Unpublished Events are hidden and cannot be accessed by a user.
   
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
 
-VisionStream maintains a simple UI construct which allows for the easy identification of Active and Completed Events.
+VisionStream maintains a simple UI construct which allows for the easy identification of Active vs. Completed Events.
 
-* Active Events
-  - Active Events are designated by a Video Camera which will display 'Active' when you hover over the icon.
-  - Completed Events are designated by a Video Camera which will display 'Completed' when you hover over the icon.
+- Active Events are designated by a Video Camera which will display 'Active' when you hover over the icon.
+- Completed Events are designated by a Video Camera which will display 'Completed' when you hover over the icon.
 
