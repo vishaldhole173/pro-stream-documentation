@@ -8,7 +8,13 @@ Admin users create Events which encapsulate one or more 'Breakouts'.
 
 Events have discreet start & end times, location, venue, room, description, and graphic.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published vs. Hidden Events
+## Event Listing View
+
+The Event Listing view is the page you are navigated to when you click the Events option in the application sideNav.
+
+This page will contain a listing of all the events in your account.
+
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published vs. Hidden Events
 
 - Published Events will display in calendars and other forward-facing pages.
 - Unpublished Events are hidden and cannot be accessed by an attendee.
@@ -16,13 +22,13 @@ Events have discreet start & end times, location, venue, room, description, and 
   - Published Events are designated by a calendar icon with a check mark.
   - Unpublished Events are designated by a disabled (grey) calendar icon.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active vs. Completed Events
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active vs. Completed Events
 
 * In the Event listing page:
   - Active Events are designated by a Video Camera which will display 'Active' on mouse hover.
   - Completed Events are designated by a disabled (grey) Video Camera which will display 'Completed' on mouse hover.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20"> Hide Completed
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20"> Hide Completed
 
 Hide Completed toggle allows you to quickly filter out events which have already completed.
 
@@ -31,7 +37,11 @@ Hide Completed toggle allows you to quickly filter out events which have already
   - An Event is completed only after all breakouts have been completed.
   - Filter Events setting persists over browser sessions.
 
-##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> Create New Event
+## Event Details View
+
+The Event Details view is where you enter details specific to your event.
+
+###  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> Create New Event
 
 Press the '+' icon in the upper right of the Event listing page to open the Create New Event page.
 
@@ -96,7 +106,7 @@ The Event Toolbox view allows you to view the high-level components which compri
 - Attendance
 - Recordings
 
-To enter the Event Toolbox view, click on any Event title.
+To enter the Event Toolbox view, click on any Event title in the Event listing page.
 
 ### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
 
