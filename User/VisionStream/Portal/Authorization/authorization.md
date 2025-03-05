@@ -1,20 +1,37 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/user-check.svg" width="20" height="20"> Authorizations
 
-You can onboard new accounts by enrolling account owners via Authorization. 
+You can authorize new accounts by enrolling new account owners via Authorization process. 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-A typical need for a customer is to enable other groups within their organization to use the VisionStream platform.
+A typical need for a customer is to enable other groups within their organization usage of the VisionStream platform.
 
-For example, you may have a marketing team which conducts frequent outreach via livestreaming, blogging and posting podcasts and videos.
+For example, there may be a marketing team within the organization which conducts frequent outreach via livestreaming, blogging, podcasting and static videos.
 
-You can onboard that group in a new VisionStream account by sending an Authorization request to a group member.
+You can onboard that group into a new VisionStream account by sending an Authorization request to new user.
 
-The Authorization enables that person the ability to establish a brand new VisionStream account, which will fall under your authorizing account.
+These users are called Authorized Users, and inherit full privileges once they have created their new account. 
 
-Authorized accounts also maintain their own users, events, breakouts, livestreams, calendars and subdomain portals.
+Like all accounts, Authorized accounts maintain their own users, events, breakouts, livestreams, calendars and subdomain portals.
 
-Authorized accounts maintain separate billing and invoicing from the parent account.
+Authorized accounts also maintain separate billing and invoicing from the parent account.
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-check.svg" width="20" height="20">  Show New Authorization
+
+You can send authorizations invitations to other users, authorizing them to create a new VisionStream account.
+
+* Press the '+' icon to Create New Authorization.
+    - Enter the name and email address of the user you want to invite.
+    - Once the authorization is created, it is marked as 'READY' and can be sent.
+    - When the authorization recipient clicks on the link to begin the New Account Onboarding process, the authorization is updated to 'ACCEPTED'.
+    - An authorization is marked as 'COMPLETED' when the user has successfully created a new account.
+* You can track whether the authorization is 'READY', 'ACCEPTED', or 'COMPLETED'
+    - The 'READY' state is designated by an amber icon.
+    - The 'ACCEPTED' state is designated by half-amber and green icon.
+    - The 'COMPLETED' state is designated by a green icon.
+
+**You can Revoke the authorization before the recipient accepts it. You may re-authorize the user at a later time.**
+
 
 
 

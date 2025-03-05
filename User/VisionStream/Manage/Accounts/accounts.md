@@ -6,8 +6,7 @@ An Account is a core VisionStream component.
 
 An Account is created upon completion of the user onboarding process. During this process, the user will input information about themselves, along with information regarding the organization which they represent.
 
-Also during user onboarding, the user will also choose a Service Plan and Service Term which best matches their streaming requirements.
-
+Also during onboarding, users will choose a Service Plan and Service Term which best meets their streaming requirements.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20">  Create new Account
 
@@ -55,7 +54,7 @@ A Usage profile is generated after every breakout has been completed. At the acc
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/bullhorn.svg" width="20" height="20">  Show Invitations
 
-You can send invitations to other users, inviting them to join and access the streaming service using your account.
+You can send invitations to other users, inviting them to join your VisionStream account.
 
 Invited users, once enrolled, will inherit minimum user privileges. It is the responsibility of the enrolling user to assign privileges to the newly enrolled user.
 
@@ -63,10 +62,10 @@ Invited users, once enrolled, will inherit minimum user privileges. It is the re
   - Enter the name and email address of the user you want to invite.
   - Once the invitation is created, it is marked as 'READY' and can be sent. 
   - When the invitation recipient clicks on the link to begin the sign-up process, the invitation is updated to 'ACCEPTED'.
-  - An invitation is marked as 'COMPLETED' when the user has successfully created a user account.
+  - An invitation is marked as 'COMPLETED' when the user has successfully joined the account.
 * You can track whether the invitation is 'READY', 'ACCEPTED', or 'COMPLETED'
   - The 'READY' state is designated by an amber icon.
-  - The 'ACCEPTED' state is designated by half amber and green icon.
+  - The 'ACCEPTED' state is designated by half-amber and green icon.
   - The 'COMPLETED' state is designated by a green icon.
 
-**You can revoke the invitation before the recipient accepts the invitation. You may re-invite the user at a later time.**
+**You can Revoke the invitation before the recipient accepts the invitation. You may re-invite the user at a later time.**
