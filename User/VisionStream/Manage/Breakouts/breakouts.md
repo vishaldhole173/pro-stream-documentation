@@ -24,6 +24,13 @@ Breakout start time and duration should always be less than the Event end time.
   - Active Breakouts are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
   - Completed Breakouts are designated by a disabled (grey) Video Camera icon which will display 'Completed' when hovering over the icon.
 
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20">  Hide Completed
+
+Hide Completed Breakouts toggle allows you to quickly filter out breakouts which have already completed.
+- You can filter Breakouts to show only the those currently in progress.
+- Breakouts which have been completed will be removed from the list.
+- Filter Breakouts setting persists over browser sessions.
+
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20">  Create new Breakout
 
 Press the '+' icon in the upper right of the Breakout listing page to open the create new Breakout page.
@@ -81,13 +88,6 @@ You can edit any Breakout and change the values of any field, except:
   - Hours, Minutes
 
 You can change Charge Amount and Tip Jar to enable (or disable) the monetization process after a breakout has completed.
-
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20">  Hide Completed
-
-Hide Completed Breakouts toggle allows you to quickly filter out breakouts which have already completed.
-- You can filter Breakouts to show only the those currently in progress.
-- Breakouts which have been completed will be removed from the list.
-- Filter Breakouts setting persists over browser sessions.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20">  Show Stream Viewer
 
