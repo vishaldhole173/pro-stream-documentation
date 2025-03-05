@@ -55,7 +55,7 @@ VisionStream Events are made available to your attendees via a VisionStream subd
 There are several different login scenarios you can employ at the attendee login screen to allow access to your content.
 
 * Login Options:
-  - None
+  - Default
     - The default behavior once you have imported your attendees directly into your account, and prefer to restrict viewership to only those attendees. The attendee only has to enter their email address to gain access to your published event.
   - Allow Guest Login
     - Use this option if you wish to provide anonymous attendees the ability to add themselves to your attendee list.
@@ -86,6 +86,15 @@ Hide Completed toggle allows you to quickly filter out events which have already
   - Events which have been completed will be removed from the list.
   - An Event is completed only after all breakouts have been completed.
   - Filter Events setting persists over browser sessions.
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toolboz.svg.svg" width="20" height="20"> Event Toolbox View
+
+The Event Toolbox view allows you to view the high-level components which comprise an event.
+
+- Breakouts
+- Usage
+- Attendance
+- Recordings
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
 
