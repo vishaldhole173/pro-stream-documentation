@@ -64,13 +64,24 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
     - Minutes
         - Minutes for which you want to stream.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20">  Edit Breakout
-
-You can edit any Event and change the values of any field.
-
 ### Picture Field
 
 Paste the URL of a custom picture file (.jpeg, .gif, .png) for use in your forward-facing Breakout and Calendar pages. Accepts MediaManager public URLs.
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20">  Edit Breakout
+
+You can edit any Breakout and change the values of any field, except:
+
+* When a Breakout has completed, the following fields are disabled and cannot be changed:
+  - Moderated Forum
+  - Transcription
+  - MP4 Recording
+  - Pipeline
+  - Source IP
+  - Start Time
+  - Hours, Minutes
+
+You can change Charge Amount and Tip Jar to enable (or disable) the monetization process after a breakout has completed.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20">  Hide Completed
 
