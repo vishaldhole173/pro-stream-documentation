@@ -87,7 +87,7 @@ You will group these files together using various tagging strategies, and then c
 
 You can edit any Event and change the values of any field.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toolbox.svg" width="20" height="20"> Event Toolbox View
+## Event Toolbox View
 
 The Event Toolbox view allows you to view the high-level components which comprise an event.
 
@@ -98,13 +98,13 @@ The Event Toolbox view allows you to view the high-level components which compri
 
 To enter the Event Toolbox view, click on any Event title.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
 
 To view all the breakouts associated with an Event, select the Breakouts control.
 
 You will be navigated to a new page containing a listing which includes all the breakouts belonging to the event.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gauge-high.svg" width="20" height="20"> Usage
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gauge-high.svg" width="20" height="20"> Usage
 
 A Usage profile is generated after every breakout has been completed. At the event level, Usage is calculated as the cumulative usage of all breakouts belonging to the event.
 
@@ -122,7 +122,7 @@ A Usage profile is generated after every breakout has been completed. At the eve
     - Conversion in USD
     - Storage in USD
 
-##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20"> Attendance
+###  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20"> Attendance
 
 Attendance is automatically tracked for every breakout.
 
@@ -135,7 +135,7 @@ At the event level, Attendance is calculated as the cumulative attendance of all
   - Region
   - City
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-play.svg" width="20" height="20"> Recordings
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-play.svg" width="20" height="20"> Recordings
 
 Every breakout is automatically recorded in VisionStream.
 

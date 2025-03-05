@@ -10,7 +10,7 @@ Admin users will create new Breakouts, entering name, date, time, duration and l
 
 Breakout start time and duration should always be less than the Event end time.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published vs. Hidden Events
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published vs. Hidden Breakouts
 
 - Published Breakouts will display in calendars and other forward-facing pages.
 - Unpublished Breakouts are hidden and cannot be accessed by an attendee.
@@ -18,7 +18,7 @@ Breakout start time and duration should always be less than the Event end time.
     - Published Breakouts are designated by a calendar icon with a check mark.
     - Unpublished Breakouts are designated by a disabled (grey) calendar icon.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active vs. Completed Events
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active vs. Completed Breakouts
 
 - In the Breakout listing page:
   - Active Breakouts are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
@@ -31,7 +31,7 @@ Hide Completed Breakouts toggle allows you to quickly filter out breakouts which
 - Breakouts which have been completed will be removed from the list.
 - Filter Breakouts setting persists over browser sessions.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20">  Create new Breakout
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20">  Create New Breakout
 
 Press the '+' icon in the upper right of the Breakout listing page to open the create new Breakout page.
 
@@ -55,7 +55,7 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
         - Assign a search to display files associated with a breakout.
           - Requires MediaManager 
     - Picture
-        - Picture you want to display for your breakout in the calendar.
+        - Picture URL (see usage below).
     - Description
         - Additional information about your breakout.
     - Pipeline
