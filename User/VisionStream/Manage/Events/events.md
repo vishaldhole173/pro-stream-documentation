@@ -1,16 +1,14 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Event
+
 An Event is a core VisionStream component.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
+
 Admin users create Events which encapsulate one or more 'Breakouts'.
 
 Events have discreet start & end times, location, venue, room, description, and graphic.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published / Hidden Events
-
-VisionStream maintains a simple UI construct which allows for the easy identification of Hidden vs. Published Events in the Event listing page.
-
-### Published vs. Unpublished
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published vs. Hidden Events
 
 - Published Events will display in calendars and other forward-facing pages.
 - Unpublished Events are hidden and cannot be accessed by an attendee.
@@ -19,9 +17,7 @@ VisionStream maintains a simple UI construct which allows for the easy identific
   - Published Events are designated by a calendar icon with a check mark.
   - Unpublished Events are designated by a disabled (grey) calendar icon.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
-
-### Active vs. Completed
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active vs. Completed Events
 
 - In the Event listing page:
 -   Active Events are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
@@ -79,7 +75,6 @@ Sponsor link. These files can then be downloaded and used for whatever purpose y
 
 You will group these files together using various tagging strategies, and then create a Saved Search in MediaManager which you can then select in your VisionStream Event.
 
-
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
 
 You can edit any Event and change the values of any field.
@@ -133,7 +128,8 @@ At the event level, Attendance is calculated as the cumulative attendance of all
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-play.svg" width="20" height="20"> Show Recordings
 
 Every breakout is automatically recorded in VisionStream.
+
 * Show Recordings feature allows admins the ability to see all recordings for any Event in a single view.
-    - Recordings are output both as HLS and MP4 (optional) format.
-      - Recordings can be viewed once a breakout has been completed.
-      - MP4 Recordings can be downloaded and saved by VisionStream admin users.
+* Recordings are output both as HLS and MP4 (optional) format.
+* Recordings can be viewed once a breakout has been completed.
+* MP4 Recordings can be downloaded and saved by VisionStream admin users.
