@@ -25,21 +25,50 @@ Note: Start and End times are entered as UTC values, though their local equivale
   - Picture
   - Description
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20"> Show Active Events
+### Calendar Visibility
 
-Show Active Events toggle allows you to quickly filter out events which have already completed.
+You may want to keep this Event out of your subdomain portal's calendar until you have completed setting it up.
+Once you toggle the Calendar Visibility control to Yes, the Event will display in the Calendar.
+
+### User Login Options
+
+VisionStream Events are made available to your attendees via a VisionStream subdomain.
+There are several login scenarios you can employ at the subdomain level to allow access to your content.
+
+- Login Options:
+  - None
+    - The default behavior once you have imported your attendees directly into your account, and prefer to restrict viewership to only those attendees.
+  - Allow Guest Login
+    - Use this option if you wish to provide anonymous attendees the ability to add themselves to your attendee list.
+      - Attendees will be required to authenticate themselves using a valid email address. 
+  - Require Authentication
+    - Requires ALL attendees to authenticate themselves ONE TIME before access is granted to an Event.
+      - Offers heightened security by ensuring the attendee is actually who they claim to be. 
+
+### Sponsorship
+
+- Requires MediaManager
+
+VisionStream offers you the ability to incorporate sponsorship collateral into your subdomain portal.
+This collateral is in the form of files, such as .pdf, image files, etc. These files are displayed when your attendee presses the 
+Sponsor link. These files can then be downloaded and used for whatever purpose you had intended.
+
+You will group these files together using various tagging strategies, and then create a Saved Search in MediaManager which you can then select in your VisionStream Event.
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20"> Hide Completed
+
+Hide Completed toggle allows you to quickly filter out events which have already completed.
 
 * You can filter Events to show only the those currently in progress.
   - Events which have been completed will be removed from the list.
-    - This setting persists over browser sessions.
+    - An Event is completed only after all breakouts have been completed.
+  - This setting persists over browser sessions.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-play.svg" width="20" height="20"> Show Recordings
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
 
-Every breakout is automatically recorded in VisionStream.
-* Show Recordings feature allows admins the ability to see all recordings for any Event in a single view.
-    - Recordings are output both as HLS and MP4 format.
-      - Recordings can be viewed once a breakout has been completed.
-      - Recordings can be downloaded and saved by stream viewers.
+To view all the breakouts associated with an Event, select the Breakouts control.
+
+You will be navigated to a new page containing a listing which includes all the breakouts belonging to the event.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gauge-high.svg" width="20" height="20"> Show Usage
 
@@ -72,28 +101,33 @@ At the event level, Attendance is calculated as the cumulative attendance of all
   - Region
   - City
   - Cumulative viewing time
-    - Live  
-    - On-demand 
+    - Live
+    - On-demand
     - Total viewing time
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-play.svg" width="20" height="20"> Show Recordings
+
+Every breakout is automatically recorded in VisionStream.
+* Show Recordings feature allows admins the ability to see all recordings for any Event in a single view.
+    - Recordings are output both as HLS and MP4 (optional) format.
+      - Recordings can be viewed once a breakout has been completed.
+      - Recordings can be downloaded and saved by stream viewers.
+
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
 
 You can edit any Event and change the values of any field.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Show Breakouts
-
-To view all the breakouts associated with an Event, select the Show Breakouts control.
-
-You will be navigated to a new page containing a listing which includes all the breakouts belonging to the event.
-
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle.svg" width="20" height="20"> Active and Published indicators
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published / Hidden Events
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
 
 VisionStream maintains a simple UI construct which allows for the easy identification of Active and Published Events.
 
-* Active Events
-  - Events which have not completed.
-    - Active Events are designated by a green icon.
-    - Completed Events are designated by an amber icon.
 * Published Events
   - Published Events will display in your calendar.
+  - Published Events are designated by a calendar icon with a check mark.
   - Unpublished Events are hidden and cannot be accessed by a user.
+* Active Events
+  - Active Events are designated by a Video Camera which will display 'Active' when you hover over the icon.
+  - Completed Events are designated by a Video Camera which will display 'Completed' when you hover over the icon.
+
