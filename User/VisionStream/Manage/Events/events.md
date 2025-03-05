@@ -22,6 +22,15 @@ Events have discreet start & end times, location, venue, room, description, and 
   - Active Events are designated by a Video Camera which will display 'Active' on mouse hover.
   - Completed Events are designated by a disabled (grey) Video Camera which will display 'Completed' on mouse hover.
 
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20"> Hide Completed
+
+Hide Completed toggle allows you to quickly filter out events which have already completed.
+
+* You can filter Events to show only the those currently in progress.
+  - Events which have been completed will be removed from the list.
+  - An Event is completed only after all breakouts have been completed.
+  - Filter Events setting persists over browser sessions.
+
 ##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> Create New Event
 
 Press the '+' icon in the upper right of the Event listing page to open the Create New Event page.
@@ -77,15 +86,6 @@ You will group these files together using various tagging strategies, and then c
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
 
 You can edit any Event and change the values of any field.
-
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20"> Hide Completed
-
-Hide Completed toggle allows you to quickly filter out events which have already completed.
-
-* You can filter Events to show only the those currently in progress.
-  - Events which have been completed will be removed from the list.
-  - An Event is completed only after all breakouts have been completed.
-  - Filter Events setting persists over browser sessions.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toolbox.svg" width="20" height="20"> Event Toolbox View
 
