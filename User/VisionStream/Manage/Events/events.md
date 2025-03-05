@@ -37,6 +37,10 @@ Hide Completed toggle allows you to quickly filter out events which have already
   - An Event is completed only after all breakouts have been completed.
   - Filter Events setting persists over browser sessions.
 
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
+
+You can edit any Event and change the values of any field.
+
 ## Event Details View
 
 The Event Details view is where you enter details specific to your event.
@@ -92,10 +96,6 @@ This collateral is in the form of files, such as .pdf, image files, etc. These f
 Sponsor link. These files can then be downloaded and used for whatever purpose you had intended.
 
 You will group these files together using various tagging strategies, and then create a Saved Search in MediaManager which you can then select in your VisionStream Event.
-
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
-
-You can edit any Event and change the values of any field.
 
 ## Event Toolbox View
 
