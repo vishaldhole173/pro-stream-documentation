@@ -40,10 +40,6 @@ Note: Start and End times are entered as UTC values, though their local equivale
   - Picture
   - Description
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
-
-You can edit any Event and change the values of any field.
-
 ### Picture Field
 
 Paste the URL of a custom picture file (.jpeg, .gif, .png) for use in your forward-facing Event and Calendar pages. Accepts MediaManager public URLs.
@@ -77,6 +73,11 @@ This collateral is in the form of files, such as .pdf, image files, etc. These f
 Sponsor link. These files can then be downloaded and used for whatever purpose you had intended.
 
 You will group these files together using various tagging strategies, and then create a Saved Search in MediaManager which you can then select in your VisionStream Event.
+
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
+
+You can edit any Event and change the values of any field.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20"> Hide Completed
 

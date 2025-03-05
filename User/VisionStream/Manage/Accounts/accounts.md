@@ -6,11 +6,18 @@ An Account is a core VisionStream component.
 
 An Account is created upon completion of the user onboarding process. During this process, the user will input information about themselves, along with information regarding the organization which they represent.
 
-During user onboarding, the user will also choose a Service Plan and Service Term. The Plan and Term are chosen using a process which walks the user through a process to best determine their streaming requirements.
+Also during user onboarding, the user will also choose a Service Plan and Service Term which best matches their streaming requirements.
+
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20">  Create new Account
 
 New accounts are initiated by the Account Authorization Process.
 
 [Read more to learn about the Account Authorization process...](../../Portal/Authorization/authorization.md)
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20">   Edit Account
+
+You can edit your Account and change the values of any fields provided you have the necessary permissions.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gears.svg" width="20" height="20">  Service Plan and Features
 
@@ -63,7 +70,3 @@ Invited users, once enrolled, will inherit minimum user privileges. It is the re
   - The 'COMPLETED' state is designated by a green icon.
 
 **You can revoke the invitation before the recipient accepts the invitation. You may re-invite the user at a later time.**
-
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20">   Edit Account
-
-You can edit your Account and change the values of any fields provided you have the necessary permissions.
