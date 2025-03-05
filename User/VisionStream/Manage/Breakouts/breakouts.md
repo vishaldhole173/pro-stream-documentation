@@ -1,6 +1,6 @@
 # Breakout
 
-A Breakout is a core VisionStream component.
+A breakout is a show, performance or presentation.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
 
@@ -10,24 +10,17 @@ Admin users will create new Breakouts, entering name, date, time, duration and l
 
 Breakout start time and duration should always be less than the Event end time.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published / Hidden Events
-
-VisionStream maintains a simple UI construct which allows for the easy identification of Hidden vs. Published Breakouts in the Breakout listing page.
-
-### Published vs. Unpublished
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published vs. Hidden Events
 
 - Published Breakouts will display in calendars and other forward-facing pages.
 - Unpublished Breakouts are hidden and cannot be accessed by an attendee.
-
 - In the Breakout listing page:
     - Published Breakouts are designated by a calendar icon with a check mark.
     - Unpublished Breakouts are designated by a disabled (grey) calendar icon.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active vs. Completed Events
 
-### Active vs. Completed
-
-- In the Event listing page:
+- In the Breakout listing page:
   - Active Breakouts are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
   - Completed Breakouts are designated by a disabled (grey) Video Camera icon which will display 'Completed' when hovering over the icon.
 
@@ -92,10 +85,9 @@ You can change Charge Amount and Tip Jar to enable (or disable) the monetization
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20">  Hide Completed
 
 Hide Completed Breakouts toggle allows you to quickly filter out breakouts which have already completed.
-
-* You can filter Breakouts to show only the those currently in progress.
-    - Breakouts which have been completed will be removed from the list.
-        - This setting persists over browser sessions.
+- You can filter Breakouts to show only the those currently in progress.
+- Breakouts which have been completed will be removed from the list.
+- Filter Breakouts setting persists over browser sessions.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20">  Show Stream Viewer
 

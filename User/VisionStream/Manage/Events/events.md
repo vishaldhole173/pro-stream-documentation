@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Event
 
-An Event is a core VisionStream component.
+Events can span days, weeks, months or years.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
@@ -12,8 +12,7 @@ Events have discreet start & end times, location, venue, room, description, and 
 
 - Published Events will display in calendars and other forward-facing pages.
 - Unpublished Events are hidden and cannot be accessed by an attendee.
-
-* In the Event listing page:
+- In the Event listing page:
   - Published Events are designated by a calendar icon with a check mark.
   - Unpublished Events are designated by a disabled (grey) calendar icon.
 
@@ -57,7 +56,7 @@ There are several different login scenarios you can employ at the attendee login
 
 * Login Options:
   - None
-    - The default behavior once you have imported your attendees directly into your account, and prefer to restrict viewership to only those attendees.
+    - The default behavior once you have imported your attendees directly into your account, and prefer to restrict viewership to only those attendees. The attendee only has to enter their email address to gain access to your published event.
   - Allow Guest Login
     - Use this option if you wish to provide anonymous attendees the ability to add themselves to your attendee list.
       - Attendees will be required to authenticate themselves using a valid email address. 
@@ -85,7 +84,7 @@ Hide Completed toggle allows you to quickly filter out events which have already
 
 * You can filter Events to show only the those currently in progress.
   - Events which have been completed will be removed from the list.
-    - An Event is completed only after all breakouts have been completed.
+  - An Event is completed only after all breakouts have been completed.
   - Filter Events setting persists over browser sessions.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
