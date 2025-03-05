@@ -85,13 +85,17 @@ Helps you to monitor the stream's health.
 
 - Used to reload the Stream Viewer for all attendees.
 
-### Video Player
+### Livestream Viewer
 
 - Used for viewing the livestreaming session.
 
 ### Comments
 
 Allows you to engage with audience without the need for a secondary device.
+
+<hr>
+
+## On-Demand recording, download and transcription view
 
 If Breakout is completed, you will see the `This stream has ended !` view.
 
