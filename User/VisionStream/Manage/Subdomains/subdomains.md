@@ -1,11 +1,11 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/rocket.svg" width="20" height="20"> Subdomains
 
-A subdomain (or Portal) is what your end-users will ultimately interact with. It is essentially the entryway to viewing your published content, including:
+A subdomain (or Portal, or Subdomain Portal) is what your end-users - attendees -  will ultimately interact with. It is essentially the entryway to viewing your published content, including:
 
-- Event listings
+- Event listings & calendars
 - Livestream performances
 - Blog postings
-- Sponsorship materials
+- Sponsorship collateral
 - Channel videos
 - On-demand recordings
 
@@ -15,7 +15,7 @@ Admin users create subdomains with unique URLs, and can style a subdomain portal
 
 VisionStream will manage the entire flow within your subdomain, including authentication and payments.
 
-* Your end users will:
+* Viewers will:
   - Navigate to your portal calendar which displays your published events.
   - Choose an event.
   - Continue to an overview page containing event specifics and details.
@@ -24,59 +24,68 @@ VisionStream will manage the entire flow within your subdomain, including authen
   - Choose a breakout and continue to the live stream viewer.
     - If the breakout has completed, the user is instead navigated to the on-demand recording. 
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20"> Create new Subdomain
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> Create New Subdomain
 
 Press the '+' icon in the upper right of the Subdomains listing page to open Create new Subdomain page.
 
 * Required fields
     - Name
-        - Tenant name
+      - Tenant name
     - Subdomain
         - Subdomain name which will be the part of URL
           - Your entered Subdomain name must be unique, and not clash with existing subdomain names.
 * Optional fields
-    - Redirect URL
-        - The user will be sent to that page after logging in.
-    - Logo
-        - Picture you want to set on the top navbar for branding.
-    - Navbar background color
-        - For the navbar, you can choose any background color that suits you.
-        - You can either provide a color's hex value or text representation. For example blue or #0000FF
-    - Navbar text color
-        - For the navbar, you can choose any text color that suits you.
-        - Just like the navbar background color, you can enter text color in hex value or text representation.
-    - Background color
-        - You can choose any background color that suits you.
-        - You can either provide a color's hex value or text representation. For example white or #FFFFFF
-    - Active tab background color
-        - You can choose any active tab background color that suits you.
-        - You can either provide a color's hex value or text representation. For example white or #FFFFFF
-    - Text color
-        - You can choose any text color that suits you.
-        - You can either provide a color's hex value or text representation. For example black or #000000
-    - Tab text color
-        - You can choose any tab text color that suits you.
-        - You can either provide a color's hex value or text representation. For example black or #000000
-    - Website
-        - Enter the website's URL that you want your audience to visit.
-    - Twitter
-        - Share your Twitter handle.
-    - Facebook
-        - Share your Facebook page.
-    - Instagram
-        - Share your Instagram account.
+    - Picture
+      - Picture of logo you want to set on the top navbar for branding.
+    - Built-in Theming
+      - There are 6 built-in themes which you can use to overlay a distinct look to your portal.
+        - Purple Haze Elegance
+        - Midnight Sun Fusion
+        - Celestial Reverie
+        - Shadowed Aquatica
+        - Moonlight Sonata
+        - Blushing Meadows
+   - YouTube
+       - Share your YouTube page.
+  - X
+      - Share your X page.
+  - Facebook
+      - Share your Facebook page.
+  - Instagram
+      - Share your Instagram page.
 
-To assign events to your calendar, click the Next button, or click the navigation link at the top of the page titled 'Events'.
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Subdomain
 
-You can edit any Subdomain and change the values of all fields except the Subdomain and Redirect URL.
+You can edit any Subdomain and change the values of all fields except the actual Subdomain.
 
-In additional to the custom theming mentioned above, there are 4 built-in themes which you can use to overlay a distinct look to your portal. 
+### Customize Your Branding
 
-* Purple Haze Elegance
-* Midnight Sun Fusion
-* Celestial Reverie
-* Shadowed Aquatica
+You can customize many of the UI elements in the Subdomain Portal.
+
+- Click the Customize Your Branding check box and click the Next button.
+  - Navbar background color
+    - For the navbar, you can choose any background color that suits you.
+    - You can either provide a color's hex value or text representation.
+      - For example blue or #0000FF
+  - Navbar text color
+      - For the navbar text color, you can choose any text color that suits you.
+      - Just like the navbar background color, you can enter text color in hex value or text representation.
+  - Background color
+      - You can choose any background color that suits you.
+      - You can either provide a color's hex value or text representation. For example white or #FFFFFF
+  - Active tab background color
+      - You can choose any active tab background color that suits you.
+      - You can either provide a color's hex value or text representation. For example white or #FFFFFF
+  - Text color
+      - You can choose any text color that suits you.
+      - You can either provide a color's hex value or text representation. For example black or #000000
+  - Tab text color
+      - You can choose any tab text color that suits you.
+      - You can either provide a color's hex value or text representation. For example black or #000000
+
+### Assigning Events to your Subdomain Portal
+
+To assign events to your subdomain portal, click the Next button, or click the navigation link Select Events at the top right of the page titled 'Create Subdomain'.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Events
 
