@@ -10,7 +10,7 @@ Admin users will create new Breakout records, entering name, date, time, duratio
 
 Breakout start time and duration should always be less than the Event end time.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20">  Create new Breakout
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20">  Create new Breakout
 
 Press the '+' icon in the upper right of the Breakout listing page to open the create new Breakout page.
 
@@ -49,9 +49,9 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
     - Minutes
         - Minutes for which you want to stream.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20">  Show Active Breakouts
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20">  Hide Completed
 
-Show Active Breakouts toggle allows you to quickly filter out breakouts which have already completed.
+Hide Completed Breakouts toggle allows you to quickly filter out breakouts which have already completed.
 
 * You can filter Breakouts to show only the those currently in progress.
     - Breakouts which have been completed will be removed from the list.
@@ -59,24 +59,28 @@ Show Active Breakouts toggle allows you to quickly filter out breakouts which ha
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20">  Show Stream Viewer
 
-If Breakout is active, you will see the Stream Viewer view, which contains the following controls outlined below.
+Stream Viewer is where you kick off, view, monitor and stop your livestreaming sessions.
+
+All breakouts associated with a streaming pipeline are eligible to be livestreamed.
+
+If Breakout is active, you can navigate to the Stream Viewer view, which contains the following controls outlined below.
 
 * Raise Curtain switch
     - Used to make the stream live
     - Once the stream is live audience is able to see the live stream
 * Pipeline status indicator
-    - Used to view the status of a MediaLive channel
+    - Used to view the status of a pipeline
         - Idle channel status is designated by an amber icon
         - Starting channel status is designated by a blue icon
         - Running channel status is designated by a green icon
-* Cloudfront distribution status indicator
-    - Used to view the status of a Cloudfront distribution
-        - In progress Cloudfront distribution status is designated by an amber icon
-        - Deployed Cloudfront distribution status is designated by a green icon
-* Cloudfront switch
+* Distribution status indicator
+    - Used to view the status of a distribution (Pro channel only)
+        - In progress distribution status is designated by an amber icon
+        - Deployed distribution status is designated by a green icon
+* Distribution switch
     - Used to make audience only use the Cloudfront distribution playback URL
 * Breakout Status
-    - Breakout status is displayed to the right of Cloudfront switch
+    - Breakout status is displayed to the right of distribution switch
     - Breakout status can be IDLE, STARTING, RUNNING, or COMPLETED
 * Stream Control Buttons
     - START Button
@@ -100,7 +104,7 @@ If Breakout is active, you will see the Stream Viewer view, which contains the f
         - If dropped frames are non-zero then there is a lag.
         - If FPS is between 0 and 30 then stream health is considered good.
 * Show Stream Events
-    - Used to show IVS or MediaLive channel events in a separate grid window.
+    - Used to show Cam or Pro channel events in a separate grid window.
 * Attendance
     - Shows the count of viewers currently watching the stream.
 * Show Files
@@ -124,7 +128,7 @@ If Breakout is completed, you will see the `This stream has ended !` view.
     - Shows the convert job status which is either in progress or complete.
         - Convert job is responsible to generate the breakout recording.
 * Copy S3 URI
-    - Used to copy the S3 of the final recording on the clipboard.
+    - Used to copy the URL of the final recording to the clipboard.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
 
@@ -163,14 +167,17 @@ Attendance is automatically tracked for every breakout.
 
 You can edit any Event and change the values of any field.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle.svg" width="20" height="20">  Active and Published indicators
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published / Hidden Events
 
-VisionStream maintains a simple UI construct which allows for the easy identification of Active and Published Breakouts.
+VisionStream maintains a simple UI construct which allows for the easy identification of Hidden vs. Published Breakouts.
 
-* Active Breakouts
-    - Breakouts that are active have not completed.
-        - Active Breakouts are designated by a green icon.
-        - Completed Breakouts are designated by an amber icon.
-* Published Breakouts
-    - Published Breakouts will display in your calendar.
-    - Unpublished Breakouts are hidden and cannot be accessed by a user.
+- Published Breakouts will display in your calendar.
+- Published Breakouts are designated by a calendar icon with a check mark.
+- Unpublished Breakouts are hidden and cannot be accessed by a user.
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
+
+VisionStream maintains a simple UI construct which allows for the easy identification of Active vs. Completed Breakouts.
+
+- Active Breakouts are designated by a Video Camera which will display 'Active' when you hover over the icon.
+- Completed Breakouts are designated by a Play button icon which will display 'Completed' when you hover over the icon.

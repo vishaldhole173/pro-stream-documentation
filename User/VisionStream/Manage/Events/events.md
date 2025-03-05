@@ -6,7 +6,7 @@ Admin users create Events which encapsulate one or more 'Breakouts'.
 
 Events have discreet start/end times, location, venue, room, description, and graphic.
 
-##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20"> Create New Event
+##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> Create New Event
 
 Press the '+' icon in the upper right of the Event listing page to open the Create New Event page.
 
