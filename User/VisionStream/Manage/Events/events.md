@@ -87,7 +87,7 @@ Hide Completed toggle allows you to quickly filter out events which have already
   - An Event is completed only after all breakouts have been completed.
   - Filter Events setting persists over browser sessions.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toolboz.svg.svg" width="20" height="20"> Event Toolbox View
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toolbox.svg" width="20" height="20"> Event Toolbox View
 
 The Event Toolbox view allows you to view the high-level components which comprise an event.
 
@@ -95,6 +95,8 @@ The Event Toolbox view allows you to view the high-level components which compri
 - Usage
 - Attendance
 - Recordings
+
+To enter the Event Toolbox view, click on any Event title.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
 
