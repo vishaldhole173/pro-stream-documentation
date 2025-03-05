@@ -4,17 +4,19 @@ An on-demand recording is produced for every VisionStream breakout.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Recordings
 
-For every VisionStream breakout, 2 recordings are generated. 
+For every VisionStream breakout, up to 2 recordings can be generated. 
 
 * HLS Recording:
 
   - VisionStream delivers HLS stream recordings that allows for scaling to millions of viewers in near real time, and can be played across multiple devices for consumption.
+  - HLS recordings are created for EVERY VisionStream breakout.
 
 * MP4 Recording:
 
   - In addition to an HLS recording VisionStream will also output an MP4 recording, which you can use for any purpose, including your own distribution.
+  - MP4 recordings are optional and can be enabled in the create breakout form.
 
-## Transcription:
+## Transcription
 
 Transcription is an essential and valuable feature, benefiting both content creators and viewers in several ways:
 
@@ -38,7 +40,7 @@ Transcription is an essential and valuable feature, benefiting both content crea
 
 In summary, transcription significantly enhances the overall streaming experience by promoting accessibility, discoverability, and user engagement. It opens up new possibilities for content creators and allows viewers to interact with and enjoy the content more effectively.
 
-### Subtitles for MP4 recordings:
+### Subtitles for MP4 recordings
 
 Currently, we are supporting subtitles for MP4 recordings.
 

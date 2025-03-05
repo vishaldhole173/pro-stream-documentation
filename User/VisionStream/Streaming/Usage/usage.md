@@ -6,7 +6,7 @@ Get a snapshot your streaming usage at the Account, Event and Breakout levels.
 
 **How it works**
   - For both Cam and Pro pipelines, a live video feed is ingested from a camera or a broadcasting source.
-  - Dual ingest support is provided in Pro instances for high availability and fault tolerance.
+  - Dual ingest support is provided in Pro inputs for high availability and fault tolerance.
 
 **Streaming using Pro pipelines**
 

@@ -6,24 +6,30 @@ A Breakout is a core VisionStream component.
 
 A Breakout is a child of an Event. An Event (usually) consists of many Breakouts.
 
-Admin users will create new Breakout records, entering name, date, time, duration and location of the live stream.
+Admin users will create new Breakouts, entering name, date, time, duration and location of the live stream.
 
 Breakout start time and duration should always be less than the Event end time.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published / Hidden Events
 
-VisionStream maintains a simple UI construct which allows for the easy identification of Hidden vs. Published Breakouts.
+VisionStream maintains a simple UI construct which allows for the easy identification of Hidden vs. Published Breakouts in the Breakout listing page.
 
-- Published Breakouts will display in your calendar.
-- Published Breakouts are designated by a calendar icon with a check mark.
-- Unpublished Breakouts are hidden and cannot be accessed by a user.
+### Published vs. Unpublished
+
+- Published Breakouts will display in calendars and other forward-facing pages.
+- Unpublished Breakouts are hidden and cannot be accessed by an attendee.
+
+- In the Breakout listing page:
+    - Published Breakouts are designated by a calendar icon with a check mark.
+    - Unpublished Breakouts are designated by a disabled (grey) calendar icon.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
 
-VisionStream maintains a simple UI construct which allows for the easy identification of Active vs. Completed Breakouts.
+### Active vs. Completed
 
-- Active Breakouts are designated by a Video Camera which will display 'Active' when you hover over the icon.
-- Completed Breakouts are designated by a Play button icon which will display 'Completed' when you hover over the icon.
+- In the Event listing page:
+  - Active Breakouts are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
+  - Completed Breakouts are designated by a disabled (grey) Video Camera icon which will display 'Completed' when hovering over the icon.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20">  Create new Breakout
 
@@ -125,7 +131,3 @@ Attendance is automatically tracked for every breakout.
     - Country
     - Region
     - City
-    - Viewing time
-        - Live
-        - On-demand
-        - Total viewing time

@@ -4,22 +4,28 @@ An Event is a core VisionStream component.
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 Admin users create Events which encapsulate one or more 'Breakouts'.
 
-Events have discreet start/end times, location, venue, room, description, and graphic.
+Events have discreet start & end times, location, venue, room, description, and graphic.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published / Hidden Events
 
-VisionStream maintains a simple UI construct which allows for the easy identification of Hidden vs. Published Events.
+VisionStream maintains a simple UI construct which allows for the easy identification of Hidden vs. Published Events in the Event listing page.
 
-- Published Events will display in your calendar.
-- Published Events are designated by a calendar icon with a check mark.
-- Unpublished Events are hidden and cannot be accessed by a user.
+### Published vs. Unpublished
+
+- Published Events will display in calendars and other forward-facing pages.
+- Unpublished Events are hidden and cannot be accessed by an attendee.
+
+- In the Event listing page:
+  - Published Events are designated by a calendar icon with a check mark.
+  - Unpublished Events are designated by a disabled (grey) calendar icon.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
 
-VisionStream maintains a simple UI construct which allows for the easy identification of Active vs. Completed Events.
+### Active vs. Completed
 
-- Active Events are designated by a Video Camera which will display 'Active' when you hover over the icon.
-- Completed Events are designated by a Video Camera which will display 'Completed' when you hover over the icon.
+- In the Event listing page:
+-   Active Events are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
+  - Completed Events are designated by a disabled (grey) Video Camera icon which will display 'Completed' when hovering over the icon.
 
 ##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> Create New Event
 
@@ -28,10 +34,9 @@ Press the '+' icon in the upper right of the Event listing page to open the Crea
 * Required fields:
   - Event Name
   - Start time
-  - Start time
   - End time
 
-Note: Start and End times are entered as UTC values, though their local equivalents are output for reference.
+Note: Start and End times are entered as UTC values, though their local equivalents are output for reference, and are rendered in local time throughout the UI.
 
 * Optional fields:
   - Venue
@@ -86,7 +91,7 @@ Hide Completed toggle allows you to quickly filter out events which have already
 * You can filter Events to show only the those currently in progress.
   - Events which have been completed will be removed from the list.
     - An Event is completed only after all breakouts have been completed.
-  - This setting persists over browser sessions.
+  - Filter Events setting persists over browser sessions.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
 
@@ -124,10 +129,6 @@ At the event level, Attendance is calculated as the cumulative attendance of all
   - Country
   - Region
   - City
-  - Cumulative viewing time
-    - Live
-    - On-demand
-    - Total viewing time
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-play.svg" width="20" height="20"> Show Recordings
 
@@ -135,4 +136,4 @@ Every breakout is automatically recorded in VisionStream.
 * Show Recordings feature allows admins the ability to see all recordings for any Event in a single view.
     - Recordings are output both as HLS and MP4 (optional) format.
       - Recordings can be viewed once a breakout has been completed.
-      - Recordings can be downloaded and saved by stream viewers.
+      - MP4 Recordings can be downloaded and saved by VisionStream admin users.
