@@ -14,7 +14,7 @@ Breakout start time and duration should always be less than the Event end time.
 
 The Breakout Listing view is the page you are navigated to when you click the Event name in the Event listing view.
 
-This page will contain a listing of all the breakouts contained in the eventt.
+This page will contain a listing of all the breakouts contained in the event.
 
 ### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published vs. Hidden Breakouts
 
@@ -52,7 +52,7 @@ You can edit any Breakout and change the values of any field, except:
 
 You can change Charge Amount and Tip Jar to enable (or disable) the monetization process after a breakout has completed.
 
-## Event Details View
+## Breakout Details View
 
 The Breakout Details view is where you enter details specific to your breakout.
 

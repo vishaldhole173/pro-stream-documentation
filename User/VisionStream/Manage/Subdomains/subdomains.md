@@ -93,8 +93,9 @@ To assign events to your subdomain portal, click the Next button, or click the n
 - When setting up a subdomain, you will be asked to indicate which events you want displayed in the home page and calendar.
   - Events which are not yet published appear in grey text, but are still candidates for selection. 
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20"> Users
+### About subdomain attendees
 
-* Users are normally imported directly into an account.
-  - An admin user also has the ability to add users one-at-a-time.
-* To provide access to anonymous or ad-hoc users, admin users can apply the [allow guest login](./users.md) feature to any event, which allows anonymous users the ability to access your subdomain portal.
+* Attendees are normally imported directly into an account.
+  - An admin user also has the ability to add attendees one-at-a-time as needed.
+* To allow access for anonymous or ad-hoc attendees, admin users can apply the [allow guest login](./users.md) feature to any event, which allows anonymous users the ability to enter themselves into the attendee database, and then gain access your subdomain portal.
+  - This feature utilizes a 2-step authentication scheme for security.
