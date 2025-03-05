@@ -104,7 +104,7 @@ The Breakout Toolbox view allows you to view the high-level components which com
 
 To enter the Breakout Toolbox view, click on any Breakout title.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gauge-high.svg" width="20" height="20">  Show Usage
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gauge-high.svg" width="20" height="20"> Usage
 
 A Usage profile is generated after every breakout has completed.
 
@@ -122,7 +122,7 @@ A Usage profile is generated after every breakout has completed.
         - Conversion in USD
         - Storage in USD
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20">  Show Attendance
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20">  Attendance
 
 Attendance is automatically tracked for every breakout.
 
