@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/city.svg" width="20" height="20"> Account
 
-An Account is a core VisionStream component.
+How to manage your account, and how to authorize new accounts.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
 
@@ -68,4 +68,4 @@ Invited users, once enrolled, will inherit minimum user privileges. It is the re
   - The 'ACCEPTED' state is designated by half-amber and green icon.
   - The 'COMPLETED' state is designated by a green icon.
 
-**You can Revoke the invitation before the recipient accepts the invitation. You may re-invite the user at a later time.**
+**You can Revoke the invitation before the recipient accepts it. You may re-invite the user at a later time.**

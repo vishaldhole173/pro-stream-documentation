@@ -13,7 +13,7 @@ For every VisionStream breakout, up to 2 recordings can be generated.
 
 * MP4 Recording:
 
-  - In addition to an HLS recording VisionStream will also output an MP4 recording, which you can use for any purpose, including your own distribution.
+  - In addition to an HLS recording, VisionStream can also output an MP4 recording, which you can use for any purpose, including your own distribution.
   - MP4 recordings are optional and can be enabled in the create breakout form.
 
 ## Transcription
