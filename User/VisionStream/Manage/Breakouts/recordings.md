@@ -42,4 +42,4 @@ In summary, transcription significantly enhances the overall streaming experienc
 
 Currently, we are supporting subtitles for MP4 recordings.
 
-Once you have completed streaming your breakout, VisionStream will start processing your stream to generate an MP4 recording and transcription if that option is chosen. Once generating these assets has completed, you can play the MP4 recording along with subtitles, as well as download your transcription. Though generating the MP4 recording takes some time, still you can enjoy viewing the HLS stream immediately after the show.
+Once you have completed streaming your breakout, VisionStream will start processing your stream to generate an MP4 recording and transcription if that option is chosen. Once generating these assets have completed, you can play the MP4 recording along with subtitles, as well as download your transcription. Though generating the MP4 recording takes some time, still you can enjoy viewing the HLS stream immediately after the show.
