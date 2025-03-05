@@ -6,6 +6,21 @@ Admin users create Events which encapsulate one or more 'Breakouts'.
 
 Events have discreet start/end times, location, venue, room, description, and graphic.
 
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published / Hidden Events
+
+VisionStream maintains a simple UI construct which allows for the easy identification of Hidden vs. Published Events.
+
+- Published Events will display in your calendar.
+- Published Events are designated by a calendar icon with a check mark.
+- Unpublished Events are hidden and cannot be accessed by a user.
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
+
+VisionStream maintains a simple UI construct which allows for the easy identification of Active vs. Completed Events.
+
+- Active Events are designated by a Video Camera which will display 'Active' when you hover over the icon.
+- Completed Events are designated by a Video Camera which will display 'Completed' when you hover over the icon.
+
 ##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> Create New Event
 
 Press the '+' icon in the upper right of the Event listing page to open the Create New Event page.
@@ -13,17 +28,25 @@ Press the '+' icon in the upper right of the Event listing page to open the Crea
 * Required fields:
   - Event Name
   - Start time
+  - Start time
   - End time
 
 Note: Start and End times are entered as UTC values, though their local equivalents are output for reference.
 
 * Optional fields:
-  - Calendar Visibility
   - Venue
   - Location
   - Type
   - Picture
   - Description
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
+
+You can edit any Event and change the values of any field.
+
+### Picture Field
+
+Paste the URL of a custom picture file (.jpeg, .gif, .png) for use in your forward-facing Event and Calendar pages. Accepts MediaManager public URLs.
 
 ### Calendar Visibility
 
@@ -112,24 +135,3 @@ Every breakout is automatically recorded in VisionStream.
     - Recordings are output both as HLS and MP4 (optional) format.
       - Recordings can be viewed once a breakout has been completed.
       - Recordings can be downloaded and saved by stream viewers.
-
-
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
-
-You can edit any Event and change the values of any field.
-
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published / Hidden Events
-
-VisionStream maintains a simple UI construct which allows for the easy identification of Hidden vs. Published Events.
-
-- Published Events will display in your calendar.
-- Published Events are designated by a calendar icon with a check mark.
-- Unpublished Events are hidden and cannot be accessed by a user.
-  
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
-
-VisionStream maintains a simple UI construct which allows for the easy identification of Active vs. Completed Events.
-
-- Active Events are designated by a Video Camera which will display 'Active' when you hover over the icon.
-- Completed Events are designated by a Video Camera which will display 'Completed' when you hover over the icon.
-

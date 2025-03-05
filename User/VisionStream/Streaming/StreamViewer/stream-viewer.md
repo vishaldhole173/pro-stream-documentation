@@ -51,10 +51,50 @@ However, depending on your configuration and pipeline type, you may also receive
 - Failover to channel 1, or 2
 - Stream health / degradation / recovery
 
-## Refresh Audience
+## Raise Curtain
+
+Use the Raise Curtain switch to
+  - Make the stream live by enabling viewing for all attendees.
+  - Setting the raise Curtain switch to Off will disable viewing for all attendees.
+
+## Breakout Status
+  - Breakout status is displayed to the right of distribution switch
+  - Breakout status can be IDLE, STARTING, RUNNING, or COMPLETED
 
 ## Stream Health
+  - Help you monitor the stream's health.
+    - If dropped frames are non-zero then there is a lag.
+    - If FPS is between 20 and 30 then stream health is considered good.
+
+## Show Stream Events
+  - Used to show Cam or Pro channel events in a separate grid window.
+
+## Attendance
+  - Shows the count of viewers currently watching the stream.
+
+## Show Files
+  - Display & Download media files uploaded via MediaManager.
+
+## Refresh Button
+  - Used to reload the Stream Viewer for all attendees.
+
+## Video Player
+  - Used for viewing the streaming session.
 
 ## Comments
+  - Allows you to engage with audience without the need for a secondary device.
 
-## Moderated Comments
+If Breakout is completed, you will see the `This stream has ended !` view.
+
+## Job Status
+- Shows the convert job status which is either in progress or complete.
+  - Convert job is responsible to generate the breakout recording.
+
+## View Recording
+  - View the breakout's on-demand recording.
+
+## Copy Recording URL
+  - Used to copy the URL of the final recording to the clipboard.
+
+## Comments
+- Comments are disabled once the breakout is completed.
