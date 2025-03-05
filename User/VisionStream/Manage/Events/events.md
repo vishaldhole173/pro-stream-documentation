@@ -10,8 +10,8 @@ Events have discreet start & end times, location, venue, room, description, and 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published vs. Hidden Events
 
-* Published Events will display in calendars and other forward-facing pages.
-* Unpublished Events are hidden and cannot be accessed by an attendee.
+- Published Events will display in calendars and other forward-facing pages.
+- Unpublished Events are hidden and cannot be accessed by an attendee.
 
 * In the Event listing page:
   - Published Events are designated by a calendar icon with a check mark.
@@ -20,8 +20,8 @@ Events have discreet start & end times, location, venue, room, description, and 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active vs. Completed Events
 
 * In the Event listing page:
-  - Active Events are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
-  - Completed Events are designated by a disabled (grey) Video Camera icon which will display 'Completed' when hovering over the icon.
+  - Active Events are designated by a Video Camera which will display 'Active' on mouse hover.
+  - Completed Events are designated by a disabled (grey) Video Camera which will display 'Completed' on mouse hover.
 
 ##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20"> Create New Event
 
