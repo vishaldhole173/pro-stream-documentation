@@ -6,7 +6,7 @@ Admin users create Events which encapsulate one or more 'Breakouts'.
 
 Events have discreet start/end times, location, venue, room, description, and graphic.
 
-##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20"> Create new Event
+##  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/plus.svg" width="20" height="20"> Create New Event
 
 Press the '+' icon in the upper right of the Event listing page to open the Create New Event page.
 
@@ -27,13 +27,13 @@ Note: Start and End times are entered as UTC values, though their local equivale
 
 ### Calendar Visibility
 
-You may want to keep this Event out of your subdomain portal's calendar until you have completed setting it up.
-Once you toggle the Calendar Visibility control to Yes, the Event will display in the Calendar.
+It is often desirable to keep an event hidden from attendees until you have completed setting it up.
+Once you toggle the Calendar Visibility control to Yes, the Event will display in the Calendar, and other forward-facing pages.
 
 ### User Login Options
 
-VisionStream Events are made available to your attendees via a VisionStream subdomain.
-There are several login scenarios you can employ at the subdomain level to allow access to your content.
+VisionStream Events are made available to your attendees via a VisionStream subdomain portal.
+There are several different login scenarios you can employ at the attendee login screen to allow access to your content.
 
 - Login Options:
   - None
@@ -119,7 +119,6 @@ Every breakout is automatically recorded in VisionStream.
 You can edit any Event and change the values of any field.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-check.svg" width="20" height="20"> Published / Hidden Events
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
 
 VisionStream maintains a simple UI construct which allows for the easy identification of Active and Published Events.
 
@@ -127,6 +126,11 @@ VisionStream maintains a simple UI construct which allows for the easy identific
   - Published Events will display in your calendar.
   - Published Events are designated by a calendar icon with a check mark.
   - Unpublished Events are hidden and cannot be accessed by a user.
+  
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active / Completed Events
+
+VisionStream maintains a simple UI construct which allows for the easy identification of Active and Completed Events.
+
 * Active Events
   - Active Events are designated by a Video Camera which will display 'Active' when you hover over the icon.
   - Completed Events are designated by a Video Camera which will display 'Completed' when you hover over the icon.
