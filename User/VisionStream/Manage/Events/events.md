@@ -109,7 +109,7 @@ To enter the Event SubView Page, click on any Event title in the Event listing p
 
 ### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
 
-To view all the breakouts associated with an Event, select the Breakouts control.
+To view all the breakouts associated with an Event, select the Breakouts tab button.
 
 You will be navigated to a new page containing a listing which includes all the breakouts belonging to the event.
 

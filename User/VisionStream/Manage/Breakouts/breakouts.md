@@ -1,10 +1,12 @@
-### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
 
 A breakout is a show, performance or presentation.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
 
-A Breakout is a child of an Event. An Event (usually) consists of many Breakouts.
+A Breakout is a child of an Event.
+
+An Event (usually) consists of many Breakouts.
 
 Admin users will create new Breakouts, entering name, date, time, duration and location of the livestream.
 
