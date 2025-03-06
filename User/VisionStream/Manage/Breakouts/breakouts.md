@@ -110,14 +110,14 @@ Stream Viewer is where you kick off, view, monitor and stop your livestreaming s
 
 [Read more to learn about the Stream Viewer...](../../Streaming/StreamViewer/stream-viewer.md)
 
-## Breakout Toolbox View
+## Breakout Subview Page
 
-The Breakout Toolbox view allows you to view the high-level components which comprise a breakout.
+The Breakout Subview Page allows you to view the high-level components which comprise a breakout.
 
 - Usage
 - Attendance
 
-To enter the Breakout Toolbox view, click on any Breakout title.
+To enter the Breakout Subview Page, click on any Breakout title.
 
 ### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/gauge-high.svg" width="20" height="20"> Usage
 
