@@ -16,7 +16,7 @@ Like all accounts, Authorized accounts maintain their own users, events, breakou
 
 Authorized accounts also maintain separate billing and invoicing from the parent account.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20">  Create New Authorization
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-plus.svg" width="20" height="20">  Create New Authorization
 
 You can send authorizations invitations to other users, enabling them to create a new VisionStream account.
 
