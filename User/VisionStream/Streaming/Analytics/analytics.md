@@ -13,7 +13,6 @@ Analytics help you figure out how attendees are consuming your livestream, and t
 - However, please note that when you turn on the "Show all analytics" toggle, the "Show" option on the top right side will be disabled.
 - It will become active again once you turn off the toggle switch, allowing you to choose a specific timeframe or range for displaying analytics data.
 
-
 ### Show range selections
 
 - The "Show" option located in the top right corner serves the purpose of displaying analytics data for a specific time period.

@@ -25,7 +25,7 @@ Filter by Created date
 - This Year
 - Last Year
 
-Filter by Created date
+Filter by Status date
 - Completed
 - Idle
 - Running
