@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/flag.svg" width="20" height="20"> Events
 
-Events can span days, weeks, months or years.
+Events can span days, weeks, months or years, and serve as the fundamental organizational concept in VisionStream.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
@@ -18,7 +18,7 @@ This page will contain a listing of all the events in your account.
 
 - Published Events will display in calendars and other forward-facing pages.
 - Unpublished Events are hidden and cannot be accessed by an attendee.
-- In the Event listing page:
+- In the Event listing view:
   - Published Events are designated by a calendar icon with a check mark.
   - Unpublished Events are designated by a disabled (grey) calendar icon.
 
@@ -33,8 +33,8 @@ Hide Completed toggle allows you to quickly filter out events which have already
 
 * You can filter Events to show only the those currently in progress.
   - Events which have completed will be removed from the list.
-  - An Event is completed only after all breakouts have been completed.
-  - Hide Completed setting persists over browser sessions.
+  - An Event is completed only after all breakouts contained in the event have been completed.
+  - The Hide Completed setting persists over browser sessions.
 
 ## Event Details View
 
@@ -96,16 +96,16 @@ You will group these files together using various tagging strategies, and then c
 
 You can edit any Event and change the values of any field.
 
-## Event Toolbox View
+## Event SubView Page
 
-The Event Toolbox view allows you to view the high-level components which comprise an event.
+The Event SubView Page allows you to view the high-level components which comprise an event.
 
 - Breakouts
 - Usage
 - Attendance
 - Recordings
 
-To enter the Event Toolbox view, click on any Event title in the Event listing page.
+To enter the Event SubView Page, click on any Event title in the Event listing page.
 
 ### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/layer-group.svg" width="20" height="20"> Breakouts
 
@@ -152,3 +152,5 @@ Every breakout is automatically recorded in VisionStream.
 * Recordings are output both as HLS and MP4 (optional) format.
 * Recordings can be viewed once a breakout has been completed.
 * MP4 Recordings can be downloaded and saved by VisionStream admin users.
+
+For more information on Recordings, you can [read more here](../Breakouts/recordings.md).
