@@ -10,7 +10,7 @@ Events have discreet start & end times, location, venue, room, description, and 
 
 ## Event Listing View
 
-The Event Listing view is the page you are navigated to when you click the Events option in the application sideNav.
+The Event Listing view is the page you are navigated to when you click the Events option in the VisionStream sideNav.
 
 This page will contain a listing of all the events in your account.
 
@@ -24,22 +24,17 @@ This page will contain a listing of all the events in your account.
 
 ### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active vs. Completed Events
 
-* In the Event listing page:
-  - Active Events are designated by a Video Camera which will display 'Active' on mouse hover.
-  - Completed Events are designated by a disabled (grey) Video Camera which will display 'Completed' on mouse hover.
+- Active Events are designated by a Video Camera which will display 'Active' on mouse hover.
+- Completed Events are designated by a disabled (grey) Video Camera which will display 'Completed' on mouse hover.
 
 ### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20"> Hide Completed
 
 Hide Completed toggle allows you to quickly filter out events which have already completed.
 
 * You can filter Events to show only the those currently in progress.
-  - Events which have been completed will be removed from the list.
+  - Events which have completed will be removed from the list.
   - An Event is completed only after all breakouts have been completed.
-  - Filter Events setting persists over browser sessions.
-
-### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
-
-You can edit any Event and change the values of any field.
+  - Hide Completed setting persists over browser sessions.
 
 ## Event Details View
 
@@ -96,6 +91,10 @@ This collateral is in the form of files, such as .pdf, image files, etc. These f
 Sponsor link. These files can then be downloaded and used for whatever purpose you had intended.
 
 You will group these files together using various tagging strategies, and then create a Saved Search in MediaManager which you can then select in your VisionStream Event.
+
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20"> Edit Event
+
+You can edit any Event and change the values of any field.
 
 ## Event Toolbox View
 

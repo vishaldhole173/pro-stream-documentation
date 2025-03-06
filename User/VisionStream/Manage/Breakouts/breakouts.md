@@ -6,7 +6,7 @@ A breakout is a show, performance or presentation.
 
 A Breakout is a child of an Event. An Event (usually) consists of many Breakouts.
 
-Admin users will create new Breakouts, entering name, date, time, duration and location of the live stream.
+Admin users will create new Breakouts, entering name, date, time, duration and location of the livestream.
 
 Breakout start time and duration should always be less than the Event end time.
 
@@ -26,9 +26,8 @@ This page will contain a listing of all the breakouts contained in the event.
 
 ###  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20"> Active vs. Completed Breakouts
 
-- In the Breakout listing page:
-  - Active Breakouts are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
-  - Completed Breakouts are designated by a disabled (grey) Video Camera icon which will display 'Completed' when hovering over the icon.
+- Active Breakouts are designated by a Video Camera icon which will display 'Active' when hovering over the icon.
+- Completed Breakouts are designated by a disabled (grey) Video Camera icon which will display 'Completed' when hovering over the icon.
 
 ### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20">  Stream Viewer
 
@@ -42,21 +41,6 @@ Hide Completed Breakouts toggle allows you to quickly filter out breakouts which
 - You can filter Breakouts to show only the those currently in progress.
 - Breakouts which have been completed will be removed from the list.
 - Filter Breakouts setting persists over browser sessions.
-
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20">  Edit Breakout
-
-You can edit any Breakout and change the values of any field, except:
-
-* When a Breakout has completed, the following fields are disabled and cannot be changed:
-    - Moderated Forum
-    - Transcription
-    - MP4 Recording
-    - Pipeline
-    - Source IP
-    - Start Time
-    - Hours, Minutes
-
-You can change Charge Amount and Tip Jar to enable (or disable) the monetization process after a breakout has completed.
 
 ## Breakout Details View
 
@@ -104,6 +88,21 @@ Press the '+' icon in the upper right of the Breakout listing page to open the c
 ### Picture Field
 
 Paste the URL of a custom picture file (.jpeg, .gif, .png) for use in your forward-facing Breakout and Calendar pages. Accepts MediaManager public URLs.
+
+## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20">  Edit Breakout
+
+You can edit any Breakout and change the values of any field, except:
+
+* When a Breakout has completed, the following fields are disabled and cannot be changed:
+    - Moderated Forum
+    - Transcription
+    - MP4 Recording
+    - Pipeline
+    - Source IP
+    - Start Time
+    - Hours, Minutes
+
+You can change Charge Amount and Tip Jar to enable (or disable) the monetization process after a breakout has completed.
 
 ### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/video.svg" width="20" height="20">  Show Stream Viewer
 
