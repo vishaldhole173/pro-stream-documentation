@@ -25,9 +25,9 @@ Filter by Created date
 - This Year
 - Last Year
 
-Filter by Status date
-- Completed
+Filter by Status
 - Idle
 - Running
+- Completed
 
 Additionally, you can view a breakout's recordings directly from Breakout Explorer.
