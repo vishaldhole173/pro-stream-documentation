@@ -1,12 +1,10 @@
-# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/screwdriver-wrench.svg" width="20" height="20"> Chats
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/comments.svg" width="20" height="20"> Comments
 
 All VisionStream breakouts support user-generated comments which are available to all livestream attendees.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-Admin users have the ability to delete the entire comment history for any given breakout, and to delete any single comment from the breakout's comment history
-
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/trash.svg" width="20" height="20"> Delete entire comment history
+Admin users have the ability to delete the entire comment history for any given breakout, and to delete any single comment from the breakout's comment history.
 
 ### Delete comment history
 * Press the trash icon on the breakout listing page.

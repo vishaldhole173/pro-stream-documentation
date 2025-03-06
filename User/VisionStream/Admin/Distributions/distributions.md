@@ -1,12 +1,14 @@
 # <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/cloud.svg" width="20" height="20"> Distributions
 
+A Distribution (CDN, or Content Delivery Network) allows you the ability to quickly and reliably offer your content to your global customers.
+
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
 A distribution speeds up the distribution of your static and dynamic web content, such as .html, .css, .php, image, and media files.
 
 When users request your content, a distribution delivers it through a worldwide network of edge locations that provide low latency and high performance.
 
-## Status
+### Status
 
 * Deploying
     - The distribution is in the process of being provisioned and configured.
@@ -17,18 +19,18 @@ When users request your content, a distribution delivers it through a worldwide 
     - The associated resources, such as CDN edge servers or load balancers, are operational and ready to serve content to end-users.
     - This status indicates that the distribution is fully functional and delivering content as intended.
 
-## Sync Distribution
+### Sync Distribution
 
 * Used to synchronize or update the distribution status.
 * The purpose of this button is to display the most up-to-date status of the distribution.
 * This information is useful for monitoring availability of the distribution.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/scissors.svg" width="20" height="20">  Detach Distribution
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/scissors.svg" width="20" height="20">  Detach Distribution
 
-* Used to disable a distribution and detach it from the MediaLive channel.
+* Used to disable a distribution and detach it from the Pro pipeline.
 * Disabling the distribution means that it will no longer actively serve content to viewers.
-* Detaching the distribution allows reconfiguring or assigning a new distribution to the channel if desired.
+* Detaching the distribution allows reconfiguring or assigning a new distribution to the pipeline if desired.
 
-## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/chevron-up.svg" width="20" height="20">  Show Distribution Config
+### <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/chevron-up.svg" width="20" height="20">  Show Distribution Config
 
 * It allows users to toggle the visibility of the distribution configuration using a JSON viewer.
