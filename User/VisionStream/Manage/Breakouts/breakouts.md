@@ -35,7 +35,7 @@ This page will contain a listing of all the breakouts contained in the event.
 
 The Active Breakout Video Camera icon can be clicked on if the breakout is in the Active state, and doing so will navigate the user to the stream viewer.
 
-[Read more to learn about the Stream Viewer...](../../Streaming/StreamViewer/stream-viewer.md)
+For more information about the Stream Viewer, you can [go here](../../Streaming/StreamViewer/stream-viewer.md).
 
 ###  <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/toggle-on.svg" width="20" height="20">  Hide Completed
 
@@ -110,7 +110,7 @@ You can change Charge Amount and Tip Jar to enable (or disable) the monetization
 
 Stream Viewer is where you kick off, view, monitor and stop your livestreaming sessions.
 
-[Read more to learn about the Stream Viewer...](../../Streaming/StreamViewer/stream-viewer.md)
+For more information about the Stream Viewer, you can [go here](../../Streaming/StreamViewer/stream-viewer.md).
 
 ## Breakout Subview Page
 

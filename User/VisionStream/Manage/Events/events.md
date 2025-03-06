@@ -153,4 +153,4 @@ Every breakout is automatically recorded in VisionStream.
 * Recordings can be viewed once a breakout has been completed.
 * MP4 Recordings can be downloaded and saved by VisionStream admin users.
 
-For more information on Recordings, you can [read more here](../Breakouts/recordings.md).
+For more information on Recordings, you can [go here](../Breakouts/recordings.md).
