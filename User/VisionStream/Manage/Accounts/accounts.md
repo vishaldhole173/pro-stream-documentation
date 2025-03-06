@@ -12,7 +12,7 @@ Also during onboarding, users will choose a Service Plan and Service Term which 
 
 New accounts are initiated by the Account Authorization Process.
 
-[Read more to learn about the Account Authorization process...](../../Portal/Authorization/authorization.md)
+[Read more about the Account Authorization process...](../../Portal/Authorization/authorization.md)
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/pen-to-square.svg" width="20" height="20">   Edit Account
 
@@ -68,4 +68,4 @@ Invited users, once enrolled, will inherit minimum user privileges. It is the re
   - The 'ACCEPTED' state is designated by half-amber and green icon.
   - The 'COMPLETED' state is designated by a green icon.
 
-**You can Revoke the invitation before the recipient accepts it. You may re-invite the user at a later time.**
+**You can revoke the invitation before the recipient accepts it. You may re-invite the user at a later time.**

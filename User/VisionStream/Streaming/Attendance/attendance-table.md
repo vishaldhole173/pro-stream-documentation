@@ -8,20 +8,10 @@ VisionStream offers seamless tracking of attendance for virtual events. Attendee
 
 **How it works**
 
-1. **Filter by name**:
+1. **Filter by user**:
     - Type the name of the attendee you are looking for.
     - The attendee list will regenerate with the results of your lookup (if any).
-
-2. **Hover over name**:
-    - Hovering the mouse over the attendee name will display the following:
-      - Name
-      - Country
-      - Region
-      - City
-      - Live
-        - The amount of time attendee viewed livestreams.
-      - On-Demand
-        - The amount of time attendee viewed on-demand recordings.
-      - Total
-        - The cumulative amount of time attendee spent viewing your livestreams and recordings.
-
+2. **Filter by City**:
+3. **Filter by Country**:
+4. **Filter by Region**:
+5. **Attendee Map**

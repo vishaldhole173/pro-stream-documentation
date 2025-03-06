@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/rocket.svg" width="20" height="20"> Subdomains
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20"> Subdomains
 
 A subdomain (or Portal, or Subdomain Portal) is what your attendees will ultimately interact with. It is essentially the entryway to viewing your published content, including:
 
@@ -97,5 +97,5 @@ To assign events to your subdomain portal, click the Next button, or click the n
 
 * Attendees are normally imported directly into an account.
   - An admin user also has the ability to add attendees one-at-a-time as needed.
-* To allow access for anonymous or ad-hoc attendees, admin users can apply the [allow guest login](./users.md) feature to any event, which allows anonymous users the ability to enter themselves into the attendee database, and then gain access your subdomain portal.
+* To allow access for anonymous or ad-hoc attendees, admin users can apply the [Allow Guest Login](./users.md) feature to any event, which allows anonymous users the ability to enter themselves into the attendee database, and then gain access your subdomain portal.
   - This feature utilizes a 2-step authentication scheme for security.

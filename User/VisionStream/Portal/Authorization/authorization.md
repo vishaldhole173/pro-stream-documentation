@@ -30,7 +30,7 @@ You can send authorizations invitations to other users, enabling them to create 
     - The 'ACCEPTED' state is designated by half-amber and green icon.
     - The 'COMPLETED' state is designated by a green icon.
 
-**You can Revoke the authorization before the recipient accepts it. You may re-authorize the user at a later time.**
+**You can revoke the authorization before the recipient accepts it. You may re-authorize the user at a later time.**
 
 
 
