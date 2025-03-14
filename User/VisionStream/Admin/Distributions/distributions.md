@@ -8,11 +8,13 @@ A distribution speeds up the distribution of your static and dynamic web content
 
 When users request your content, a distribution delivers it through a worldwide network of edge locations that provide low latency and high performance.
 
+You will normally not have to deal with Distributions. VisionStream will manage entirely their creation and usage.
+
 ### Status
 
 * Deploying
     - The distribution is in the process of being provisioned and configured.
-    - During this stage, AWS is setting up the necessary infrastructure and resources to enable content delivery.
+    - During this stage, VisionStream is setting up the necessary infrastructure and resources to enable content delivery.
     - Once the deployment is finished, the distribution status will change to 'Deployed'.
 * Deployed
     - The distribution has been successfully provisioned and is currently active.
