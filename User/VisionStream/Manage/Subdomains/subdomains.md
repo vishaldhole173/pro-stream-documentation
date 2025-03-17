@@ -99,3 +99,9 @@ To assign events to your subdomain portal, click the Next button, or click the n
   - An admin user also has the ability to add attendees one-at-a-time as needed.
 * To allow access for anonymous or ad-hoc attendees, admin users can apply the [Allow Guest Login](./users.md) feature to any event, which allows anonymous users the ability to enter themselves into the attendee database, and then gain access your subdomain portal.
   - This feature utilizes a 2-step authentication scheme for security.
+
+## Navigating your subdomain listings
+
+It is important for you to understand how your attendees will navigate through your subdomain portal.
+
+For a comprehensive discussion regarding this topic, [click here](./events.md).

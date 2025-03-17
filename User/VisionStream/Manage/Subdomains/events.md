@@ -1,12 +1,16 @@
-# Events
-An Event is a core VisionStream component.
+# Navigating the subdomain portal
+
+Learn how users interact with the content published in your subdomain portal.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20"> Overview
 
-Users can browse through a selection of events and choose which one they would like to stream.
+Users can browse through a selection of events and choose which one they would like to attend.
+
 By clicking on the title of any event, users can view the associated breakout sessions for the selected event.
 
-After selecting the event title, Click the "Enter Event" button below the list of breakouts to view the event and its related breakout sessions. Users need to sign in first to access information regarding the event and its breakouts. The user will redirect to the Sign-In page if not logged in previously. User choices for viewing breakouts will be "Calendar" and "List". Both buttons are available in the bottom right corner of the event section.
+After selecting the event title, click the "Enter Event" button below the list of breakouts to view the event and its related breakout sessions.
+
+Users need to sign in first to access information regarding the event and its breakouts. The user will redirect to the Sign-In page if not logged in previously. User choices for viewing breakouts will be "Calendar" and "List". Both buttons are available in the bottom right corner of the event section.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/calendar-days.svg" width="20" height="20"> Calendar View Button
 
@@ -18,11 +22,16 @@ Click "List View" to view a list of all breakout sessions organised by date and 
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/user.svg" width="20" height="20"> My Profile
 
-Click "My Profile" link in the top right corner to view following options - 
 * Events
   - Click "Events" to view all events.
 * Calendar
   - Click "Calendar" to view an event calendar with dates listed. With each date prominently shown on the calendar, this will provide you with a visual depiction of the events.
+* Sponsors
+  - Click "Sponsors" to view a listing of sponsorship collateral.
+* Channels
+  - Click "Channels" to view a listing of short videos.
+* Blog
+  - Click "Blog" to view a listing of informative blog postings.
 * Sign Out
   - Click "Sign Out" to log out from the device.
 
@@ -47,8 +56,6 @@ After completing the payment process for a selected breakout, the user will see 
 
 * Show Files
     - Display & Download media files associated with a breakout.
-* Refresh Button
-    - Used to reload the Stream Viewer.
 * Video Player
     - Used for viewing the streaming session.
 * Comments
@@ -66,24 +73,24 @@ If Breakout is completed, you will see the `This stream has ended !` view.
 NOTE: Users cannot view the stream or recording from the same account on multiple browser pages or devices simultaneously. There is a device limit of 1 for accessing the stream or recording. If you are logged in on multiple tabs or devices, you will be redirected to the events page.
 
 ## Calendar
+
 Users will find "Calendar" button in "My Profile" section in the top right corner of the page.
 
 * Accessing the Event/breakouts Calendar:
-  - Click on the "Calendar" option in the menu from "My Profile" section.
+  - Click on the "Calendar" option in the top navigation menu in your subdomain portal.
   - The calendar will be displayed, showcasing the dates when events are scheduled.
 
 * Navigating the Event Calendar:
   - Identify the desired date on the calendar.
-  - Events with associated breakouts on that particular day will be shown on the calendar.
+  - Events with associated breakouts on that particular day will be shown on the calendar as a blue dot.
 
 * Selecting a Breakout Session:
-  - Click on a specific event to view event information.
   - Click on a specific breakout session within the calendar.
   - The breakout session details will be presented, including the session information and timing.
 
 * Accessing Stream/Recording:
-  - After selecting breakout, the user will find an "I WANT TO GO" button.
-  - Click "I WANT TO GO" button to view the stream/recording.
-  - If the breakout is free, user will redirect to donate tip page.
-  - If the breakout is paid, user will redirect to the payment process.
+  - After selecting breakout, the user will find a "Continue..." button.
+  - Click "Continue..." button to view the stream/recording.
+  - If the breakout is free, user will redirect to donate tip page if it is enabled for the breakout.
+  - If the breakout is paid, user will redirect to the payment process if it is enabled for the breakout.
   - After a successful payment process, user can view streams or recordings of selected breakouts.
