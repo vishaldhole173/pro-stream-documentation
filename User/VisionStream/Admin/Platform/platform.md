@@ -24,17 +24,17 @@ Platform statistics help you assess usage patterns and help you understand the e
 
 ## Show All platform data
 
-Allows users the ability to view the entire cost & usage profile for their platform, including all accounts associated with the platform.
+Allows root admin users the ability to view the entire cost & usage profile for their platform, including all accounts associated with the platform.
 
 ## Choose Account
 
-Allows users the ability to select and switch between their associated accounts within the platform.
+Allows root admin users the ability to select and switch between their associated accounts within the platform.
 
 Once a user selects an account, the interface will display charges, usage statistics, and other relevant data related to that particular account.
 
 ## Choose Range
 
-This feature provides users with the ability to analyze usage patterns, track costs, and assess platform activity for different accounts over specific months.
+This feature provides all admin users with the ability to analyze usage patterns, track costs, and assess platform activity for different accounts over specific months.
 
 After selecting a month, the platform will present the data specific to the chosen time period.
 
