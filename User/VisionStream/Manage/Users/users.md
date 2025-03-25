@@ -1,29 +1,35 @@
-# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/user.svg" width="20" height="20"> Users
+# <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/users.svg" width="20" height="20"> Users
+
+Root admin. users are migrated into VisionStream via the onboarding process. These root users own and manage a VisionStream account. Root users can invite other users to help them manage the account. These new users are assigned specific roles during the invitation process.
+
+Attendees can be imported directly into a VisionStream account. Alternatively, a user can sign themselves into an event if the event is configured to accept anonymous users.
 
 ## <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/magnifying-glass-chart.svg" width="20" height="20">  Overview
 
 * Admin users can grant other admin users privileges, provided they are the account (root) owner.
 * A user can be disabled / blocked from accessing VisionStream by the account owner.
-* Demo users have limited privileges. Upon account upgrade, all privileges are granted.
+* Guest users have limited privileges. Upon account upgrade, all privileges are granted.
 
 ## User basics
 
 There are 4 classes of VisionStream user:
-- Admin root user (Account owner)
-- Basic admin user
+- Admin root user also termed `Authorized Signer` or `Account Owner`
+- Basic non-root admin user
 - External user
 - Guest User
 
 ### Admin root user
 
-VisionStream root users are created through an onboarding process where the user will walk through several screens,
+VisionStream admin root users (an Authorized Signer) are created through an onboarding process where the user will walk through several screens,
 entering account information, service plan, terms and optional service preferences. Upon account creation,
-the user will be granted all admin privileges and becomes the account owner & root user.
+the user will be granted all admin. privileges and becomes the account owner & root user.
+
+This user, by virtue of accepting the VisionStream terms and services agreement, inherits the Authorized Signer status, binding him or her to the legal obligations of the agreement.
 
 ### Basic admin user
 
-The account owner can invite other users to join the VisionStream account. These users are granted a subset of privileges,
-which the account owner can change.
+The account owner can invite other users to join their VisionStream account. These users are granted a subset of privileges,
+which the account owner can change and manage.
 
 ### External user
 
@@ -35,7 +41,9 @@ These users are essentially the attendees of an event, and can log in and view a
 Any breakout can be setup to provide guest user access. In this scenario, a guest user can authenticate themselves using
 2-factor authorization, and can then view any livestream presentation the account has to offer.
 
-## Privileges
+### Privileges
+
+Privileges are granted by root admin users to other non-root admin users in the same account.
 
 | Name             | Options             | Description                                       |
 |------------------|---------------------|---------------------------------------------------|
