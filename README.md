@@ -11,6 +11,7 @@ You get a custom built platform as an extension to your event. Regardless if you
     * [Breakouts](User/VisionStream/Manage/Breakouts/breakouts.md)
 
     * <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/circle-play.svg" width="20" height="20"> [Recordings](User/VisionStream/Manage/Breakouts/recordings.md)
+    * <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/microphone.svg" width="20" height="20"> [Sound Check](User/VisionStream/Manage/Breakouts/sound-check.md)
 
 * <img src="https://raw.githubusercontent.com/vishaldhole173/pro-stream-documentation/main/fontawesome/svgs/solid/city.svg" width="20" height="20"> [Accounts](User/VisionStream/Manage/Accounts/accounts.md)
 
